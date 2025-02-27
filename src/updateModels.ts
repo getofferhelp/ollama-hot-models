@@ -33,38 +33,33 @@ async function fetchModelList(): Promise<CompleteModel[]> {
   
   try {
     const page = await browser.newPage()
-    
-    // 设置更长的超时时间
     page.setDefaultTimeout(30000)
     
-    // 访问模型列表页面
     await page.goto('https://ollama.com/library', {
       waitUntil: 'networkidle'
     })
     
-    // 等待模型列表加载
     await page.waitForSelector('a[href^="/library/"]')
-    
-    // 获取所有模型链接
     const modelLinks = await page.$$('a[href^="/library/"]')
     
-    for (const link of modelLinks) {
+    console.log(`\n找到 ${modelLinks.length} 个模型链接\n`)
+    
+    for (const [index, link] of modelLinks.entries()) {
       try {
         const href = await link.getAttribute('href')
         const name = href?.split('/library/')[1]
         if (!name) continue
         
-        // 创建新页面访问详情
+        console.log(`\n===== 处理第 ${index + 1}/${modelLinks.length} 个模型: ${name} =====`)
+        
         const detailPage = await browser.newPage()
         try {
-          console.log(`正在获取模型 ${name} 的详细信息...`)
+          console.log(`访问页面: https://ollama.com/library/${name}`)
           
-          // 访问模型详情页
           await detailPage.goto(`https://ollama.com/library/${name}`, {
             waitUntil: 'networkidle'
           })
           
-          // 等待页面加载完成
           await detailPage.waitForLoadState('domcontentloaded')
           
           // 提取模型信息
@@ -72,7 +67,7 @@ async function fetchModelList(): Promise<CompleteModel[]> {
             const text = document.body.innerText
             const lines = text.split('\n').map(line => line.trim()).filter(Boolean)
             
-            // 获取描述（在模型名称后的第一段长文本）
+            // 获取描述
             let description = ''
             for (let i = 0; i < lines.length; i++) {
               if (lines[i] === modelName && i + 1 < lines.length) {
@@ -97,15 +92,34 @@ async function fetchModelList(): Promise<CompleteModel[]> {
             
             // 获取参数版本
             const parameterVersions: ModelVersion[] = []
-            const versionMatches = text.matchAll(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])\s+(\d+(?:\.\d+)?[KMGT]B)/g)
             
-            for (const match of Array.from(versionMatches)) {
-              const size = match[1].toLowerCase()
-              const diskSize = match[2]
-              parameterVersions.push({ size, diskSize })
+            // 尝试从选择器中获取版本信息
+            const versionElements = document.querySelectorAll('button[name="tag"]')
+            if (versionElements.length > 0) {
+              for (const elem of versionElements) {
+                const text = elem.textContent || ''
+                const match = text.match(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])\s*(?:\((\d+(?:\.\d+)?[KMGT]B)\))?/)
+                if (match) {
+                  parameterVersions.push({
+                    size: match[1].toLowerCase(),
+                    diskSize: match[2] || '未知'
+                  })
+                }
+              }
             }
             
-            // 如果没有找到参数版本，尝试从其他地方获取
+            // 如果选择器方法失败，尝试从文本中提取
+            if (parameterVersions.length === 0) {
+              const versionMatches = text.matchAll(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])\s*(?:\(?\s*(\d+(?:\.\d+)?[KMGT]B)\)?)?/g)
+              for (const match of Array.from(versionMatches)) {
+                parameterVersions.push({
+                  size: match[1].toLowerCase(),
+                  diskSize: match[2] || '未知'
+                })
+              }
+            }
+            
+            // 如果还是没有找到，尝试最后的方法
             if (parameterVersions.length === 0) {
               const sizeMatch = text.match(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])/)
               if (sizeMatch) {
@@ -131,8 +145,19 @@ async function fetchModelList(): Promise<CompleteModel[]> {
             }
           }, name)
           
+          // 打印详细的模型信息
+          console.log('\n获取到的模型信息:')
+          console.log(JSON.stringify(model, null, 2))
+          console.log('\n参数版本数量:', model.parameterVersions.length)
+          console.log('描述长度:', model.description.length)
+          console.log('下载量:', model.downloads)
+          console.log('最后更新:', model.lastUpdated)
+          
+          if (!model.description || model.parameterVersions.length === 0) {
+            console.warn('警告: 可能存在数据不完整的情况!')
+          }
+          
           models.push(model)
-          console.log(`已获取模型信息: ${name}`)
           
         } catch (detailError) {
           console.error(`获取模型 ${name} 详情失败:`, detailError)
@@ -152,6 +177,9 @@ async function fetchModelList(): Promise<CompleteModel[]> {
   } finally {
     await browser.close()
   }
+  
+  console.log(`\n===== 获取完成 =====`)
+  console.log(`成功获取 ${models.length} 个模型信息`)
   
   if (models.length === 0) {
     throw new Error('未能获取任何模型信息')
