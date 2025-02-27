@@ -16,10 +16,11 @@ def fetch_models():
     models = []
     
     chrome_options = Options()
-    # chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--headless')  # 在 GitHub Actions 中必须使用无头模式
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument('--no-sandbox')
     chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--user-data-dir=/tmp/chrome-data')  # 添加唯一的用户数据目录
     
     try:
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)

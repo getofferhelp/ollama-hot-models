@@ -30,6 +30,12 @@ jobs:
       - name: Create data directory
         run: mkdir -p public/data
 
+      - name: Prepare Chrome directories
+        run: |
+          rm -rf /tmp/chrome-data*
+          mkdir -p /tmp/chrome-data
+          mkdir -p /tmp/chrome-data-detail
+
       - name: Run update script
         run: python src/allinone.py
 
