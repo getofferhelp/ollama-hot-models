@@ -62,16 +62,29 @@ async function fetchModelList(): Promise<CompleteModel[]> {
           
           await detailPage.waitForLoadState('domcontentloaded')
           
+          // 点击展开按钮获取完整信息
+          try {
+            // 等待并点击 "View all tags" 按钮
+            await detailPage.waitForSelector('button[name="tag"]', { timeout: 5000 })
+            await detailPage.click('button[name="tag"]')
+            
+            // 等待下拉菜单加载
+            await detailPage.waitForSelector('#tags-nav', { timeout: 5000 })
+            console.log('成功展开模型版本信息')
+          } catch (e) {
+            console.log('未找到版本展开按钮或展开失败，将尝试从页面文本提取信息')
+          }
+          
           // 提取模型信息
-          const model = await detailPage.evaluate((modelName) => {
+          const model = await detailPage.evaluate(() => {
             const text = document.body.innerText
             const lines = text.split('\n').map(line => line.trim()).filter(Boolean)
             
             // 获取描述
             let description = ''
-            for (let i = 0; i < lines.length; i++) {
-              if (lines[i] === modelName && i + 1 < lines.length) {
-                description = lines[i + 1]
+            for (const line of lines) {
+              if (line.length > 50 && !line.includes('Pulls') && !line.includes('ago')) {
+                description = line
                 break
               }
             }
@@ -93,57 +106,59 @@ async function fetchModelList(): Promise<CompleteModel[]> {
             // 获取参数版本
             const parameterVersions: ModelVersion[] = []
             
-            // 尝试从选择器中获取版本信息
-            const versionElements = document.querySelectorAll('button[name="tag"]')
-            if (versionElements.length > 0) {
-              for (const elem of versionElements) {
-                const text = elem.textContent || ''
-                const match = text.match(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])\s*(?:\((\d+(?:\.\d+)?[KMGT]B)\))?/)
+            // 1. 首先尝试从展开的标签列表中获取
+            const tagLinks = Array.from(document.querySelectorAll('#tags-nav a'))
+            for (const link of tagLinks) {
+              const text = link.textContent || ''
+              const match = text.match(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])\s*\((\d+(?:\.\d+)?[KMGT]B)\)/)
+              if (match) {
+                parameterVersions.push({
+                  size: match[1].toLowerCase(),
+                  diskSize: match[2]
+                })
+              }
+            }
+            
+            // 2. 如果标签列表为空，尝试从按钮文本中获取
+            if (parameterVersions.length === 0) {
+              const buttons = document.querySelectorAll('button[name="tag"]')
+              for (const button of buttons) {
+                const text = button.textContent || ''
+                const match = text.match(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])\s*\((\d+(?:\.\d+)?[KMGT]B)\)/)
                 if (match) {
                   parameterVersions.push({
                     size: match[1].toLowerCase(),
-                    diskSize: match[2] || '未知'
+                    diskSize: match[2]
                   })
                 }
               }
             }
             
-            // 如果选择器方法失败，尝试从文本中提取
+            // 3. 最后尝试从页面文本中提取
             if (parameterVersions.length === 0) {
-              const versionMatches = text.matchAll(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])\s*(?:\(?\s*(\d+(?:\.\d+)?[KMGT]B)\)?)?/g)
+              const versionMatches = text.matchAll(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])\s*\((\d+(?:\.\d+)?[KMGT]B)\)/g)
               for (const match of Array.from(versionMatches)) {
                 parameterVersions.push({
                   size: match[1].toLowerCase(),
-                  diskSize: match[2] || '未知'
-                })
-              }
-            }
-            
-            // 如果还是没有找到，尝试最后的方法
-            if (parameterVersions.length === 0) {
-              const sizeMatch = text.match(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])/)
-              if (sizeMatch) {
-                parameterVersions.push({
-                  size: sizeMatch[1].toLowerCase(),
-                  diskSize: '未知'
+                  diskSize: match[2]
                 })
               }
             }
             
             return {
-              name: modelName,
-              fullName: modelName,
+              name: document.querySelector('h1')?.textContent || '',
+              fullName: document.querySelector('h1')?.textContent || '',
               description,
               modelSize: parameterVersions[0]?.size || '',
               tags: parameterVersions.map(v => v.size),
               downloads,
               lastUpdated,
-              runCommand: `ollama run ${modelName}`,
+              runCommand: `ollama run ${document.querySelector('h1')?.textContent || ''}`,
               parameterVersions,
               defaultSize: parameterVersions[0]?.size || '',
               defaultDiskSize: parameterVersions[0]?.diskSize || ''
             }
-          }, name)
+          })
           
           // 打印详细的模型信息
           console.log('\n获取到的模型信息:')
@@ -165,7 +180,6 @@ async function fetchModelList(): Promise<CompleteModel[]> {
           await detailPage.close()
         }
         
-        // 添加延时避免请求过快
         await new Promise(resolve => setTimeout(resolve, 3000))
         
       } catch (modelError) {
