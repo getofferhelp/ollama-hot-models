@@ -184,7 +184,7 @@ async function fetchModelList(): Promise<CompleteModel[]> {
         
       } catch (modelError) {
         console.error('处理模型链接失败:', modelError)
-        continue
+        
       }
     }
     
