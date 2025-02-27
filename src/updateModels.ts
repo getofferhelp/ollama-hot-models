@@ -62,11 +62,22 @@ async function fetchModelList(): Promise<CompleteModel[]> {
           
           await detailPage.waitForLoadState('domcontentloaded')
           
-          // 获取模型信息
-          const model = await detailPage.evaluate(async (modelName) => {
-            // 获取基本信息
-            const flexContainer = document.querySelector('.flex.flex-col')
-            const text = flexContainer?.textContent || ''
+          // 点击展开按钮获取完整信息
+          try {
+            // 等待并点击 "View all tags" 按钮
+            await detailPage.waitForSelector('button[name="tag"]', { timeout: 5000 })
+            await detailPage.click('button[name="tag"]')
+            
+            // 等待下拉菜单加载
+            await detailPage.waitForSelector('#tags-nav', { timeout: 5000 })
+            console.log('成功展开模型版本信息')
+          } catch (e) {
+            console.log('未找到版本展开按钮或展开失败，将尝试从页面文本提取信息')
+          }
+          
+          // 提取模型信息
+          const model = await detailPage.evaluate(() => {
+            const text = document.body.innerText
             const lines = text.split('\n').map(line => line.trim()).filter(Boolean)
             
             // 获取描述
@@ -78,34 +89,27 @@ async function fetchModelList(): Promise<CompleteModel[]> {
               }
             }
             
-            // 获取下载量和更新时间
+            // 获取下载量
             let downloads = '0'
-            let lastUpdated = 'unknown'
             const downloadsMatch = text.match(/(\d+(?:\.\d+)?[KMB]?)\s*Pulls/)
-            const timeMatch = text.match(/(\d+\s+(?:minute|hour|day|week|month|year)s?\s+ago)/)
-            if (downloadsMatch) downloads = downloadsMatch[1]
-            if (timeMatch) lastUpdated = timeMatch[1]
-            
-            // 获取默认版本信息
-            const defaultVersionElem = document.querySelector('button[name="tag"] .truncate')
-            const defaultVersionText = defaultVersionElem?.textContent || ''
-            const defaultMatch = defaultVersionText.match(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])\s*\((\d+(?:\.\d+)?[KMGT]B)\)/)
-            
-            // 点击展开按钮获取所有版本
-            const tagButton = document.querySelector('button[name="tag"]') as HTMLButtonElement
-            if (tagButton) {
-              tagButton.click()
+            if (downloadsMatch) {
+              downloads = downloadsMatch[1]
             }
             
-            // 等待下拉菜单出现
-            await new Promise(resolve => setTimeout(resolve, 500))
+            // 获取更新时间
+            let lastUpdated = 'unknown'
+            const timeMatch = text.match(/(\d+\s+(?:minute|hour|day|week|month|year)s?\s+ago)/)
+            if (timeMatch) {
+              lastUpdated = timeMatch[1]
+            }
             
-            // 获取所有版本信息
+            // 获取参数版本
             const parameterVersions: ModelVersion[] = []
-            const tagElements = document.querySelectorAll('#tags-nav a')
             
-            for (const elem of tagElements) {
-              const text = elem.textContent || ''
+            // 1. 首先尝试从展开的标签列表中获取
+            const tagLinks = Array.from(document.querySelectorAll('#tags-nav a'))
+            for (const link of tagLinks) {
+              const text = link.textContent || ''
               const match = text.match(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])\s*\((\d+(?:\.\d+)?[KMGT]B)\)/)
               if (match) {
                 parameterVersions.push({
@@ -113,30 +117,48 @@ async function fetchModelList(): Promise<CompleteModel[]> {
                   diskSize: match[2]
                 })
               }
-            })
+            }
             
-            // 如果没有找到版本信息，使用默认版本
-            if (parameterVersions.length === 0 && defaultMatch) {
-              parameterVersions.push({
-                size: defaultMatch[1].toLowerCase(),
-                diskSize: defaultMatch[2]
-              })
+            // 2. 如果标签列表为空，尝试从按钮文本中获取
+            if (parameterVersions.length === 0) {
+              const buttons = document.querySelectorAll('button[name="tag"]')
+              for (const button of buttons) {
+                const text = button.textContent || ''
+                const match = text.match(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])\s*\((\d+(?:\.\d+)?[KMGT]B)\)/)
+                if (match) {
+                  parameterVersions.push({
+                    size: match[1].toLowerCase(),
+                    diskSize: match[2]
+                  })
+                }
+              }
+            }
+            
+            // 3. 最后尝试从页面文本中提取
+            if (parameterVersions.length === 0) {
+              const versionMatches = text.matchAll(/(\d+(?:\.\d+)?[bB]|\d+x\d+[bB])\s*\((\d+(?:\.\d+)?[KMGT]B)\)/g)
+              for (const match of Array.from(versionMatches)) {
+                parameterVersions.push({
+                  size: match[1].toLowerCase(),
+                  diskSize: match[2]
+                })
+              }
             }
             
             return {
-              name: modelName,
-              fullName: modelName,
+              name: document.querySelector('h1')?.textContent || '',
+              fullName: document.querySelector('h1')?.textContent || '',
               description,
               modelSize: parameterVersions[0]?.size || '',
               tags: parameterVersions.map(v => v.size),
               downloads,
               lastUpdated,
-              runCommand: `ollama run ${modelName}`,
+              runCommand: `ollama run ${document.querySelector('h1')?.textContent || ''}`,
               parameterVersions,
               defaultSize: parameterVersions[0]?.size || '',
               defaultDiskSize: parameterVersions[0]?.diskSize || ''
             }
-          }, name)
+          })
           
           // 打印详细的模型信息
           console.log('\n获取到的模型信息:')
