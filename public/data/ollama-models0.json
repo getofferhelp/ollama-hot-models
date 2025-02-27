@@ -1,0 +1,629 @@
+{
+  "lastUpdated": "2025-02-27T18:41:16.805291",
+  "models": [
+    {
+      "name": "deepseek-r1",
+      "fullName": "deepseek-r1"
+    },
+    {
+      "name": "llama3.3",
+      "fullName": "llama3.3"
+    },
+    {
+      "name": "phi4",
+      "fullName": "phi4"
+    },
+    {
+      "name": "llama3.2",
+      "fullName": "llama3.2"
+    },
+    {
+      "name": "llama3.1",
+      "fullName": "llama3.1"
+    },
+    {
+      "name": "nomic-embed-text",
+      "fullName": "nomic-embed-text"
+    },
+    {
+      "name": "mistral",
+      "fullName": "mistral"
+    },
+    {
+      "name": "llama3",
+      "fullName": "llama3"
+    },
+    {
+      "name": "qwen2.5",
+      "fullName": "qwen2.5"
+    },
+    {
+      "name": "qwen",
+      "fullName": "qwen"
+    },
+    {
+      "name": "gemma",
+      "fullName": "gemma"
+    },
+    {
+      "name": "qwen2",
+      "fullName": "qwen2"
+    },
+    {
+      "name": "qwen2.5-coder",
+      "fullName": "qwen2.5-coder"
+    },
+    {
+      "name": "llava",
+      "fullName": "llava"
+    },
+    {
+      "name": "gemma2",
+      "fullName": "gemma2"
+    },
+    {
+      "name": "llama2",
+      "fullName": "llama2"
+    },
+    {
+      "name": "phi3",
+      "fullName": "phi3"
+    },
+    {
+      "name": "codellama",
+      "fullName": "codellama"
+    },
+    {
+      "name": "mxbai-embed-large",
+      "fullName": "mxbai-embed-large"
+    },
+    {
+      "name": "llama3.2-vision",
+      "fullName": "llama3.2-vision"
+    },
+    {
+      "name": "tinyllama",
+      "fullName": "tinyllama"
+    },
+    {
+      "name": "mistral-nemo",
+      "fullName": "mistral-nemo"
+    },
+    {
+      "name": "starcoder2",
+      "fullName": "starcoder2"
+    },
+    {
+      "name": "snowflake-arctic-embed",
+      "fullName": "snowflake-arctic-embed"
+    },
+    {
+      "name": "deepseek-coder-v2",
+      "fullName": "deepseek-coder-v2"
+    },
+    {
+      "name": "deepseek-v3",
+      "fullName": "deepseek-v3"
+    },
+    {
+      "name": "llama2-uncensored",
+      "fullName": "llama2-uncensored"
+    },
+    {
+      "name": "deepseek-coder",
+      "fullName": "deepseek-coder"
+    },
+    {
+      "name": "mixtral",
+      "fullName": "mixtral"
+    },
+    {
+      "name": "dolphin-mixtral",
+      "fullName": "dolphin-mixtral"
+    },
+    {
+      "name": "codegemma",
+      "fullName": "codegemma"
+    },
+    {
+      "name": "openthinker",
+      "fullName": "openthinker"
+    },
+    {
+      "name": "phi",
+      "fullName": "phi"
+    },
+    {
+      "name": "bge-m3",
+      "fullName": "bge-m3"
+    },
+    {
+      "name": "minicpm-v",
+      "fullName": "minicpm-v"
+    },
+    {
+      "name": "llava-llama3",
+      "fullName": "llava-llama3"
+    },
+    {
+      "name": "wizardlm2",
+      "fullName": "wizardlm2"
+    },
+    {
+      "name": "dolphin-mistral",
+      "fullName": "dolphin-mistral"
+    },
+    {
+      "name": "all-minilm",
+      "fullName": "all-minilm"
+    },
+    {
+      "name": "smollm2",
+      "fullName": "smollm2"
+    },
+    {
+      "name": "dolphin-llama3",
+      "fullName": "dolphin-llama3"
+    },
+    {
+      "name": "command-r",
+      "fullName": "command-r"
+    },
+    {
+      "name": "orca-mini",
+      "fullName": "orca-mini"
+    },
+    {
+      "name": "yi",
+      "fullName": "yi"
+    },
+    {
+      "name": "hermes3",
+      "fullName": "hermes3"
+    },
+    {
+      "name": "dolphin3",
+      "fullName": "dolphin3"
+    },
+    {
+      "name": "phi3.5",
+      "fullName": "phi3.5"
+    },
+    {
+      "name": "zephyr",
+      "fullName": "zephyr"
+    },
+    {
+      "name": "codestral",
+      "fullName": "codestral"
+    },
+    {
+      "name": "mistral-small",
+      "fullName": "mistral-small"
+    },
+    {
+      "name": "olmo2",
+      "fullName": "olmo2"
+    },
+    {
+      "name": "granite-code",
+      "fullName": "granite-code"
+    },
+    {
+      "name": "starcoder",
+      "fullName": "starcoder"
+    },
+    {
+      "name": "smollm",
+      "fullName": "smollm"
+    },
+    {
+      "name": "wizard-vicuna-uncensored",
+      "fullName": "wizard-vicuna-uncensored"
+    },
+    {
+      "name": "vicuna",
+      "fullName": "vicuna"
+    },
+    {
+      "name": "mistral-openorca",
+      "fullName": "mistral-openorca"
+    },
+    {
+      "name": "qwq",
+      "fullName": "qwq"
+    },
+    {
+      "name": "llama2-chinese",
+      "fullName": "llama2-chinese"
+    },
+    {
+      "name": "openchat",
+      "fullName": "openchat"
+    },
+    {
+      "name": "codegeex4",
+      "fullName": "codegeex4"
+    },
+    {
+      "name": "aya",
+      "fullName": "aya"
+    },
+    {
+      "name": "codeqwen",
+      "fullName": "codeqwen"
+    },
+    {
+      "name": "deepseek-llm",
+      "fullName": "deepseek-llm"
+    },
+    {
+      "name": "deepseek-v2",
+      "fullName": "deepseek-v2"
+    },
+    {
+      "name": "mistral-large",
+      "fullName": "mistral-large"
+    },
+    {
+      "name": "glm4",
+      "fullName": "glm4"
+    },
+    {
+      "name": "nous-hermes2",
+      "fullName": "nous-hermes2"
+    },
+    {
+      "name": "stable-code",
+      "fullName": "stable-code"
+    },
+    {
+      "name": "openhermes",
+      "fullName": "openhermes"
+    },
+    {
+      "name": "qwen2-math",
+      "fullName": "qwen2-math"
+    },
+    {
+      "name": "command-r-plus",
+      "fullName": "command-r-plus"
+    },
+    {
+      "name": "tinydolphin",
+      "fullName": "tinydolphin"
+    },
+    {
+      "name": "wizardcoder",
+      "fullName": "wizardcoder"
+    },
+    {
+      "name": "moondream",
+      "fullName": "moondream"
+    },
+    {
+      "name": "bakllava",
+      "fullName": "bakllava"
+    },
+    {
+      "name": "stablelm2",
+      "fullName": "stablelm2"
+    },
+    {
+      "name": "neural-chat",
+      "fullName": "neural-chat"
+    },
+    {
+      "name": "reflection",
+      "fullName": "reflection"
+    },
+    {
+      "name": "wizard-math",
+      "fullName": "wizard-math"
+    },
+    {
+      "name": "llama3-gradient",
+      "fullName": "llama3-gradient"
+    },
+    {
+      "name": "llama3-chatqa",
+      "fullName": "llama3-chatqa"
+    },
+    {
+      "name": "sqlcoder",
+      "fullName": "sqlcoder"
+    },
+    {
+      "name": "bge-large",
+      "fullName": "bge-large"
+    },
+    {
+      "name": "xwinlm",
+      "fullName": "xwinlm"
+    },
+    {
+      "name": "dolphincoder",
+      "fullName": "dolphincoder"
+    },
+    {
+      "name": "nous-hermes",
+      "fullName": "nous-hermes"
+    },
+    {
+      "name": "phind-codellama",
+      "fullName": "phind-codellama"
+    },
+    {
+      "name": "llava-phi3",
+      "fullName": "llava-phi3"
+    },
+    {
+      "name": "yarn-llama2",
+      "fullName": "yarn-llama2"
+    },
+    {
+      "name": "solar",
+      "fullName": "solar"
+    },
+    {
+      "name": "granite3.1-dense",
+      "fullName": "granite3.1-dense"
+    },
+    {
+      "name": "starling-lm",
+      "fullName": "starling-lm"
+    },
+    {
+      "name": "athene-v2",
+      "fullName": "athene-v2"
+    },
+    {
+      "name": "wizardlm",
+      "fullName": "wizardlm"
+    },
+    {
+      "name": "yi-coder",
+      "fullName": "yi-coder"
+    },
+    {
+      "name": "internlm2",
+      "fullName": "internlm2"
+    },
+    {
+      "name": "samantha-mistral",
+      "fullName": "samantha-mistral"
+    },
+    {
+      "name": "falcon",
+      "fullName": "falcon"
+    },
+    {
+      "name": "nemotron-mini",
+      "fullName": "nemotron-mini"
+    },
+    {
+      "name": "nemotron",
+      "fullName": "nemotron"
+    },
+    {
+      "name": "dolphin-phi",
+      "fullName": "dolphin-phi"
+    },
+    {
+      "name": "orca2",
+      "fullName": "orca2"
+    },
+    {
+      "name": "deepscaler",
+      "fullName": "deepscaler"
+    },
+    {
+      "name": "wizardlm-uncensored",
+      "fullName": "wizardlm-uncensored"
+    },
+    {
+      "name": "stable-beluga",
+      "fullName": "stable-beluga"
+    },
+    {
+      "name": "granite3-dense",
+      "fullName": "granite3-dense"
+    },
+    {
+      "name": "llama3-groq-tool-use",
+      "fullName": "llama3-groq-tool-use"
+    },
+    {
+      "name": "deepseek-v2.5",
+      "fullName": "deepseek-v2.5"
+    },
+    {
+      "name": "medllama2",
+      "fullName": "medllama2"
+    },
+    {
+      "name": "meditron",
+      "fullName": "meditron"
+    },
+    {
+      "name": "llama-pro",
+      "fullName": "llama-pro"
+    },
+    {
+      "name": "smallthinker",
+      "fullName": "smallthinker"
+    },
+    {
+      "name": "yarn-mistral",
+      "fullName": "yarn-mistral"
+    },
+    {
+      "name": "aya-expanse",
+      "fullName": "aya-expanse"
+    },
+    {
+      "name": "paraphrase-multilingual",
+      "fullName": "paraphrase-multilingual"
+    },
+    {
+      "name": "granite3-moe",
+      "fullName": "granite3-moe"
+    },
+    {
+      "name": "nexusraven",
+      "fullName": "nexusraven"
+    },
+    {
+      "name": "falcon3",
+      "fullName": "falcon3"
+    },
+    {
+      "name": "codeup",
+      "fullName": "codeup"
+    },
+    {
+      "name": "nous-hermes2-mixtral",
+      "fullName": "nous-hermes2-mixtral"
+    },
+    {
+      "name": "everythinglm",
+      "fullName": "everythinglm"
+    },
+    {
+      "name": "shieldgemma",
+      "fullName": "shieldgemma"
+    },
+    {
+      "name": "granite3.1-moe",
+      "fullName": "granite3.1-moe"
+    },
+    {
+      "name": "snowflake-arctic-embed2",
+      "fullName": "snowflake-arctic-embed2"
+    },
+    {
+      "name": "falcon2",
+      "fullName": "falcon2"
+    },
+    {
+      "name": "mathstral",
+      "fullName": "mathstral"
+    },
+    {
+      "name": "magicoder",
+      "fullName": "magicoder"
+    },
+    {
+      "name": "marco-o1",
+      "fullName": "marco-o1"
+    },
+    {
+      "name": "stablelm-zephyr",
+      "fullName": "stablelm-zephyr"
+    },
+    {
+      "name": "reader-lm",
+      "fullName": "reader-lm"
+    },
+    {
+      "name": "solar-pro",
+      "fullName": "solar-pro"
+    },
+    {
+      "name": "codebooga",
+      "fullName": "codebooga"
+    },
+    {
+      "name": "duckdb-nsql",
+      "fullName": "duckdb-nsql"
+    },
+    {
+      "name": "mistrallite",
+      "fullName": "mistrallite"
+    },
+    {
+      "name": "wizard-vicuna",
+      "fullName": "wizard-vicuna"
+    },
+    {
+      "name": "llama-guard3",
+      "fullName": "llama-guard3"
+    },
+    {
+      "name": "exaone3.5",
+      "fullName": "exaone3.5"
+    },
+    {
+      "name": "megadolphin",
+      "fullName": "megadolphin"
+    },
+    {
+      "name": "nuextract",
+      "fullName": "nuextract"
+    },
+    {
+      "name": "opencoder",
+      "fullName": "opencoder"
+    },
+    {
+      "name": "notux",
+      "fullName": "notux"
+    },
+    {
+      "name": "open-orca-platypus2",
+      "fullName": "open-orca-platypus2"
+    },
+    {
+      "name": "notus",
+      "fullName": "notus"
+    },
+    {
+      "name": "goliath",
+      "fullName": "goliath"
+    },
+    {
+      "name": "bespoke-minicheck",
+      "fullName": "bespoke-minicheck"
+    },
+    {
+      "name": "command-r7b",
+      "fullName": "command-r7b"
+    },
+    {
+      "name": "firefunction-v2",
+      "fullName": "firefunction-v2"
+    },
+    {
+      "name": "tulu3",
+      "fullName": "tulu3"
+    },
+    {
+      "name": "dbrx",
+      "fullName": "dbrx"
+    },
+    {
+      "name": "granite-embedding",
+      "fullName": "granite-embedding"
+    },
+    {
+      "name": "granite3-guardian",
+      "fullName": "granite3-guardian"
+    },
+    {
+      "name": "alfred",
+      "fullName": "alfred"
+    },
+    {
+      "name": "sailor2",
+      "fullName": "sailor2"
+    },
+    {
+      "name": "r1-1776",
+      "fullName": "r1-1776"
+    },
+    {
+      "name": "granite3.2",
+      "fullName": "granite3.2"
+    }
+  ]
+}

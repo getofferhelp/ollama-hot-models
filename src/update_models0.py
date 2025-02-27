@@ -66,8 +66,7 @@ def update_models_file():
     }
     
     # 保存到文件
-    with open('../data/ollama-models0.json', 'w', encoding='utf-8') as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    with open('public/data/ollama-models0.json', 'w', encoding='utf-8') as f:        json.dump(data, f, ensure_ascii=False, indent=2)
     
     print(f"更新完成，共保存 {len(models)} 个模型")
 

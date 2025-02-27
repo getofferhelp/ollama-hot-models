@@ -1,0 +1,75 @@
+{
+  "lastUpdated": "2025-02-27T18:41:41.193250",
+  "models": [
+    {
+      "name": "deepseek-r1",
+      "fullName": "deepseek-r1",
+      "description": "DeepSeek's first-generation of reasoning models with comparable performance to OpenAI-o1, including six dense models distilled from DeepSeek-R1 based on Llama and Qwen.",
+      "modelSize": "1.5b",
+      "tags": [
+        "1.5b",
+        "7b",
+        "8b",
+        "14b",
+        "32b",
+        "70b",
+        "671b"
+      ],
+      "downloads": "21.2M",
+      "lastUpdated": "2 weeks ago",
+      "runCommand": "ollama run deepseek-r1",
+      "parameterVersions": [
+        {
+          "size": "1.5b",
+          "diskSize": "1.1GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        },
+        {
+          "size": "14b",
+          "diskSize": "9.0GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "20GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "43GB"
+        },
+        {
+          "size": "671b",
+          "diskSize": "404GB"
+        }
+      ],
+      "defaultSize": "1.5b",
+      "defaultDiskSize": "1.1GB"
+    },
+    {
+      "name": "llama3.3",
+      "fullName": "llama3.3",
+      "description": "New state of the art 70B model. Llama 3.3 70B offers similar performance compared to the Llama 3.1 405B model.",
+      "modelSize": "70b",
+      "tags": [
+        "70b"
+      ],
+      "downloads": "1.4M",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run llama3.3",
+      "parameterVersions": [
+        {
+          "size": "70b",
+          "diskSize": "43GB"
+        }
+      ],
+      "defaultSize": "70b",
+      "defaultDiskSize": "43GB"
+    }
+  ]
+}

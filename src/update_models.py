@@ -111,7 +111,7 @@ def parse_model_details(driver, model_name):
 def get_today_filename():
     """获取今天的文件名"""
     today = datetime.now().strftime('%Y%m%d')
-    return f'../data/ollama-models-{today}.json'
+    return f'public/data/ollama-models-{today}.json'
 
 def load_existing_results():
     """加载今天已经处理过的结果"""
@@ -141,7 +141,7 @@ def update_combined_file():
         return
     
     # 读取综合版本文件（如果存在）
-    combined_file = '../data/ollama-models.json'
+    combined_file = 'public/data/ollama-models.json'
     combined_models = {}
     try:
         if os.path.exists(combined_file):
@@ -184,7 +184,7 @@ def update_models_file():
     print("开始更新模型详细信息...")
     
     try:
-        with open('../data/ollama-models0.json', 'r', encoding='utf-8') as f:
+        with open('public/data/ollama-models0.json', 'r', encoding='utf-8') as f:
             base_data = json.load(f)
     except Exception as e:
         print(f"读取模型列表文件时出错: {e}")
