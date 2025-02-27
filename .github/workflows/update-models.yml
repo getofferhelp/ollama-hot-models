@@ -27,17 +27,11 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y chromium-browser chromium-chromedriver
 
-      - name: Copy Python scripts
-        run: |
-          mkdir -p scripts
-          cp ref/update_models0.py scripts/
-          cp ref/update_models.py scripts/
-          cp ref/allinone.py scripts/
+      - name: Create data directory
+        run: mkdir -p public/data
 
       - name: Run update script
-        run: |
-          cd scripts
-          python allinone.py
+        run: python src/allinone.py
 
       - name: Commit and push if changed
         run: |
