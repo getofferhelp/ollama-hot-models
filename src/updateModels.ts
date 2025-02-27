@@ -149,6 +149,9 @@ async function main() {
   }
 }
 
-if (require.main === module) {
+// 使用 ESM 方式检查是否为直接运行
+if (import.meta.url === `file://${process.argv[1]}`) {
   main()
-} 
+}
+
+export { fetchModelList, updateModelsFile } 
