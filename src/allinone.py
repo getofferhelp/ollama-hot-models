@@ -3,6 +3,7 @@ import time
 import os
 import sys
 import venv
+import traceback
 
 # 在 allinone.py 开头添加
 def ensure_directories():
@@ -50,19 +51,18 @@ def run_update_scripts():
     """
     print("开始执行更新流程...")
     
-        # 确保目录存在
+    # 确保目录存在
     ensure_directories()
-
+    print("目录检查完成")
+    
     # 创建并获取虚拟环境的 Python 解释器路径
     python_path = create_and_activate_venv()
+    print(f"使用 Python 解释器: {python_path}")
     
     # 安装依赖
     if not install_dependencies(python_path):
         print("依赖安装失败，程序退出")
         return
-    
-    # 获取当前脚本所在目录
-    # ？？？ current_dir = os.path.dirname(os.path.abspath(__file__))
     
     try:
         # 使用虚拟环境的 Python 执行脚本
@@ -70,19 +70,26 @@ def run_update_scripts():
         subprocess.run([python_path, 'src/update_models0.py'], check=True)
         print("update_models0.py 执行完成")
         
-        # 等待几秒确保文件写入完成
-        time.sleep(3)
+        # 增加等待时间，确保文件写入完成
+        print("等待文件写入...")
+        time.sleep(5)
         
         print("\n=== 开始执行 update_models.py ===")
+        print("正在启动第二阶段更新...")
         subprocess.run([python_path, 'src/update_models.py'], check=True)
         print("update_models.py 执行完成")
         
         print("\n全部更新完成!")
+        print("生成的文件位于 public/data/ 目录")
         
     except subprocess.CalledProcessError as e:
         print(f"\n错误: 执行脚本时发生错误: {e}")
+        print(f"错误详情: {e.output if hasattr(e, 'output') else '无详细信息'}")
+        sys.exit(1)  # 添加错误退出码
     except Exception as e:
         print(f"\n错误: 发生未预期的错误: {e}")
+        print(f"错误详情: {traceback.format_exc()}")
+        sys.exit(1)  # 添加错误退出码
 
 if __name__ == '__main__':
     run_update_scripts() 
