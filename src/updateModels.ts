@@ -33,7 +33,14 @@ async function fetchModelList(): Promise<CompleteModel[]> {
   
   try {
     const page = await browser.newPage()
-    await page.goto('https://ollama.com/library')
+    
+    // 设置更长的超时时间
+    page.setDefaultTimeout(30000) // 30 秒
+    
+    // 访问模型列表页面并等待加载完成
+    await page.goto('https://ollama.com/library', {
+      waitUntil: 'networkidle'
+    })
     
     // 等待模型列表加载
     await page.waitForSelector('a[href^="/library/"]')
@@ -42,58 +49,81 @@ async function fetchModelList(): Promise<CompleteModel[]> {
     const modelLinks = await page.$$('a[href^="/library/"]')
     
     for (const link of modelLinks) {
-      const href = await link.getAttribute('href')
-      const name = href?.split('/library/')[1]
-      if (!name) continue
-      
-      // 访问每个模型的详情页
-      await page.goto(`https://ollama.com/library/${name}`)
-      await page.waitForLoadState('networkidle')
-      
-      // 提取模型信息
-      const model = await page.evaluate(() => {
-        const text = document.body.innerText
-        const lines = text.split('\n').map(line => line.trim())
+      try {
+        const href = await link.getAttribute('href')
+        const name = href?.split('/library/')[1]
+        if (!name) continue
         
-        // 提取各种信息...
-        const description = lines.find(line => line.length > 50) || ''
-        const downloadsMatch = text.match(/(\d+(?:\.\d+)?[KMB]?) Pulls/)
-        const lastUpdatedMatch = text.match(/(\d+\s+(?:minute|hour|day|week|month|year)s?\s+ago)/)
-        
-        // 提取参数版本
-        const versions: ModelVersion[] = []
-        const sizeMatches = text.matchAll(/(\d+(?:\.\d+)?[bB])\s+(\d+(?:\.\d+)?[KMGT]B)/g)
-        for (const match of Array.from(sizeMatches)) {
-          versions.push({
-            size: match[1].toLowerCase(),
-            diskSize: match[2]
+        // 创建新页面访问详情
+        const detailPage = await browser.newPage()
+        try {
+          // 访问每个模型的详情页
+          await detailPage.goto(`https://ollama.com/library/${name}`, {
+            waitUntil: 'networkidle'
           })
+          
+          // 提取模型信息
+          const model = await detailPage.evaluate(() => {
+            const text = document.body.innerText
+            const lines = text.split('\n').map(line => line.trim())
+            
+            // 提取各种信息...
+            const description = lines.find(line => line.length > 50) || ''
+            const downloadsMatch = text.match(/(\d+(?:\.\d+)?[KMB]?) Pulls/)
+            const lastUpdatedMatch = text.match(/(\d+\s+(?:minute|hour|day|week|month|year)s?\s+ago)/)
+            
+            // 提取参数版本
+            const versions: ModelVersion[] = []
+            const sizeMatches = text.matchAll(/(\d+(?:\.\d+)?[bB])\s+(\d+(?:\.\d+)?[KMGT]B)/g)
+            for (const match of Array.from(sizeMatches)) {
+              versions.push({
+                size: match[1].toLowerCase(),
+                diskSize: match[2]
+              })
+            }
+            
+            return {
+              name,
+              fullName: name,
+              description,
+              modelSize: versions[0]?.size || '',
+              tags: versions.map(v => v.size),
+              downloads: downloadsMatch?.[1] || '0',
+              lastUpdated: lastUpdatedMatch?.[1] || 'unknown',
+              runCommand: `ollama run ${name}`,
+              parameterVersions: versions,
+              defaultSize: versions[0]?.size || '',
+              defaultDiskSize: versions[0]?.diskSize || ''
+            }
+          })
+          
+          models.push(model)
+          console.log(`已获取模型信息: ${name}`)
+          
+        } catch (detailError) {
+          console.error(`获取模型 ${name} 详情失败:`, detailError)
+        } finally {
+          await detailPage.close()
         }
         
-        return {
-          name,
-          fullName: name,
-          description,
-          modelSize: versions[0]?.size || '',
-          tags: versions.map(v => v.size),
-          downloads: downloadsMatch?.[1] || '0',
-          lastUpdated: lastUpdatedMatch?.[1] || 'unknown',
-          runCommand: `ollama run ${name}`,
-          parameterVersions: versions,
-          defaultSize: versions[0]?.size || '',
-          defaultDiskSize: versions[0]?.diskSize || ''
-        }
-      })
-      
-      models.push(model)
-      console.log(`已获取模型信息: ${name}`)
-      
-      // 添加延时避免请求过快
-      await new Promise(resolve => setTimeout(resolve, 1000))
+        // 添加延时避免请求过快
+        await new Promise(resolve => setTimeout(resolve, 2000))
+        
+      } catch (modelError) {
+        console.error('处理模型链接失败:', modelError)
+        continue
+      }
     }
     
+  } catch (error) {
+    console.error('获取模型列表失败:', error)
+    throw error
   } finally {
     await browser.close()
+  }
+  
+  if (models.length === 0) {
+    throw new Error('未能获取任何模型信息')
   }
   
   return models
