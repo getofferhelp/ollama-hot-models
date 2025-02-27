@@ -20,6 +20,9 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install Playwright browsers
+        run: npx playwright install chromium
+
       - name: Update models data
         run: npm run update-models
 
@@ -29,8 +32,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
 
           if [[ -n $(git status -s) ]]; then
-            git add data/ollama-models.json
-            git add data/ollama-models-*.json
+            git add public/data/ollama-models*.json
             git commit -m "chore: update models data [skip ci]"
             git push
           fi
