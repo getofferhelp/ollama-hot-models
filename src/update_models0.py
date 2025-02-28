@@ -8,7 +8,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 import re
-import time  # 添加延时
+import time
+import os
+
+def get_today_filename():
+    """获取今天的文件名"""
+    today = datetime.now().strftime('%Y%m%d')
+    return f'public/data/ollama-models0-{today}.json'
 
 def fetch_models():
     """只获取模型名称列表"""
@@ -66,8 +72,17 @@ def update_models_file():
         'models': models
     }
     
-    # 保存到文件
-    with open('public/data/ollama-models0.json', 'w', encoding='utf-8') as f:        json.dump(data, f, ensure_ascii=False, indent=2)
+    # 保存带日期的版本
+    dated_filename = get_today_filename()
+    with open(dated_filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"已保存带日期的版本: {dated_filename}")
+    
+    # 保存不带日期的版本（替换原有文件）
+    base_filename = 'public/data/ollama-models0.json'
+    with open(base_filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    print(f"已保存基础版本: {base_filename}")
     
     print(f"更新完成，共保存 {len(models)} 个模型")
 
