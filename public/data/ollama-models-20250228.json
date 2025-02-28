@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-02-28T01:33:12.667597",
+  "lastUpdated": "2025-02-28T01:33:09.593442",
   "models": [
     {
       "name": "deepseek-r1",
@@ -79,7 +79,7 @@
       "tags": [
         "14b"
       ],
-      "downloads": "791.3K",
+      "downloads": "791.6K",
       "lastUpdated": "7 weeks ago",
       "runCommand": "ollama run phi4",
       "parameterVersions": [
@@ -389,7 +389,7 @@
         "14b",
         "32b"
       ],
-      "downloads": "3.7M",
+      "downloads": "3.8M",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run qwen2.5-coder",
       "parameterVersions": [
@@ -759,7 +759,7 @@
       "tags": [
         "671b"
       ],
-      "downloads": "673.5K",
+      "downloads": "673.7K",
       "lastUpdated": "6 weeks ago",
       "runCommand": "ollama run deepseek-v3",
       "parameterVersions": [
@@ -806,7 +806,7 @@
         "6.7b",
         "33b"
       ],
-      "downloads": "578.7K",
+      "downloads": "578.8K",
       "lastUpdated": "14 months ago",
       "runCommand": "ollama run deepseek-coder",
       "parameterVersions": [
@@ -860,7 +860,7 @@
         "8x7b",
         "8x22b"
       ],
-      "downloads": "515.7K",
+      "downloads": "515.8K",
       "lastUpdated": "2 months ago",
       "runCommand": "ollama run dolphin-mixtral",
       "parameterVersions": [
@@ -885,7 +885,7 @@
         "2b",
         "7b"
       ],
-      "downloads": "504.8K",
+      "downloads": "504.9K",
       "lastUpdated": "7 months ago",
       "runCommand": "ollama run codegemma",
       "parameterVersions": [
@@ -910,7 +910,7 @@
         "7b",
         "32b"
       ],
-      "downloads": "503.8K",
+      "downloads": "503.9K",
       "lastUpdated": "2 weeks ago",
       "runCommand": "ollama run openthinker",
       "parameterVersions": [
@@ -954,7 +954,7 @@
       "tags": [
         "567m"
       ],
-      "downloads": "473K",
+      "downloads": "473.1K",
       "lastUpdated": "6 months ago",
       "runCommand": "ollama run bge-m3",
       "parameterVersions": [
@@ -974,7 +974,7 @@
       "tags": [
         "8b"
       ],
-      "downloads": "400.1K",
+      "downloads": "400.2K",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run minicpm-v",
       "parameterVersions": [
@@ -1060,7 +1060,7 @@
         "22m",
         "33m"
       ],
-      "downloads": "301K",
+      "downloads": "301.1K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run all-minilm",
       "parameterVersions": [
@@ -1115,7 +1115,7 @@
         "8b",
         "70b"
       ],
-      "downloads": "287K",
+      "downloads": "287.1K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run dolphin-llama3",
       "parameterVersions": [
@@ -1279,7 +1279,7 @@
       "tags": [
         "3.8b"
       ],
-      "downloads": "244.6K",
+      "downloads": "244.7K",
       "lastUpdated": "5 months ago",
       "runCommand": "ollama run phi3.5",
       "parameterVersions": [
@@ -1574,7 +1574,7 @@
       "tags": [
         "32b"
       ],
-      "downloads": "162.8K",
+      "downloads": "162.9K",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run qwq",
       "parameterVersions": [
@@ -1619,7 +1619,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "143.4K",
+      "downloads": "143.5K",
       "lastUpdated": "13 months ago",
       "runCommand": "ollama run openchat",
       "parameterVersions": [
@@ -2056,7 +2056,7 @@
         "13b",
         "70b"
       ],
-      "downloads": "100K",
+      "downloads": "100.1K",
       "lastUpdated": "14 months ago",
       "runCommand": "ollama run wizard-math",
       "parameterVersions": [
@@ -2447,6 +2447,26 @@
       "defaultDiskSize": "866MB"
     },
     {
+      "name": "samantha-mistral",
+      "fullName": "samantha-mistral",
+      "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "72.8K",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run samantha-mistral",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
       "name": "internlm2",
       "fullName": "internlm2",
       "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
@@ -2480,26 +2500,6 @@
       ],
       "defaultSize": "1m",
       "defaultDiskSize": "4.5GB"
-    },
-    {
-      "name": "samantha-mistral",
-      "fullName": "samantha-mistral",
-      "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
-      "modelSize": "7b",
-      "tags": [
-        "7b"
-      ],
-      "downloads": "72.8K",
-      "lastUpdated": "16 months ago",
-      "runCommand": "ollama run samantha-mistral",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "4.1GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.1GB"
     },
     {
       "name": "falcon",
@@ -2600,7 +2600,7 @@
         "7b",
         "13b"
       ],
-      "downloads": "62.9K",
+      "downloads": "63K",
       "lastUpdated": "15 months ago",
       "runCommand": "ollama run orca2",
       "parameterVersions": [
@@ -2624,7 +2624,7 @@
       "tags": [
         "1.5b"
       ],
-      "downloads": "61K",
+      "downloads": "61.1K",
       "lastUpdated": "2 weeks ago",
       "runCommand": "ollama run deepscaler",
       "parameterVersions": [
@@ -2809,7 +2809,7 @@
       "tags": [
         "3b"
       ],
-      "downloads": "45.8K",
+      "downloads": "45.9K",
       "lastUpdated": "8 weeks ago",
       "runCommand": "ollama run smallthinker",
       "parameterVersions": [
@@ -2849,7 +2849,7 @@
       "tags": [
         "278m"
       ],
-      "downloads": "45K",
+      "downloads": "45.1K",
       "lastUpdated": "6 months ago",
       "runCommand": "ollama run paraphrase-multilingual",
       "parameterVersions": [
@@ -3129,7 +3129,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "32.2K",
+      "downloads": "32.3K",
       "lastUpdated": "2 months ago",
       "runCommand": "ollama run marco-o1",
       "parameterVersions": [
@@ -3149,7 +3149,7 @@
       "tags": [
         "11b"
       ],
-      "downloads": "31.9K",
+      "downloads": "32K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run falcon2",
       "parameterVersions": [
@@ -3760,7 +3760,7 @@
         "70b",
         "671b"
       ],
-      "downloads": "8,275",
+      "downloads": "8,286",
       "lastUpdated": "6 days ago",
       "runCommand": "ollama run r1-1776",
       "parameterVersions": [
@@ -3785,7 +3785,7 @@
         "2b",
         "8b"
       ],
-      "downloads": "4,139",
+      "downloads": "4,173",
       "lastUpdated": "Unknown",
       "runCommand": "ollama run granite3.2",
       "parameterVersions": [
