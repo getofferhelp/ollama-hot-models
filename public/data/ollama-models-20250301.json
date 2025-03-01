@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-03-01T01:44:34.853265",
+  "lastUpdated": "2025-03-01T01:44:31.776891",
   "models": [
     {
       "name": "deepseek-r1",
@@ -15,8 +15,8 @@
         "70b",
         "671b"
       ],
-      "downloads": "21.2M",
-      "lastUpdated": "2 weeks ago",
+      "downloads": "21.5M",
+      "lastUpdated": "3 weeks ago",
       "runCommand": "ollama run deepseek-r1",
       "parameterVersions": [
         {
@@ -79,7 +79,7 @@
       "tags": [
         "14b"
       ],
-      "downloads": "791.3K",
+      "downloads": "806.8K",
       "lastUpdated": "7 weeks ago",
       "runCommand": "ollama run phi4",
       "parameterVersions": [
@@ -126,8 +126,8 @@
         "70b",
         "405b"
       ],
-      "downloads": "25.2M",
-      "lastUpdated": "2 months ago",
+      "downloads": "25.3M",
+      "lastUpdated": "3 months ago",
       "runCommand": "ollama run llama3.1",
       "parameterVersions": [
         {
@@ -154,7 +154,7 @@
       "tags": [
         "latest"
       ],
-      "downloads": "17.4M",
+      "downloads": "17.5M",
       "lastUpdated": "12 months ago",
       "runCommand": "ollama run nomic-embed-text",
       "parameterVersions": [
@@ -174,7 +174,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "9.5M",
+      "downloads": "9.6M",
       "lastUpdated": "7 months ago",
       "runCommand": "ollama run mistral",
       "parameterVersions": [
@@ -389,7 +389,7 @@
         "14b",
         "32b"
       ],
-      "downloads": "3.7M",
+      "downloads": "3.9M",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run qwen2.5-coder",
       "parameterVersions": [
@@ -666,7 +666,7 @@
         "7b",
         "15b"
       ],
-      "downloads": "890.7K",
+      "downloads": "891.4K",
       "lastUpdated": "5 months ago",
       "runCommand": "ollama run starcoder2",
       "parameterVersions": [
@@ -695,7 +695,7 @@
         "16b",
         "236b"
       ],
-      "downloads": "693.9K",
+      "downloads": "696.3K",
       "lastUpdated": "5 months ago",
       "runCommand": "ollama run deepseek-coder-v2",
       "parameterVersions": [
@@ -723,7 +723,7 @@
         "137m",
         "335m"
       ],
-      "downloads": "693.8K",
+      "downloads": "694.1K",
       "lastUpdated": "10 months ago",
       "runCommand": "ollama run snowflake-arctic-embed",
       "parameterVersions": [
@@ -759,7 +759,7 @@
       "tags": [
         "671b"
       ],
-      "downloads": "673.5K",
+      "downloads": "681.8K",
       "lastUpdated": "6 weeks ago",
       "runCommand": "ollama run deepseek-v3",
       "parameterVersions": [
@@ -780,7 +780,7 @@
         "7b",
         "70b"
       ],
-      "downloads": "609.6K",
+      "downloads": "612.2K",
       "lastUpdated": "16 months ago",
       "runCommand": "ollama run llama2-uncensored",
       "parameterVersions": [
@@ -806,7 +806,7 @@
         "6.7b",
         "33b"
       ],
-      "downloads": "578.7K",
+      "downloads": "583.4K",
       "lastUpdated": "14 months ago",
       "runCommand": "ollama run deepseek-coder",
       "parameterVersions": [
@@ -835,7 +835,7 @@
         "8x7b",
         "8x22b"
       ],
-      "downloads": "571.5K",
+      "downloads": "572.3K",
       "lastUpdated": "2 months ago",
       "runCommand": "ollama run mixtral",
       "parameterVersions": [
@@ -860,7 +860,7 @@
         "8x7b",
         "8x22b"
       ],
-      "downloads": "515.7K",
+      "downloads": "516.3K",
       "lastUpdated": "2 months ago",
       "runCommand": "ollama run dolphin-mixtral",
       "parameterVersions": [
@@ -885,7 +885,7 @@
         "2b",
         "7b"
       ],
-      "downloads": "504.8K",
+      "downloads": "506.9K",
       "lastUpdated": "7 months ago",
       "runCommand": "ollama run codegemma",
       "parameterVersions": [
@@ -910,7 +910,7 @@
         "7b",
         "32b"
       ],
-      "downloads": "503.8K",
+      "downloads": "504.5K",
       "lastUpdated": "2 weeks ago",
       "runCommand": "ollama run openthinker",
       "parameterVersions": [
@@ -934,7 +934,7 @@
       "tags": [
         "2.7b"
       ],
-      "downloads": "492.4K",
+      "downloads": "492.7K",
       "lastUpdated": "13 months ago",
       "runCommand": "ollama run phi",
       "parameterVersions": [
@@ -954,7 +954,7 @@
       "tags": [
         "567m"
       ],
-      "downloads": "473K",
+      "downloads": "479.8K",
       "lastUpdated": "6 months ago",
       "runCommand": "ollama run bge-m3",
       "parameterVersions": [
@@ -974,7 +974,7 @@
       "tags": [
         "8b"
       ],
-      "downloads": "400.1K",
+      "downloads": "406.5K",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run minicpm-v",
       "parameterVersions": [
@@ -994,7 +994,7 @@
       "tags": [
         "8b"
       ],
-      "downloads": "376.2K",
+      "downloads": "379.7K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run llava-llama3",
       "parameterVersions": [
@@ -1015,7 +1015,7 @@
         "7b",
         "8x22b"
       ],
-      "downloads": "354.9K",
+      "downloads": "355.1K",
       "lastUpdated": "10 months ago",
       "runCommand": "ollama run wizardlm2",
       "parameterVersions": [
@@ -1039,7 +1039,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "322.1K",
+      "downloads": "322.4K",
       "lastUpdated": "11 months ago",
       "runCommand": "ollama run dolphin-mistral",
       "parameterVersions": [
@@ -1060,7 +1060,7 @@
         "22m",
         "33m"
       ],
-      "downloads": "301K",
+      "downloads": "302K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run all-minilm",
       "parameterVersions": [
@@ -1086,7 +1086,7 @@
         "360m",
         "1.7b"
       ],
-      "downloads": "298K",
+      "downloads": "301.5K",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run smollm2",
       "parameterVersions": [
@@ -1115,7 +1115,7 @@
         "8b",
         "70b"
       ],
-      "downloads": "287K",
+      "downloads": "287.6K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run dolphin-llama3",
       "parameterVersions": [
@@ -1139,7 +1139,7 @@
       "tags": [
         "35b"
       ],
-      "downloads": "281K",
+      "downloads": "281.2K",
       "lastUpdated": "6 months ago",
       "runCommand": "ollama run command-r",
       "parameterVersions": [
@@ -1162,7 +1162,7 @@
         "13b",
         "70b"
       ],
-      "downloads": "275.2K",
+      "downloads": "275.3K",
       "lastUpdated": "16 months ago",
       "runCommand": "ollama run orca-mini",
       "parameterVersions": [
@@ -1196,7 +1196,7 @@
         "9b",
         "34b"
       ],
-      "downloads": "265.6K",
+      "downloads": "265.7K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run yi",
       "parameterVersions": [
@@ -1227,7 +1227,7 @@
         "70b",
         "405b"
       ],
-      "downloads": "260.3K",
+      "downloads": "260.4K",
       "lastUpdated": "2 months ago",
       "runCommand": "ollama run hermes3",
       "parameterVersions": [
@@ -1259,7 +1259,7 @@
       "tags": [
         "8b"
       ],
-      "downloads": "254.1K",
+      "downloads": "260.1K",
       "lastUpdated": "7 weeks ago",
       "runCommand": "ollama run dolphin3",
       "parameterVersions": [
@@ -1279,7 +1279,7 @@
       "tags": [
         "3.8b"
       ],
-      "downloads": "244.6K",
+      "downloads": "245.1K",
       "lastUpdated": "5 months ago",
       "runCommand": "ollama run phi3.5",
       "parameterVersions": [
@@ -1300,7 +1300,7 @@
         "7b",
         "141b"
       ],
-      "downloads": "237K",
+      "downloads": "237.2K",
       "lastUpdated": "10 months ago",
       "runCommand": "ollama run zephyr",
       "parameterVersions": [
@@ -1325,7 +1325,7 @@
         "7b",
         "13b"
       ],
-      "downloads": "223.3K",
+      "downloads": "229.2K",
       "lastUpdated": "6 weeks ago",
       "runCommand": "ollama run olmo2",
       "parameterVersions": [
@@ -1350,7 +1350,7 @@
         "22b",
         "24b"
       ],
-      "downloads": "222.3K",
+      "downloads": "225.9K",
       "lastUpdated": "4 weeks ago",
       "runCommand": "ollama run mistral-small",
       "parameterVersions": [
@@ -1374,7 +1374,7 @@
       "tags": [
         "22b"
       ],
-      "downloads": "221.5K",
+      "downloads": "222.2K",
       "lastUpdated": "5 months ago",
       "runCommand": "ollama run codestral",
       "parameterVersions": [
@@ -1397,7 +1397,7 @@
         "20b",
         "34b"
       ],
-      "downloads": "188.5K",
+      "downloads": "188.8K",
       "lastUpdated": "5 months ago",
       "runCommand": "ollama run granite-code",
       "parameterVersions": [
@@ -1432,7 +1432,7 @@
         "7b",
         "15b"
       ],
-      "downloads": "186K",
+      "downloads": "186.1K",
       "lastUpdated": "16 months ago",
       "runCommand": "ollama run starcoder",
       "parameterVersions": [
@@ -1466,7 +1466,7 @@
         "360m",
         "1.7b"
       ],
-      "downloads": "180.3K",
+      "downloads": "180.9K",
       "lastUpdated": "6 months ago",
       "runCommand": "ollama run smollm",
       "parameterVersions": [
@@ -1496,7 +1496,7 @@
         "13b",
         "30b"
       ],
-      "downloads": "179.4K",
+      "downloads": "179.7K",
       "lastUpdated": "16 months ago",
       "runCommand": "ollama run wizard-vicuna-uncensored",
       "parameterVersions": [
@@ -1554,7 +1554,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "166.2K",
+      "downloads": "166.3K",
       "lastUpdated": "16 months ago",
       "runCommand": "ollama run mistral-openorca",
       "parameterVersions": [
@@ -1574,7 +1574,7 @@
       "tags": [
         "32b"
       ],
-      "downloads": "162.8K",
+      "downloads": "163.3K",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run qwq",
       "parameterVersions": [
@@ -1619,7 +1619,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "143.4K",
+      "downloads": "143.7K",
       "lastUpdated": "13 months ago",
       "runCommand": "ollama run openchat",
       "parameterVersions": [
@@ -1639,7 +1639,7 @@
       "tags": [
         "9b"
       ],
-      "downloads": "137.8K",
+      "downloads": "138K",
       "lastUpdated": "7 months ago",
       "runCommand": "ollama run codegeex4",
       "parameterVersions": [
@@ -1660,7 +1660,7 @@
         "8b",
         "35b"
       ],
-      "downloads": "134.6K",
+      "downloads": "134.7K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run aya",
       "parameterVersions": [
@@ -1684,7 +1684,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "130.2K",
+      "downloads": "130.3K",
       "lastUpdated": "8 months ago",
       "runCommand": "ollama run codeqwen",
       "parameterVersions": [
@@ -1705,7 +1705,7 @@
         "7b",
         "67b"
       ],
-      "downloads": "129.3K",
+      "downloads": "129.6K",
       "lastUpdated": "14 months ago",
       "runCommand": "ollama run deepseek-llm",
       "parameterVersions": [
@@ -1730,7 +1730,7 @@
         "16b",
         "236b"
       ],
-      "downloads": "123.3K",
+      "downloads": "123.7K",
       "lastUpdated": "8 months ago",
       "runCommand": "ollama run deepseek-v2",
       "parameterVersions": [
@@ -1754,7 +1754,7 @@
       "tags": [
         "123b"
       ],
-      "downloads": "123.2K",
+      "downloads": "123.3K",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run mistral-large",
       "parameterVersions": [
@@ -1774,7 +1774,7 @@
       "tags": [
         "9b"
       ],
-      "downloads": "121.4K",
+      "downloads": "121.6K",
       "lastUpdated": "7 months ago",
       "runCommand": "ollama run glm4",
       "parameterVersions": [
@@ -1819,7 +1819,7 @@
       "tags": [
         "3b"
       ],
-      "downloads": "120.5K",
+      "downloads": "120.6K",
       "lastUpdated": "11 months ago",
       "runCommand": "ollama run stable-code",
       "parameterVersions": [
@@ -1839,7 +1839,7 @@
       "tags": [
         "latest"
       ],
-      "downloads": "120.2K",
+      "downloads": "120.4K",
       "lastUpdated": "14 months ago",
       "runCommand": "ollama run openhermes",
       "parameterVersions": [
@@ -1861,7 +1861,7 @@
         "7b",
         "72b"
       ],
-      "downloads": "119K",
+      "downloads": "119.1K",
       "lastUpdated": "6 months ago",
       "runCommand": "ollama run qwen2-math",
       "parameterVersions": [
@@ -1880,6 +1880,26 @@
       ],
       "defaultSize": "1.5b",
       "defaultDiskSize": "935MB"
+    },
+    {
+      "name": "tinydolphin",
+      "fullName": "tinydolphin",
+      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
+      "modelSize": "1.1b",
+      "tags": [
+        "1.1b"
+      ],
+      "downloads": "119K",
+      "lastUpdated": "13 months ago",
+      "runCommand": "ollama run tinydolphin",
+      "parameterVersions": [
+        {
+          "size": "1.1b",
+          "diskSize": "637MB"
+        }
+      ],
+      "defaultSize": "1.1b",
+      "defaultDiskSize": "637MB"
     },
     {
       "name": "command-r-plus",
@@ -1902,26 +1922,6 @@
       "defaultDiskSize": "59GB"
     },
     {
-      "name": "tinydolphin",
-      "fullName": "tinydolphin",
-      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-      "modelSize": "1.1b",
-      "tags": [
-        "1.1b"
-      ],
-      "downloads": "118.8K",
-      "lastUpdated": "13 months ago",
-      "runCommand": "ollama run tinydolphin",
-      "parameterVersions": [
-        {
-          "size": "1.1b",
-          "diskSize": "637MB"
-        }
-      ],
-      "defaultSize": "1.1b",
-      "defaultDiskSize": "637MB"
-    },
-    {
       "name": "wizardcoder",
       "fullName": "wizardcoder",
       "description": "State-of-the-art code generation model",
@@ -1929,8 +1929,8 @@
       "tags": [
         "33b"
       ],
-      "downloads": "116.2K",
-      "lastUpdated": "13 months ago",
+      "downloads": "116.3K",
+      "lastUpdated": "14 months ago",
       "runCommand": "ollama run wizardcoder",
       "parameterVersions": [
         {
@@ -1949,7 +1949,7 @@
       "tags": [
         "1.8b"
       ],
-      "downloads": "110.1K",
+      "downloads": "110.4K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run moondream",
       "parameterVersions": [
@@ -1969,7 +1969,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "108.4K",
+      "downloads": "108.5K",
       "lastUpdated": "14 months ago",
       "runCommand": "ollama run bakllava",
       "parameterVersions": [
@@ -1990,7 +1990,7 @@
         "1.6b",
         "12b"
       ],
-      "downloads": "107K",
+      "downloads": "107.1K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run stablelm2",
       "parameterVersions": [
@@ -2014,7 +2014,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "103.4K",
+      "downloads": "103.5K",
       "lastUpdated": "14 months ago",
       "runCommand": "ollama run neural-chat",
       "parameterVersions": [
@@ -2056,7 +2056,7 @@
         "13b",
         "70b"
       ],
-      "downloads": "100K",
+      "downloads": "100.4K",
       "lastUpdated": "14 months ago",
       "runCommand": "ollama run wizard-math",
       "parameterVersions": [
@@ -2086,8 +2086,8 @@
         "8b",
         "70b"
       ],
-      "downloads": "97.4K",
-      "lastUpdated": "9 months ago",
+      "downloads": "97.5K",
+      "lastUpdated": "10 months ago",
       "runCommand": "ollama run llama3-gradient",
       "parameterVersions": [
         {
@@ -2115,7 +2115,7 @@
         "8b",
         "70b"
       ],
-      "downloads": "95.5K",
+      "downloads": "95.6K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run llama3-chatqa",
       "parameterVersions": [
@@ -2140,7 +2140,7 @@
         "7b",
         "15b"
       ],
-      "downloads": "91.6K",
+      "downloads": "91.8K",
       "lastUpdated": "13 months ago",
       "runCommand": "ollama run sqlcoder",
       "parameterVersions": [
@@ -2164,7 +2164,7 @@
       "tags": [
         "335m"
       ],
-      "downloads": "84.3K",
+      "downloads": "84.7K",
       "lastUpdated": "6 months ago",
       "runCommand": "ollama run bge-large",
       "parameterVersions": [
@@ -2210,7 +2210,7 @@
         "7b",
         "15b"
       ],
-      "downloads": "83.2K",
+      "downloads": "83.3K",
       "lastUpdated": "10 months ago",
       "runCommand": "ollama run dolphincoder",
       "parameterVersions": [
@@ -2279,7 +2279,7 @@
       "tags": [
         "3.8b"
       ],
-      "downloads": "79.1K",
+      "downloads": "79.3K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run llava-phi3",
       "parameterVersions": [
@@ -2300,7 +2300,7 @@
         "7b",
         "13b"
       ],
-      "downloads": "78.4K",
+      "downloads": "78.5K",
       "lastUpdated": "16 months ago",
       "runCommand": "ollama run yarn-llama2",
       "parameterVersions": [
@@ -2317,26 +2317,6 @@
       "defaultDiskSize": "3.8GB"
     },
     {
-      "name": "solar",
-      "fullName": "solar",
-      "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-      "modelSize": "10.7b",
-      "tags": [
-        "10.7b"
-      ],
-      "downloads": "78.3K",
-      "lastUpdated": "14 months ago",
-      "runCommand": "ollama run solar",
-      "parameterVersions": [
-        {
-          "size": "10.7b",
-          "diskSize": "6.1GB"
-        }
-      ],
-      "defaultSize": "10.7b",
-      "defaultDiskSize": "6.1GB"
-    },
-    {
       "name": "granite3.1-dense",
       "fullName": "granite3.1-dense",
       "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
@@ -2345,8 +2325,8 @@
         "2b",
         "8b"
       ],
-      "downloads": "78K",
-      "lastUpdated": "5 weeks ago",
+      "downloads": "78.4K",
+      "lastUpdated": "6 weeks ago",
       "runCommand": "ollama run granite3.1-dense",
       "parameterVersions": [
         {
@@ -2360,6 +2340,26 @@
       ],
       "defaultSize": "2b",
       "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "solar",
+      "fullName": "solar",
+      "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
+      "modelSize": "10.7b",
+      "tags": [
+        "10.7b"
+      ],
+      "downloads": "78.4K",
+      "lastUpdated": "14 months ago",
+      "runCommand": "ollama run solar",
+      "parameterVersions": [
+        {
+          "size": "10.7b",
+          "diskSize": "6.1GB"
+        }
+      ],
+      "defaultSize": "10.7b",
+      "defaultDiskSize": "6.1GB"
     },
     {
       "name": "starling-lm",
@@ -2389,7 +2389,7 @@
       "tags": [
         "72b"
       ],
-      "downloads": "76.1K",
+      "downloads": "76.2K",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run athene-v2",
       "parameterVersions": [
@@ -2400,6 +2400,31 @@
       ],
       "defaultSize": "72b",
       "defaultDiskSize": "47GB"
+    },
+    {
+      "name": "yi-coder",
+      "fullName": "yi-coder",
+      "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
+      "modelSize": "1.5b",
+      "tags": [
+        "1.5b",
+        "9b"
+      ],
+      "downloads": "75.7K",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run yi-coder",
+      "parameterVersions": [
+        {
+          "size": "1.5b",
+          "diskSize": "866MB"
+        },
+        {
+          "size": "9b",
+          "diskSize": "5.0GB"
+        }
+      ],
+      "defaultSize": "1.5b",
+      "defaultDiskSize": "866MB"
     },
     {
       "name": "wizardlm",
@@ -2422,29 +2447,24 @@
       "defaultDiskSize": "26GB"
     },
     {
-      "name": "yi-coder",
-      "fullName": "yi-coder",
-      "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
-      "modelSize": "1.5b",
+      "name": "samantha-mistral",
+      "fullName": "samantha-mistral",
+      "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
+      "modelSize": "7b",
       "tags": [
-        "1.5b",
-        "9b"
+        "7b"
       ],
-      "downloads": "75.6K",
-      "lastUpdated": "5 months ago",
-      "runCommand": "ollama run yi-coder",
+      "downloads": "74.3K",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run samantha-mistral",
       "parameterVersions": [
         {
-          "size": "1.5b",
-          "diskSize": "866MB"
-        },
-        {
-          "size": "9b",
-          "diskSize": "5.0GB"
+          "size": "7b",
+          "diskSize": "4.1GB"
         }
       ],
-      "defaultSize": "1.5b",
-      "defaultDiskSize": "866MB"
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
     },
     {
       "name": "internlm2",
@@ -2457,7 +2477,7 @@
         "7b",
         "20b"
       ],
-      "downloads": "72.8K",
+      "downloads": "72.9K",
       "lastUpdated": "6 months ago",
       "runCommand": "ollama run internlm2",
       "parameterVersions": [
@@ -2480,26 +2500,6 @@
       ],
       "defaultSize": "1m",
       "defaultDiskSize": "4.5GB"
-    },
-    {
-      "name": "samantha-mistral",
-      "fullName": "samantha-mistral",
-      "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
-      "modelSize": "7b",
-      "tags": [
-        "7b"
-      ],
-      "downloads": "72.8K",
-      "lastUpdated": "16 months ago",
-      "runCommand": "ollama run samantha-mistral",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "4.1GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.1GB"
     },
     {
       "name": "falcon",
@@ -2539,7 +2539,7 @@
       "tags": [
         "4b"
       ],
-      "downloads": "67.6K",
+      "downloads": "67.8K",
       "lastUpdated": "5 months ago",
       "runCommand": "ollama run nemotron-mini",
       "parameterVersions": [
@@ -2579,7 +2579,7 @@
       "tags": [
         "2.7b"
       ],
-      "downloads": "64.3K",
+      "downloads": "64.4K",
       "lastUpdated": "14 months ago",
       "runCommand": "ollama run dolphin-phi",
       "parameterVersions": [
@@ -2600,7 +2600,7 @@
         "7b",
         "13b"
       ],
-      "downloads": "62.9K",
+      "downloads": "63K",
       "lastUpdated": "15 months ago",
       "runCommand": "ollama run orca2",
       "parameterVersions": [
@@ -2624,7 +2624,7 @@
       "tags": [
         "1.5b"
       ],
-      "downloads": "61K",
+      "downloads": "61.7K",
       "lastUpdated": "2 weeks ago",
       "runCommand": "ollama run deepscaler",
       "parameterVersions": [
@@ -2666,7 +2666,7 @@
         "13b",
         "70b"
       ],
-      "downloads": "58.6K",
+      "downloads": "58.7K",
       "lastUpdated": "16 months ago",
       "runCommand": "ollama run stable-beluga",
       "parameterVersions": [
@@ -2695,7 +2695,7 @@
         "2b",
         "8b"
       ],
-      "downloads": "56K",
+      "downloads": "56.2K",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run granite3-dense",
       "parameterVersions": [
@@ -2720,7 +2720,7 @@
         "8b",
         "70b"
       ],
-      "downloads": "54.4K",
+      "downloads": "54.5K",
       "lastUpdated": "7 months ago",
       "runCommand": "ollama run llama3-groq-tool-use",
       "parameterVersions": [
@@ -2744,7 +2744,7 @@
       "tags": [
         "236b"
       ],
-      "downloads": "48.5K",
+      "downloads": "48.6K",
       "lastUpdated": "5 months ago",
       "runCommand": "ollama run deepseek-v2.5",
       "parameterVersions": [
@@ -2764,7 +2764,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "46.8K",
+      "downloads": "46.9K",
       "lastUpdated": "16 months ago",
       "runCommand": "ollama run medllama2",
       "parameterVersions": [
@@ -2785,7 +2785,7 @@
         "7b",
         "70b"
       ],
-      "downloads": "46.5K",
+      "downloads": "46.6K",
       "lastUpdated": "15 months ago",
       "runCommand": "ollama run meditron",
       "parameterVersions": [
@@ -2802,6 +2802,26 @@
       "defaultDiskSize": "3.8GB"
     },
     {
+      "name": "paraphrase-multilingual",
+      "fullName": "paraphrase-multilingual",
+      "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
+      "modelSize": "278m",
+      "tags": [
+        "278m"
+      ],
+      "downloads": "46.6K",
+      "lastUpdated": "6 months ago",
+      "runCommand": "ollama run paraphrase-multilingual",
+      "parameterVersions": [
+        {
+          "size": "278m",
+          "diskSize": "563MB"
+        }
+      ],
+      "defaultSize": "278m",
+      "defaultDiskSize": "563MB"
+    },
+    {
       "name": "smallthinker",
       "fullName": "smallthinker",
       "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
@@ -2809,8 +2829,8 @@
       "tags": [
         "3b"
       ],
-      "downloads": "45.8K",
-      "lastUpdated": "8 weeks ago",
+      "downloads": "46.1K",
+      "lastUpdated": "2 months ago",
       "runCommand": "ollama run smallthinker",
       "parameterVersions": [
         {
@@ -2842,26 +2862,6 @@
       "defaultDiskSize": "4.7GB"
     },
     {
-      "name": "paraphrase-multilingual",
-      "fullName": "paraphrase-multilingual",
-      "description": "Sentence-transformers model that can be used for tasks like clustering or semantic search.",
-      "modelSize": "278m",
-      "tags": [
-        "278m"
-      ],
-      "downloads": "45K",
-      "lastUpdated": "6 months ago",
-      "runCommand": "ollama run paraphrase-multilingual",
-      "parameterVersions": [
-        {
-          "size": "278m",
-          "diskSize": "563MB"
-        }
-      ],
-      "defaultSize": "278m",
-      "defaultDiskSize": "563MB"
-    },
-    {
       "name": "yarn-mistral",
       "fullName": "yarn-mistral",
       "description": "An extension of Mistral to support context windows of 64K or 128K.",
@@ -2890,7 +2890,7 @@
         "8b",
         "32b"
       ],
-      "downloads": "44.7K",
+      "downloads": "44.9K",
       "lastUpdated": "4 months ago",
       "runCommand": "ollama run aya-expanse",
       "parameterVersions": [
@@ -2915,7 +2915,7 @@
         "1b",
         "3b"
       ],
-      "downloads": "43.2K",
+      "downloads": "43.3K",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run granite3-moe",
       "parameterVersions": [
@@ -2962,7 +2962,7 @@
         "7b",
         "10b"
       ],
-      "downloads": "39.4K",
+      "downloads": "39.7K",
       "lastUpdated": "2 months ago",
       "runCommand": "ollama run falcon3",
       "parameterVersions": [
@@ -3034,7 +3034,7 @@
       "tags": [
         "13b"
       ],
-      "downloads": "37.8K",
+      "downloads": "37.9K",
       "lastUpdated": "14 months ago",
       "runCommand": "ollama run everythinglm",
       "parameterVersions": [
@@ -3056,7 +3056,7 @@
         "9b",
         "27b"
       ],
-      "downloads": "34.9K",
+      "downloads": "35K",
       "lastUpdated": "4 months ago",
       "runCommand": "ollama run shieldgemma",
       "parameterVersions": [
@@ -3085,8 +3085,8 @@
         "1b",
         "3b"
       ],
-      "downloads": "33.7K",
-      "lastUpdated": "5 weeks ago",
+      "downloads": "33.9K",
+      "lastUpdated": "6 weeks ago",
       "runCommand": "ollama run granite3.1-moe",
       "parameterVersions": [
         {
@@ -3109,7 +3109,7 @@
       "tags": [
         "568m"
       ],
-      "downloads": "32.9K",
+      "downloads": "33.3K",
       "lastUpdated": "2 months ago",
       "runCommand": "ollama run snowflake-arctic-embed2",
       "parameterVersions": [
@@ -3129,7 +3129,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "32.2K",
+      "downloads": "32.4K",
       "lastUpdated": "2 months ago",
       "runCommand": "ollama run marco-o1",
       "parameterVersions": [
@@ -3149,7 +3149,7 @@
       "tags": [
         "11b"
       ],
-      "downloads": "31.9K",
+      "downloads": "32K",
       "lastUpdated": "9 months ago",
       "runCommand": "ollama run falcon2",
       "parameterVersions": [
@@ -3169,7 +3169,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "31.8K",
+      "downloads": "31.9K",
       "lastUpdated": "7 months ago",
       "runCommand": "ollama run mathstral",
       "parameterVersions": [
@@ -3209,7 +3209,7 @@
       "tags": [
         "3b"
       ],
-      "downloads": "31.6K",
+      "downloads": "31.7K",
       "lastUpdated": "14 months ago",
       "runCommand": "ollama run stablelm-zephyr",
       "parameterVersions": [
@@ -3230,7 +3230,7 @@
         "0.5b",
         "1.5b"
       ],
-      "downloads": "31.3K",
+      "downloads": "31.4K",
       "lastUpdated": "5 months ago",
       "runCommand": "ollama run reader-lm",
       "parameterVersions": [
@@ -3254,7 +3254,7 @@
       "tags": [
         "22b"
       ],
-      "downloads": "31.2K",
+      "downloads": "31.3K",
       "lastUpdated": "5 months ago",
       "runCommand": "ollama run solar-pro",
       "parameterVersions": [
@@ -3274,7 +3274,7 @@
       "tags": [
         "34b"
       ],
-      "downloads": "31K",
+      "downloads": "31.1K",
       "lastUpdated": "16 months ago",
       "runCommand": "ollama run codebooga",
       "parameterVersions": [
@@ -3314,7 +3314,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "29.6K",
+      "downloads": "29.7K",
       "lastUpdated": "16 months ago",
       "runCommand": "ollama run mistrallite",
       "parameterVersions": [
@@ -3325,6 +3325,31 @@
       ],
       "defaultSize": "7b",
       "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "llama-guard3",
+      "fullName": "llama-guard3",
+      "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
+      "modelSize": "1b",
+      "tags": [
+        "1b",
+        "8b"
+      ],
+      "downloads": "29.4K",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run llama-guard3",
+      "parameterVersions": [
+        {
+          "size": "1b",
+          "diskSize": "1.6GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        }
+      ],
+      "defaultSize": "1b",
+      "defaultDiskSize": "1.6GB"
     },
     {
       "name": "wizard-vicuna",
@@ -3347,31 +3372,6 @@
       "defaultDiskSize": "7.4GB"
     },
     {
-      "name": "llama-guard3",
-      "fullName": "llama-guard3",
-      "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
-      "modelSize": "1b",
-      "tags": [
-        "1b",
-        "8b"
-      ],
-      "downloads": "29.3K",
-      "lastUpdated": "4 months ago",
-      "runCommand": "ollama run llama-guard3",
-      "parameterVersions": [
-        {
-          "size": "1b",
-          "diskSize": "1.6GB"
-        },
-        {
-          "size": "8b",
-          "diskSize": "4.9GB"
-        }
-      ],
-      "defaultSize": "1b",
-      "defaultDiskSize": "1.6GB"
-    },
-    {
       "name": "exaone3.5",
       "fullName": "exaone3.5",
       "description": "EXAONE 3.5 is a collection of instruction-tuned bilingual (English and Korean) generative models ranging from 2.4B to 32B parameters, developed and released by LG AI Research.",
@@ -3381,7 +3381,7 @@
         "7.8b",
         "32b"
       ],
-      "downloads": "25.9K",
+      "downloads": "26.3K",
       "lastUpdated": "2 months ago",
       "runCommand": "ollama run exaone3.5",
       "parameterVersions": [
@@ -3429,7 +3429,7 @@
       "tags": [
         "3.8b"
       ],
-      "downloads": "25K",
+      "downloads": "25.1K",
       "lastUpdated": "7 months ago",
       "runCommand": "ollama run nuextract",
       "parameterVersions": [
@@ -3450,7 +3450,7 @@
         "1.5b",
         "8b"
       ],
-      "downloads": "24.8K",
+      "downloads": "24.9K",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run opencoder",
       "parameterVersions": [
@@ -3547,26 +3547,6 @@
       "defaultDiskSize": "66GB"
     },
     {
-      "name": "bespoke-minicheck",
-      "fullName": "bespoke-minicheck",
-      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-      "modelSize": "7b",
-      "tags": [
-        "7b"
-      ],
-      "downloads": "22K",
-      "lastUpdated": "5 months ago",
-      "runCommand": "ollama run bespoke-minicheck",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "4.7GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.7GB"
-    },
-    {
       "name": "command-r7b",
       "fullName": "command-r7b",
       "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
@@ -3574,7 +3554,7 @@
       "tags": [
         "7b"
       ],
-      "downloads": "21.9K",
+      "downloads": "22.2K",
       "lastUpdated": "6 weeks ago",
       "runCommand": "ollama run command-r7b",
       "parameterVersions": [
@@ -3587,6 +3567,26 @@
       "defaultDiskSize": "5.1GB"
     },
     {
+      "name": "bespoke-minicheck",
+      "fullName": "bespoke-minicheck",
+      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "22.1K",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run bespoke-minicheck",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
       "name": "firefunction-v2",
       "fullName": "firefunction-v2",
       "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
@@ -3594,7 +3594,7 @@
       "tags": [
         "70b"
       ],
-      "downloads": "18.7K",
+      "downloads": "18.8K",
       "lastUpdated": "7 months ago",
       "runCommand": "ollama run firefunction-v2",
       "parameterVersions": [
@@ -3615,7 +3615,7 @@
         "8b",
         "70b"
       ],
-      "downloads": "18.6K",
+      "downloads": "18.7K",
       "lastUpdated": "2 months ago",
       "runCommand": "ollama run tulu3",
       "parameterVersions": [
@@ -3632,26 +3632,6 @@
       "defaultDiskSize": "4.9GB"
     },
     {
-      "name": "dbrx",
-      "fullName": "dbrx",
-      "description": "DBRX is an open, general-purpose LLM created by Databricks.",
-      "modelSize": "132b",
-      "tags": [
-        "132b"
-      ],
-      "downloads": "18.2K",
-      "lastUpdated": "10 months ago",
-      "runCommand": "ollama run dbrx",
-      "parameterVersions": [
-        {
-          "size": "132b",
-          "diskSize": "74GB"
-        }
-      ],
-      "defaultSize": "132b",
-      "defaultDiskSize": "74GB"
-    },
-    {
       "name": "granite-embedding",
       "fullName": "granite-embedding",
       "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
@@ -3660,7 +3640,7 @@
         "30m",
         "278m"
       ],
-      "downloads": "18.2K",
+      "downloads": "18.4K",
       "lastUpdated": "2 months ago",
       "runCommand": "ollama run granite-embedding",
       "parameterVersions": [
@@ -3677,6 +3657,26 @@
       "defaultDiskSize": "63MB"
     },
     {
+      "name": "dbrx",
+      "fullName": "dbrx",
+      "description": "DBRX is an open, general-purpose LLM created by Databricks.",
+      "modelSize": "132b",
+      "tags": [
+        "132b"
+      ],
+      "downloads": "18.3K",
+      "lastUpdated": "10 months ago",
+      "runCommand": "ollama run dbrx",
+      "parameterVersions": [
+        {
+          "size": "132b",
+          "diskSize": "74GB"
+        }
+      ],
+      "defaultSize": "132b",
+      "defaultDiskSize": "74GB"
+    },
+    {
       "name": "granite3-guardian",
       "fullName": "granite3-guardian",
       "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
@@ -3685,7 +3685,7 @@
         "2b",
         "8b"
       ],
-      "downloads": "16.1K",
+      "downloads": "16.2K",
       "lastUpdated": "3 months ago",
       "runCommand": "ollama run granite3-guardian",
       "parameterVersions": [
@@ -3731,7 +3731,7 @@
         "8b",
         "20b"
       ],
-      "downloads": "9,276",
+      "downloads": "9,318",
       "lastUpdated": "2 months ago",
       "runCommand": "ollama run sailor2",
       "parameterVersions": [
@@ -3760,8 +3760,8 @@
         "70b",
         "671b"
       ],
-      "downloads": "8,275",
-      "lastUpdated": "6 days ago",
+      "downloads": "8,958",
+      "lastUpdated": "7 days ago",
       "runCommand": "ollama run r1-1776",
       "parameterVersions": [
         {
@@ -3785,8 +3785,8 @@
         "2b",
         "8b"
       ],
-      "downloads": "4,139",
-      "lastUpdated": "Unknown",
+      "downloads": "5,768",
+      "lastUpdated": "2 days ago",
       "runCommand": "ollama run granite3.2",
       "parameterVersions": [
         {
