@@ -1,6 +1,61 @@
 {
-  "lastUpdated": "2025-04-05T01:42:45.529550",
+  "lastUpdated": "2025-04-05T01:42:42.438963",
   "models": [
+    {
+      "name": "gemma3",
+      "fullName": "gemma3",
+      "description": "The current, most capable model that runs on a single GPU.",
+      "modelSize": "1b",
+      "tags": [
+        "1b",
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "downloads": "3.1M",
+      "lastUpdated": "11 days ago",
+      "runCommand": "ollama run gemma3",
+      "parameterVersions": [
+        {
+          "size": "1b",
+          "diskSize": "815MB"
+        },
+        {
+          "size": "4b",
+          "diskSize": "3.3GB"
+        },
+        {
+          "size": "12b",
+          "diskSize": "8.1GB"
+        },
+        {
+          "size": "27b",
+          "diskSize": "17GB"
+        }
+      ],
+      "defaultSize": "1b",
+      "defaultDiskSize": "815MB"
+    },
+    {
+      "name": "qwq",
+      "fullName": "qwq",
+      "description": "QwQ is the reasoning model of the Qwen series.",
+      "modelSize": "32b",
+      "tags": [
+        "32b"
+      ],
+      "downloads": "1.2M",
+      "lastUpdated": "3 weeks ago",
+      "runCommand": "ollama run qwq",
+      "parameterVersions": [
+        {
+          "size": "32b",
+          "diskSize": "20GB"
+        }
+      ],
+      "defaultSize": "32b",
+      "defaultDiskSize": "20GB"
+    },
     {
       "name": "deepseek-r1",
       "fullName": "deepseek-r1",
@@ -15,8 +70,8 @@
         "70b",
         "671b"
       ],
-      "downloads": "21.2M",
-      "lastUpdated": "2 weeks ago",
+      "downloads": "33.1M",
+      "lastUpdated": "8 weeks ago",
       "runCommand": "ollama run deepseek-r1",
       "parameterVersions": [
         {
@@ -59,8 +114,8 @@
       "tags": [
         "70b"
       ],
-      "downloads": "1.4M",
-      "lastUpdated": "2 months ago",
+      "downloads": "1.6M",
+      "lastUpdated": "3 months ago",
       "runCommand": "ollama run llama3.3",
       "parameterVersions": [
         {
@@ -79,8 +134,8 @@
       "tags": [
         "14b"
       ],
-      "downloads": "791.3K",
-      "lastUpdated": "7 weeks ago",
+      "downloads": "1.4M",
+      "lastUpdated": "2 months ago",
       "runCommand": "ollama run phi4",
       "parameterVersions": [
         {
@@ -100,8 +155,8 @@
         "1b",
         "3b"
       ],
-      "downloads": "9.6M",
-      "lastUpdated": "5 months ago",
+      "downloads": "12.2M",
+      "lastUpdated": "6 months ago",
       "runCommand": "ollama run llama3.2",
       "parameterVersions": [
         {
@@ -126,8 +181,8 @@
         "70b",
         "405b"
       ],
-      "downloads": "25.2M",
-      "lastUpdated": "2 months ago",
+      "downloads": "84.8M",
+      "lastUpdated": "4 months ago",
       "runCommand": "ollama run llama3.1",
       "parameterVersions": [
         {
@@ -154,8 +209,8 @@
       "tags": [
         "latest"
       ],
-      "downloads": "17.4M",
-      "lastUpdated": "12 months ago",
+      "downloads": "21.2M",
+      "lastUpdated": "13 months ago",
       "runCommand": "ollama run nomic-embed-text",
       "parameterVersions": [
         {
@@ -174,8 +229,8 @@
       "tags": [
         "7b"
       ],
-      "downloads": "9.5M",
-      "lastUpdated": "7 months ago",
+      "downloads": "11.2M",
+      "lastUpdated": "8 months ago",
       "runCommand": "ollama run mistral",
       "parameterVersions": [
         {
@@ -195,8 +250,8 @@
         "8b",
         "70b"
       ],
-      "downloads": "7.5M",
-      "lastUpdated": "9 months ago",
+      "downloads": "7.7M",
+      "lastUpdated": "10 months ago",
       "runCommand": "ollama run llama3",
       "parameterVersions": [
         {
@@ -225,8 +280,8 @@
         "32b",
         "72b"
       ],
-      "downloads": "4.7M",
-      "lastUpdated": "5 months ago",
+      "downloads": "6.1M",
+      "lastUpdated": "6 months ago",
       "runCommand": "ollama run qwen2.5",
       "parameterVersions": [
         {
@@ -262,6 +317,81 @@
       "defaultDiskSize": "398MB"
     },
     {
+      "name": "qwen2.5-coder",
+      "fullName": "qwen2.5-coder",
+      "description": "The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.",
+      "modelSize": "0.5b",
+      "tags": [
+        "0.5b",
+        "1.5b",
+        "3b",
+        "7b",
+        "14b",
+        "32b"
+      ],
+      "downloads": "4.9M",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run qwen2.5-coder",
+      "parameterVersions": [
+        {
+          "size": "0.5b",
+          "diskSize": "531MB"
+        },
+        {
+          "size": "1.5b",
+          "diskSize": "986MB"
+        },
+        {
+          "size": "3b",
+          "diskSize": "1.9GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "14b",
+          "diskSize": "9.0GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "20GB"
+        }
+      ],
+      "defaultSize": "0.5b",
+      "defaultDiskSize": "531MB"
+    },
+    {
+      "name": "llava",
+      "fullName": "llava",
+      "description": "🌋 LLaVA is a novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding. Updated to version 1.6.",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b",
+        "34b"
+      ],
+      "downloads": "4.6M",
+      "lastUpdated": "14 months ago",
+      "runCommand": "ollama run llava",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "8.0GB"
+        },
+        {
+          "size": "34b",
+          "diskSize": "20GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
       "name": "qwen",
       "fullName": "qwen",
       "description": "Qwen 1.5 is a series of large language models by Alibaba Cloud spanning from 0.5B to 110B parameters",
@@ -276,8 +406,8 @@
         "72b",
         "110b"
       ],
-      "downloads": "4.4M",
-      "lastUpdated": "10 months ago",
+      "downloads": "4.5M",
+      "lastUpdated": "11 months ago",
       "runCommand": "ollama run qwen",
       "parameterVersions": [
         {
@@ -326,7 +456,7 @@
         "7b"
       ],
       "downloads": "4.4M",
-      "lastUpdated": "10 months ago",
+      "lastUpdated": "12 months ago",
       "runCommand": "ollama run gemma",
       "parameterVersions": [
         {
@@ -352,8 +482,8 @@
         "7b",
         "72b"
       ],
-      "downloads": "4.1M",
-      "lastUpdated": "5 months ago",
+      "downloads": "4.2M",
+      "lastUpdated": "6 months ago",
       "runCommand": "ollama run qwen2",
       "parameterVersions": [
         {
@@ -377,81 +507,6 @@
       "defaultDiskSize": "352MB"
     },
     {
-      "name": "qwen2.5-coder",
-      "fullName": "qwen2.5-coder",
-      "description": "The latest series of Code-Specific Qwen models, with significant improvements in code generation, code reasoning, and code fixing.",
-      "modelSize": "0.5b",
-      "tags": [
-        "0.5b",
-        "1.5b",
-        "3b",
-        "7b",
-        "14b",
-        "32b"
-      ],
-      "downloads": "3.7M",
-      "lastUpdated": "3 months ago",
-      "runCommand": "ollama run qwen2.5-coder",
-      "parameterVersions": [
-        {
-          "size": "0.5b",
-          "diskSize": "531MB"
-        },
-        {
-          "size": "1.5b",
-          "diskSize": "986MB"
-        },
-        {
-          "size": "3b",
-          "diskSize": "1.9GB"
-        },
-        {
-          "size": "7b",
-          "diskSize": "4.7GB"
-        },
-        {
-          "size": "14b",
-          "diskSize": "9.0GB"
-        },
-        {
-          "size": "32b",
-          "diskSize": "20GB"
-        }
-      ],
-      "defaultSize": "0.5b",
-      "defaultDiskSize": "531MB"
-    },
-    {
-      "name": "llava",
-      "fullName": "llava",
-      "description": "🌋 LLaVA is a novel end-to-end trained large multimodal model that combines a vision encoder and Vicuna for general-purpose visual and language understanding. Updated to version 1.6.",
-      "modelSize": "7b",
-      "tags": [
-        "7b",
-        "13b",
-        "34b"
-      ],
-      "downloads": "3.6M",
-      "lastUpdated": "13 months ago",
-      "runCommand": "ollama run llava",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "4.7GB"
-        },
-        {
-          "size": "13b",
-          "diskSize": "8.0GB"
-        },
-        {
-          "size": "34b",
-          "diskSize": "20GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.7GB"
-    },
-    {
       "name": "gemma2",
       "fullName": "gemma2",
       "description": "Google Gemma 2 is a high-performing and efficient model available in three sizes: 2B, 9B, and 27B.",
@@ -461,8 +516,8 @@
         "9b",
         "27b"
       ],
-      "downloads": "3M",
-      "lastUpdated": "7 months ago",
+      "downloads": "3.8M",
+      "lastUpdated": "8 months ago",
       "runCommand": "ollama run gemma2",
       "parameterVersions": [
         {
@@ -491,8 +546,8 @@
         "13b",
         "70b"
       ],
-      "downloads": "3M",
-      "lastUpdated": "14 months ago",
+      "downloads": "3.2M",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run llama2",
       "parameterVersions": [
         {
@@ -520,8 +575,8 @@
         "3.8b",
         "14b"
       ],
-      "downloads": "2.9M",
-      "lastUpdated": "7 months ago",
+      "downloads": "3M",
+      "lastUpdated": "8 months ago",
       "runCommand": "ollama run phi3",
       "parameterVersions": [
         {
@@ -537,6 +592,26 @@
       "defaultDiskSize": "2.2GB"
     },
     {
+      "name": "mxbai-embed-large",
+      "fullName": "mxbai-embed-large",
+      "description": "State-of-the-art large embedding model from mixedbread.ai",
+      "modelSize": "335m",
+      "tags": [
+        "335m"
+      ],
+      "downloads": "2M",
+      "lastUpdated": "11 months ago",
+      "runCommand": "ollama run mxbai-embed-large",
+      "parameterVersions": [
+        {
+          "size": "335m",
+          "diskSize": "670MB"
+        }
+      ],
+      "defaultSize": "335m",
+      "defaultDiskSize": "670MB"
+    },
+    {
       "name": "codellama",
       "fullName": "codellama",
       "description": "A large language model that can use text prompts to generate and discuss code.",
@@ -547,8 +622,8 @@
         "34b",
         "70b"
       ],
-      "downloads": "1.8M",
-      "lastUpdated": "7 months ago",
+      "downloads": "1.9M",
+      "lastUpdated": "8 months ago",
       "runCommand": "ollama run codellama",
       "parameterVersions": [
         {
@@ -572,26 +647,6 @@
       "defaultDiskSize": "3.8GB"
     },
     {
-      "name": "mxbai-embed-large",
-      "fullName": "mxbai-embed-large",
-      "description": "State-of-the-art large embedding model from mixedbread.ai",
-      "modelSize": "335m",
-      "tags": [
-        "335m"
-      ],
-      "downloads": "1.6M",
-      "lastUpdated": "9 months ago",
-      "runCommand": "ollama run mxbai-embed-large",
-      "parameterVersions": [
-        {
-          "size": "335m",
-          "diskSize": "670MB"
-        }
-      ],
-      "defaultSize": "335m",
-      "defaultDiskSize": "670MB"
-    },
-    {
       "name": "llama3.2-vision",
       "fullName": "llama3.2-vision",
       "description": "Llama 3.2 Vision is a collection of instruction-tuned image reasoning generative models in 11B and 90B sizes.",
@@ -600,8 +655,8 @@
         "11b",
         "90b"
       ],
-      "downloads": "1.4M",
-      "lastUpdated": "3 months ago",
+      "downloads": "1.7M",
+      "lastUpdated": "4 months ago",
       "runCommand": "ollama run llama3.2-vision",
       "parameterVersions": [
         {
@@ -617,26 +672,6 @@
       "defaultDiskSize": "7.9GB"
     },
     {
-      "name": "tinyllama",
-      "fullName": "tinyllama",
-      "description": "The TinyLlama project is an open endeavor to train a compact 1.1B Llama model on 3 trillion tokens.",
-      "modelSize": "1.1b",
-      "tags": [
-        "1.1b"
-      ],
-      "downloads": "1.3M",
-      "lastUpdated": "14 months ago",
-      "runCommand": "ollama run tinyllama",
-      "parameterVersions": [
-        {
-          "size": "1.1b",
-          "diskSize": "638MB"
-        }
-      ],
-      "defaultSize": "1.1b",
-      "defaultDiskSize": "638MB"
-    },
-    {
       "name": "mistral-nemo",
       "fullName": "mistral-nemo",
       "description": "A state-of-the-art 12B model with 128k context length, built by Mistral AI in collaboration with NVIDIA.",
@@ -644,8 +679,8 @@
       "tags": [
         "12b"
       ],
-      "downloads": "1.2M",
-      "lastUpdated": "6 months ago",
+      "downloads": "1.5M",
+      "lastUpdated": "8 months ago",
       "runCommand": "ollama run mistral-nemo",
       "parameterVersions": [
         {
@@ -657,6 +692,46 @@
       "defaultDiskSize": "7.1GB"
     },
     {
+      "name": "tinyllama",
+      "fullName": "tinyllama",
+      "description": "The TinyLlama project is an open endeavor to train a compact 1.1B Llama model on 3 trillion tokens.",
+      "modelSize": "1.1b",
+      "tags": [
+        "1.1b"
+      ],
+      "downloads": "1.4M",
+      "lastUpdated": "15 months ago",
+      "runCommand": "ollama run tinyllama",
+      "parameterVersions": [
+        {
+          "size": "1.1b",
+          "diskSize": "638MB"
+        }
+      ],
+      "defaultSize": "1.1b",
+      "defaultDiskSize": "638MB"
+    },
+    {
+      "name": "deepseek-v3",
+      "fullName": "deepseek-v3",
+      "description": "A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.",
+      "modelSize": "671b",
+      "tags": [
+        "671b"
+      ],
+      "downloads": "947.8K",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run deepseek-v3",
+      "parameterVersions": [
+        {
+          "size": "671b",
+          "diskSize": "404GB"
+        }
+      ],
+      "defaultSize": "671b",
+      "defaultDiskSize": "404GB"
+    },
+    {
       "name": "starcoder2",
       "fullName": "starcoder2",
       "description": "StarCoder2 is the next generation of transparently trained open code LLMs that comes in three sizes: 3B, 7B and 15B parameters.",
@@ -666,8 +741,8 @@
         "7b",
         "15b"
       ],
-      "downloads": "890.7K",
-      "lastUpdated": "5 months ago",
+      "downloads": "911K",
+      "lastUpdated": "7 months ago",
       "runCommand": "ollama run starcoder2",
       "parameterVersions": [
         {
@@ -687,6 +762,71 @@
       "defaultDiskSize": "1.7GB"
     },
     {
+      "name": "llama2-uncensored",
+      "fullName": "llama2-uncensored",
+      "description": "Uncensored Llama 2 model by George Sung and Jarrad Hope.",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "70b"
+      ],
+      "downloads": "856.2K",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run llama2-uncensored",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "39GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "minicpm-v",
+      "fullName": "minicpm-v",
+      "description": "A series of multimodal LLMs (MLLMs) designed for vision-language understanding.",
+      "modelSize": "8b",
+      "tags": [
+        "8b"
+      ],
+      "downloads": "829.7K",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run minicpm-v",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "5.5GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "5.5GB"
+    },
+    {
+      "name": "bge-m3",
+      "fullName": "bge-m3",
+      "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
+      "modelSize": "567m",
+      "tags": [
+        "567m"
+      ],
+      "downloads": "787.9K",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run bge-m3",
+      "parameterVersions": [
+        {
+          "size": "567m",
+          "diskSize": "1.2GB"
+        }
+      ],
+      "defaultSize": "567m",
+      "defaultDiskSize": "1.2GB"
+    },
+    {
       "name": "deepseek-coder-v2",
       "fullName": "deepseek-coder-v2",
       "description": "An open-source Mixture-of-Experts code language model that achieves performance comparable to GPT4-Turbo in code-specific tasks.",
@@ -695,8 +835,8 @@
         "16b",
         "236b"
       ],
-      "downloads": "693.9K",
-      "lastUpdated": "5 months ago",
+      "downloads": "763.7K",
+      "lastUpdated": "7 months ago",
       "runCommand": "ollama run deepseek-coder-v2",
       "parameterVersions": [
         {
@@ -723,8 +863,8 @@
         "137m",
         "335m"
       ],
-      "downloads": "693.8K",
-      "lastUpdated": "10 months ago",
+      "downloads": "704.4K",
+      "lastUpdated": "11 months ago",
       "runCommand": "ollama run snowflake-arctic-embed",
       "parameterVersions": [
         {
@@ -752,51 +892,6 @@
       "defaultDiskSize": "46MB"
     },
     {
-      "name": "deepseek-v3",
-      "fullName": "deepseek-v3",
-      "description": "A strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.",
-      "modelSize": "671b",
-      "tags": [
-        "671b"
-      ],
-      "downloads": "673.5K",
-      "lastUpdated": "6 weeks ago",
-      "runCommand": "ollama run deepseek-v3",
-      "parameterVersions": [
-        {
-          "size": "671b",
-          "diskSize": "404GB"
-        }
-      ],
-      "defaultSize": "671b",
-      "defaultDiskSize": "404GB"
-    },
-    {
-      "name": "llama2-uncensored",
-      "fullName": "llama2-uncensored",
-      "description": "Uncensored Llama 2 model by George Sung and Jarrad Hope.",
-      "modelSize": "7b",
-      "tags": [
-        "7b",
-        "70b"
-      ],
-      "downloads": "609.6K",
-      "lastUpdated": "16 months ago",
-      "runCommand": "ollama run llama2-uncensored",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "3.8GB"
-        },
-        {
-          "size": "70b",
-          "diskSize": "39GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "3.8GB"
-    },
-    {
       "name": "deepseek-coder",
       "fullName": "deepseek-coder",
       "description": "DeepSeek Coder is a capable coding model trained on two trillion code and natural language tokens.",
@@ -806,8 +901,8 @@
         "6.7b",
         "33b"
       ],
-      "downloads": "578.7K",
-      "lastUpdated": "14 months ago",
+      "downloads": "638.6K",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run deepseek-coder",
       "parameterVersions": [
         {
@@ -827,6 +922,26 @@
       "defaultDiskSize": "776MB"
     },
     {
+      "name": "dolphin3",
+      "fullName": "dolphin3",
+      "description": "Dolphin 3.0 Llama 3.1 8B 🐬 is the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.",
+      "modelSize": "8b",
+      "tags": [
+        "8b"
+      ],
+      "downloads": "629.5K",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run dolphin3",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "4.9GB"
+    },
+    {
       "name": "mixtral",
       "fullName": "mixtral",
       "description": "A set of Mixture of Experts (MoE) model with open weights by Mistral AI in 8x7b and 8x22b parameter sizes.",
@@ -835,8 +950,8 @@
         "8x7b",
         "8x22b"
       ],
-      "downloads": "571.5K",
-      "lastUpdated": "2 months ago",
+      "downloads": "618.2K",
+      "lastUpdated": "3 months ago",
       "runCommand": "ollama run mixtral",
       "parameterVersions": [
         {
@@ -852,29 +967,49 @@
       "defaultDiskSize": "26GB"
     },
     {
-      "name": "dolphin-mixtral",
-      "fullName": "dolphin-mixtral",
-      "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
-      "modelSize": "8x7b",
+      "name": "olmo2",
+      "fullName": "olmo2",
+      "description": "OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.",
+      "modelSize": "7b",
       "tags": [
-        "8x7b",
-        "8x22b"
+        "7b",
+        "13b"
       ],
-      "downloads": "515.7K",
+      "downloads": "588.7K",
       "lastUpdated": "2 months ago",
-      "runCommand": "ollama run dolphin-mixtral",
+      "runCommand": "ollama run olmo2",
       "parameterVersions": [
         {
-          "size": "8x7b",
-          "diskSize": "26GB"
+          "size": "7b",
+          "diskSize": "4.5GB"
         },
         {
-          "size": "8x22b",
-          "diskSize": "80GB"
+          "size": "13b",
+          "diskSize": "8.4GB"
         }
       ],
-      "defaultSize": "8x7b",
-      "defaultDiskSize": "26GB"
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.5GB"
+    },
+    {
+      "name": "llava-llama3",
+      "fullName": "llava-llama3",
+      "description": "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.",
+      "modelSize": "8b",
+      "tags": [
+        "8b"
+      ],
+      "downloads": "575.9K",
+      "lastUpdated": "11 months ago",
+      "runCommand": "ollama run llava-llama3",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "5.5GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "5.5GB"
     },
     {
       "name": "codegemma",
@@ -885,8 +1020,8 @@
         "2b",
         "7b"
       ],
-      "downloads": "504.8K",
-      "lastUpdated": "7 months ago",
+      "downloads": "556.9K",
+      "lastUpdated": "8 months ago",
       "runCommand": "ollama run codegemma",
       "parameterVersions": [
         {
@@ -902,6 +1037,31 @@
       "defaultDiskSize": "1.6GB"
     },
     {
+      "name": "dolphin-mixtral",
+      "fullName": "dolphin-mixtral",
+      "description": "Uncensored, 8x7b and 8x22b fine-tuned models based on the Mixtral mixture of experts models that excels at coding tasks. Created by Eric Hartford.",
+      "modelSize": "8x7b",
+      "tags": [
+        "8x7b",
+        "8x22b"
+      ],
+      "downloads": "533.1K",
+      "lastUpdated": "3 months ago",
+      "runCommand": "ollama run dolphin-mixtral",
+      "parameterVersions": [
+        {
+          "size": "8x7b",
+          "diskSize": "26GB"
+        },
+        {
+          "size": "8x22b",
+          "diskSize": "80GB"
+        }
+      ],
+      "defaultSize": "8x7b",
+      "defaultDiskSize": "26GB"
+    },
+    {
       "name": "openthinker",
       "fullName": "openthinker",
       "description": "A fully open-source family of reasoning models built using a dataset derived by distilling DeepSeek-R1.",
@@ -910,8 +1070,8 @@
         "7b",
         "32b"
       ],
-      "downloads": "503.8K",
-      "lastUpdated": "2 weeks ago",
+      "downloads": "516.5K",
+      "lastUpdated": "4 hours ago",
       "runCommand": "ollama run openthinker",
       "parameterVersions": [
         {
@@ -934,8 +1094,8 @@
       "tags": [
         "2.7b"
       ],
-      "downloads": "492.4K",
-      "lastUpdated": "13 months ago",
+      "downloads": "506.5K",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run phi",
       "parameterVersions": [
         {
@@ -947,136 +1107,6 @@
       "defaultDiskSize": "1.6GB"
     },
     {
-      "name": "bge-m3",
-      "fullName": "bge-m3",
-      "description": "BGE-M3 is a new model from BAAI distinguished for its versatility in Multi-Functionality, Multi-Linguality, and Multi-Granularity.",
-      "modelSize": "567m",
-      "tags": [
-        "567m"
-      ],
-      "downloads": "473K",
-      "lastUpdated": "6 months ago",
-      "runCommand": "ollama run bge-m3",
-      "parameterVersions": [
-        {
-          "size": "567m",
-          "diskSize": "1.2GB"
-        }
-      ],
-      "defaultSize": "567m",
-      "defaultDiskSize": "1.2GB"
-    },
-    {
-      "name": "minicpm-v",
-      "fullName": "minicpm-v",
-      "description": "A series of multimodal LLMs (MLLMs) designed for vision-language understanding.",
-      "modelSize": "8b",
-      "tags": [
-        "8b"
-      ],
-      "downloads": "400.1K",
-      "lastUpdated": "3 months ago",
-      "runCommand": "ollama run minicpm-v",
-      "parameterVersions": [
-        {
-          "size": "8b",
-          "diskSize": "5.5GB"
-        }
-      ],
-      "defaultSize": "8b",
-      "defaultDiskSize": "5.5GB"
-    },
-    {
-      "name": "llava-llama3",
-      "fullName": "llava-llama3",
-      "description": "A LLaVA model fine-tuned from Llama 3 Instruct with better scores in several benchmarks.",
-      "modelSize": "8b",
-      "tags": [
-        "8b"
-      ],
-      "downloads": "376.2K",
-      "lastUpdated": "9 months ago",
-      "runCommand": "ollama run llava-llama3",
-      "parameterVersions": [
-        {
-          "size": "8b",
-          "diskSize": "5.5GB"
-        }
-      ],
-      "defaultSize": "8b",
-      "defaultDiskSize": "5.5GB"
-    },
-    {
-      "name": "wizardlm2",
-      "fullName": "wizardlm2",
-      "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
-      "modelSize": "7b",
-      "tags": [
-        "7b",
-        "8x22b"
-      ],
-      "downloads": "354.9K",
-      "lastUpdated": "10 months ago",
-      "runCommand": "ollama run wizardlm2",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "4.1GB"
-        },
-        {
-          "size": "8x22b",
-          "diskSize": "80GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.1GB"
-    },
-    {
-      "name": "dolphin-mistral",
-      "fullName": "dolphin-mistral",
-      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
-      "modelSize": "7b",
-      "tags": [
-        "7b"
-      ],
-      "downloads": "322.1K",
-      "lastUpdated": "11 months ago",
-      "runCommand": "ollama run dolphin-mistral",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "4.1GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.1GB"
-    },
-    {
-      "name": "all-minilm",
-      "fullName": "all-minilm",
-      "description": "Embedding models on very large sentence level datasets.",
-      "modelSize": "22m",
-      "tags": [
-        "22m",
-        "33m"
-      ],
-      "downloads": "301K",
-      "lastUpdated": "9 months ago",
-      "runCommand": "ollama run all-minilm",
-      "parameterVersions": [
-        {
-          "size": "22m",
-          "diskSize": "46MB"
-        },
-        {
-          "size": "33m",
-          "diskSize": "67MB"
-        }
-      ],
-      "defaultSize": "22m",
-      "defaultDiskSize": "46MB"
-    },
-    {
       "name": "smollm2",
       "fullName": "smollm2",
       "description": "SmolLM2 is a family of compact language models available in three size: 135M, 360M, and 1.7B parameters.",
@@ -1086,8 +1116,8 @@
         "360m",
         "1.7b"
       ],
-      "downloads": "298K",
-      "lastUpdated": "3 months ago",
+      "downloads": "500.5K",
+      "lastUpdated": "5 months ago",
       "runCommand": "ollama run smollm2",
       "parameterVersions": [
         {
@@ -1107,6 +1137,101 @@
       "defaultDiskSize": "271MB"
     },
     {
+      "name": "mistral-small",
+      "fullName": "mistral-small",
+      "description": "Mistral Small 3 sets a new benchmark in the “small” Large Language Models category below 70B.",
+      "modelSize": "22b",
+      "tags": [
+        "22b",
+        "24b"
+      ],
+      "downloads": "440.6K",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run mistral-small",
+      "parameterVersions": [
+        {
+          "size": "22b",
+          "diskSize": "13GB"
+        },
+        {
+          "size": "24b",
+          "diskSize": "14GB"
+        }
+      ],
+      "defaultSize": "22b",
+      "defaultDiskSize": "13GB"
+    },
+    {
+      "name": "wizardlm2",
+      "fullName": "wizardlm2",
+      "description": "State of the art large language model from Microsoft AI with improved performance on complex chat, multilingual, reasoning and agent use cases.",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "8x22b"
+      ],
+      "downloads": "360.1K",
+      "lastUpdated": "11 months ago",
+      "runCommand": "ollama run wizardlm2",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        },
+        {
+          "size": "8x22b",
+          "diskSize": "80GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "all-minilm",
+      "fullName": "all-minilm",
+      "description": "Embedding models on very large sentence level datasets.",
+      "modelSize": "22m",
+      "tags": [
+        "22m",
+        "33m"
+      ],
+      "downloads": "358.5K",
+      "lastUpdated": "11 months ago",
+      "runCommand": "ollama run all-minilm",
+      "parameterVersions": [
+        {
+          "size": "22m",
+          "diskSize": "46MB"
+        },
+        {
+          "size": "33m",
+          "diskSize": "67MB"
+        }
+      ],
+      "defaultSize": "22m",
+      "defaultDiskSize": "46MB"
+    },
+    {
+      "name": "dolphin-mistral",
+      "fullName": "dolphin-mistral",
+      "description": "The uncensored Dolphin model based on Mistral that excels at coding tasks. Updated to version 2.8.",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "332.6K",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run dolphin-mistral",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
       "name": "dolphin-llama3",
       "fullName": "dolphin-llama3",
       "description": "Dolphin 2.9 is a new model with 8B and 70B sizes by Eric Hartford based on Llama 3 that has a variety of instruction, conversational, and coding skills.",
@@ -1115,8 +1240,8 @@
         "8b",
         "70b"
       ],
-      "downloads": "287K",
-      "lastUpdated": "9 months ago",
+      "downloads": "306.2K",
+      "lastUpdated": "10 months ago",
       "runCommand": "ollama run dolphin-llama3",
       "parameterVersions": [
         {
@@ -1132,26 +1257,6 @@
       "defaultDiskSize": "4.7GB"
     },
     {
-      "name": "command-r",
-      "fullName": "command-r",
-      "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
-      "modelSize": "35b",
-      "tags": [
-        "35b"
-      ],
-      "downloads": "281K",
-      "lastUpdated": "6 months ago",
-      "runCommand": "ollama run command-r",
-      "parameterVersions": [
-        {
-          "size": "35b",
-          "diskSize": "19GB"
-        }
-      ],
-      "defaultSize": "35b",
-      "defaultDiskSize": "19GB"
-    },
-    {
       "name": "orca-mini",
       "fullName": "orca-mini",
       "description": "A general-purpose model ranging from 3 billion parameters to 70 billion, suitable for entry-level hardware.",
@@ -1162,8 +1267,8 @@
         "13b",
         "70b"
       ],
-      "downloads": "275.2K",
-      "lastUpdated": "16 months ago",
+      "downloads": "305.8K",
+      "lastUpdated": "17 months ago",
       "runCommand": "ollama run orca-mini",
       "parameterVersions": [
         {
@@ -1187,6 +1292,26 @@
       "defaultDiskSize": "2.0GB"
     },
     {
+      "name": "command-r",
+      "fullName": "command-r",
+      "description": "Command R is a Large Language Model optimized for conversational interaction and long context tasks.",
+      "modelSize": "35b",
+      "tags": [
+        "35b"
+      ],
+      "downloads": "288.2K",
+      "lastUpdated": "7 months ago",
+      "runCommand": "ollama run command-r",
+      "parameterVersions": [
+        {
+          "size": "35b",
+          "diskSize": "19GB"
+        }
+      ],
+      "defaultSize": "35b",
+      "defaultDiskSize": "19GB"
+    },
+    {
       "name": "yi",
       "fullName": "yi",
       "description": "Yi 1.5 is a high-performing, bilingual language model.",
@@ -1196,8 +1321,8 @@
         "9b",
         "34b"
       ],
-      "downloads": "265.6K",
-      "lastUpdated": "9 months ago",
+      "downloads": "271.6K",
+      "lastUpdated": "10 months ago",
       "runCommand": "ollama run yi",
       "parameterVersions": [
         {
@@ -1227,8 +1352,8 @@
         "70b",
         "405b"
       ],
-      "downloads": "260.3K",
-      "lastUpdated": "2 months ago",
+      "downloads": "270.9K",
+      "lastUpdated": "3 months ago",
       "runCommand": "ollama run hermes3",
       "parameterVersions": [
         {
@@ -1252,26 +1377,6 @@
       "defaultDiskSize": "2.0GB"
     },
     {
-      "name": "dolphin3",
-      "fullName": "dolphin3",
-      "description": "Dolphin 3.0 Llama 3.1 8B 🐬 is the next generation of the Dolphin series of instruct-tuned models designed to be the ultimate general purpose local model, enabling coding, math, agentic, function calling, and general use cases.",
-      "modelSize": "8b",
-      "tags": [
-        "8b"
-      ],
-      "downloads": "254.1K",
-      "lastUpdated": "7 weeks ago",
-      "runCommand": "ollama run dolphin3",
-      "parameterVersions": [
-        {
-          "size": "8b",
-          "diskSize": "4.9GB"
-        }
-      ],
-      "defaultSize": "8b",
-      "defaultDiskSize": "4.9GB"
-    },
-    {
       "name": "phi3.5",
       "fullName": "phi3.5",
       "description": "A lightweight AI model with 3.8 billion parameters with performance overtaking similarly and larger sized models.",
@@ -1279,8 +1384,8 @@
       "tags": [
         "3.8b"
       ],
-      "downloads": "244.6K",
-      "lastUpdated": "5 months ago",
+      "downloads": "259K",
+      "lastUpdated": "7 months ago",
       "runCommand": "ollama run phi3.5",
       "parameterVersions": [
         {
@@ -1300,8 +1405,8 @@
         "7b",
         "141b"
       ],
-      "downloads": "237K",
-      "lastUpdated": "10 months ago",
+      "downloads": "241.6K",
+      "lastUpdated": "11 months ago",
       "runCommand": "ollama run zephyr",
       "parameterVersions": [
         {
@@ -1317,56 +1422,6 @@
       "defaultDiskSize": "4.1GB"
     },
     {
-      "name": "olmo2",
-      "fullName": "olmo2",
-      "description": "OLMo 2 is a new family of 7B and 13B models trained on up to 5T tokens. These models are on par with or better than equivalently sized fully open models, and competitive with open-weight models such as Llama 3.1 on English academic benchmarks.",
-      "modelSize": "7b",
-      "tags": [
-        "7b",
-        "13b"
-      ],
-      "downloads": "223.3K",
-      "lastUpdated": "6 weeks ago",
-      "runCommand": "ollama run olmo2",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "4.5GB"
-        },
-        {
-          "size": "13b",
-          "diskSize": "8.4GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.5GB"
-    },
-    {
-      "name": "mistral-small",
-      "fullName": "mistral-small",
-      "description": "Mistral Small 3 sets a new benchmark in the “small” Large Language Models category below 70B.",
-      "modelSize": "22b",
-      "tags": [
-        "22b",
-        "24b"
-      ],
-      "downloads": "222.3K",
-      "lastUpdated": "4 weeks ago",
-      "runCommand": "ollama run mistral-small",
-      "parameterVersions": [
-        {
-          "size": "22b",
-          "diskSize": "13GB"
-        },
-        {
-          "size": "24b",
-          "diskSize": "14GB"
-        }
-      ],
-      "defaultSize": "22b",
-      "defaultDiskSize": "13GB"
-    },
-    {
       "name": "codestral",
       "fullName": "codestral",
       "description": "Codestral is Mistral AI’s first-ever code model designed for code generation tasks.",
@@ -1374,8 +1429,8 @@
       "tags": [
         "22b"
       ],
-      "downloads": "221.5K",
-      "lastUpdated": "5 months ago",
+      "downloads": "240.4K",
+      "lastUpdated": "7 months ago",
       "runCommand": "ollama run codestral",
       "parameterVersions": [
         {
@@ -1385,6 +1440,36 @@
       ],
       "defaultSize": "22b",
       "defaultDiskSize": "13GB"
+    },
+    {
+      "name": "smollm",
+      "fullName": "smollm",
+      "description": "🪐 A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.",
+      "modelSize": "135m",
+      "tags": [
+        "135m",
+        "360m",
+        "1.7b"
+      ],
+      "downloads": "208.8K",
+      "lastUpdated": "7 months ago",
+      "runCommand": "ollama run smollm",
+      "parameterVersions": [
+        {
+          "size": "135m",
+          "diskSize": "92MB"
+        },
+        {
+          "size": "360m",
+          "diskSize": "229MB"
+        },
+        {
+          "size": "1.7b",
+          "diskSize": "991MB"
+        }
+      ],
+      "defaultSize": "135m",
+      "defaultDiskSize": "92MB"
     },
     {
       "name": "granite-code",
@@ -1397,8 +1482,8 @@
         "20b",
         "34b"
       ],
-      "downloads": "188.5K",
-      "lastUpdated": "5 months ago",
+      "downloads": "197.6K",
+      "lastUpdated": "7 months ago",
       "runCommand": "ollama run granite-code",
       "parameterVersions": [
         {
@@ -1422,6 +1507,36 @@
       "defaultDiskSize": "2.0GB"
     },
     {
+      "name": "wizard-vicuna-uncensored",
+      "fullName": "wizard-vicuna-uncensored",
+      "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b",
+        "30b"
+      ],
+      "downloads": "191.7K",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run wizard-vicuna-uncensored",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        },
+        {
+          "size": "30b",
+          "diskSize": "18GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
       "name": "starcoder",
       "fullName": "starcoder",
       "description": "StarCoder is a code generation model trained on 80+ programming languages.",
@@ -1432,8 +1547,8 @@
         "7b",
         "15b"
       ],
-      "downloads": "186K",
-      "lastUpdated": "16 months ago",
+      "downloads": "190.9K",
+      "lastUpdated": "17 months ago",
       "runCommand": "ollama run starcoder",
       "parameterVersions": [
         {
@@ -1457,66 +1572,6 @@
       "defaultDiskSize": "726MB"
     },
     {
-      "name": "smollm",
-      "fullName": "smollm",
-      "description": "🪐 A family of small models with 135M, 360M, and 1.7B parameters, trained on a new high-quality dataset.",
-      "modelSize": "135m",
-      "tags": [
-        "135m",
-        "360m",
-        "1.7b"
-      ],
-      "downloads": "180.3K",
-      "lastUpdated": "6 months ago",
-      "runCommand": "ollama run smollm",
-      "parameterVersions": [
-        {
-          "size": "135m",
-          "diskSize": "92MB"
-        },
-        {
-          "size": "360m",
-          "diskSize": "229MB"
-        },
-        {
-          "size": "1.7b",
-          "diskSize": "991MB"
-        }
-      ],
-      "defaultSize": "135m",
-      "defaultDiskSize": "92MB"
-    },
-    {
-      "name": "wizard-vicuna-uncensored",
-      "fullName": "wizard-vicuna-uncensored",
-      "description": "Wizard Vicuna Uncensored is a 7B, 13B, and 30B parameter model based on Llama 2 uncensored by Eric Hartford.",
-      "modelSize": "7b",
-      "tags": [
-        "7b",
-        "13b",
-        "30b"
-      ],
-      "downloads": "179.4K",
-      "lastUpdated": "16 months ago",
-      "runCommand": "ollama run wizard-vicuna-uncensored",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "3.8GB"
-        },
-        {
-          "size": "13b",
-          "diskSize": "7.4GB"
-        },
-        {
-          "size": "30b",
-          "diskSize": "18GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "3.8GB"
-    },
-    {
       "name": "vicuna",
       "fullName": "vicuna",
       "description": "General use chat model based on Llama and Llama 2 with 2K to 16K context sizes.",
@@ -1526,8 +1581,8 @@
         "13b",
         "33b"
       ],
-      "downloads": "175.1K",
-      "lastUpdated": "16 months ago",
+      "downloads": "178.4K",
+      "lastUpdated": "17 months ago",
       "runCommand": "ollama run vicuna",
       "parameterVersions": [
         {
@@ -1554,8 +1609,8 @@
       "tags": [
         "7b"
       ],
-      "downloads": "166.2K",
-      "lastUpdated": "16 months ago",
+      "downloads": "168.3K",
+      "lastUpdated": "18 months ago",
       "runCommand": "ollama run mistral-openorca",
       "parameterVersions": [
         {
@@ -1567,24 +1622,24 @@
       "defaultDiskSize": "4.1GB"
     },
     {
-      "name": "qwq",
-      "fullName": "qwq",
-      "description": "QwQ is an experimental research model focused on advancing AI reasoning capabilities.",
-      "modelSize": "32b",
+      "name": "moondream",
+      "fullName": "moondream",
+      "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
+      "modelSize": "1.8b",
       "tags": [
-        "32b"
+        "1.8b"
       ],
-      "downloads": "162.8K",
-      "lastUpdated": "3 months ago",
-      "runCommand": "ollama run qwq",
+      "downloads": "163.2K",
+      "lastUpdated": "11 months ago",
+      "runCommand": "ollama run moondream",
       "parameterVersions": [
         {
-          "size": "32b",
-          "diskSize": "20GB"
+          "size": "1.8b",
+          "diskSize": "1.7GB"
         }
       ],
-      "defaultSize": "32b",
-      "defaultDiskSize": "20GB"
+      "defaultSize": "1.8b",
+      "defaultDiskSize": "1.7GB"
     },
     {
       "name": "llama2-chinese",
@@ -1595,8 +1650,8 @@
         "7b",
         "13b"
       ],
-      "downloads": "149K",
-      "lastUpdated": "16 months ago",
+      "downloads": "151.2K",
+      "lastUpdated": "17 months ago",
       "runCommand": "ollama run llama2-chinese",
       "parameterVersions": [
         {
@@ -1619,8 +1674,8 @@
       "tags": [
         "7b"
       ],
-      "downloads": "143.4K",
-      "lastUpdated": "13 months ago",
+      "downloads": "149.6K",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run openchat",
       "parameterVersions": [
         {
@@ -1639,8 +1694,8 @@
       "tags": [
         "9b"
       ],
-      "downloads": "137.8K",
-      "lastUpdated": "7 months ago",
+      "downloads": "141.5K",
+      "lastUpdated": "9 months ago",
       "runCommand": "ollama run codegeex4",
       "parameterVersions": [
         {
@@ -1660,8 +1715,8 @@
         "8b",
         "35b"
       ],
-      "downloads": "134.6K",
-      "lastUpdated": "9 months ago",
+      "downloads": "139.2K",
+      "lastUpdated": "10 months ago",
       "runCommand": "ollama run aya",
       "parameterVersions": [
         {
@@ -1684,8 +1739,8 @@
       "tags": [
         "7b"
       ],
-      "downloads": "130.2K",
-      "lastUpdated": "8 months ago",
+      "downloads": "138.5K",
+      "lastUpdated": "9 months ago",
       "runCommand": "ollama run codeqwen",
       "parameterVersions": [
         {
@@ -1697,6 +1752,26 @@
       "defaultDiskSize": "4.2GB"
     },
     {
+      "name": "openhermes",
+      "fullName": "openhermes",
+      "description": "OpenHermes 2.5 is a 7B model fine-tuned by Teknium on Mistral with fully open datasets.",
+      "modelSize": "latest",
+      "tags": [
+        "latest"
+      ],
+      "downloads": "138K",
+      "lastUpdated": "15 months ago",
+      "runCommand": "ollama run openhermes",
+      "parameterVersions": [
+        {
+          "size": "latest",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "latest",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
       "name": "deepseek-llm",
       "fullName": "deepseek-llm",
       "description": "An advanced language model crafted with 2 trillion bilingual tokens.",
@@ -1705,8 +1780,8 @@
         "7b",
         "67b"
       ],
-      "downloads": "129.3K",
-      "lastUpdated": "14 months ago",
+      "downloads": "137.9K",
+      "lastUpdated": "16 months ago",
       "runCommand": "ollama run deepseek-llm",
       "parameterVersions": [
         {
@@ -1730,8 +1805,8 @@
         "16b",
         "236b"
       ],
-      "downloads": "123.3K",
-      "lastUpdated": "8 months ago",
+      "downloads": "135.7K",
+      "lastUpdated": "9 months ago",
       "runCommand": "ollama run deepseek-v2",
       "parameterVersions": [
         {
@@ -1754,8 +1829,8 @@
       "tags": [
         "123b"
       ],
-      "downloads": "123.2K",
-      "lastUpdated": "3 months ago",
+      "downloads": "129.2K",
+      "lastUpdated": "4 months ago",
       "runCommand": "ollama run mistral-large",
       "parameterVersions": [
         {
@@ -1774,8 +1849,8 @@
       "tags": [
         "9b"
       ],
-      "downloads": "121.4K",
-      "lastUpdated": "7 months ago",
+      "downloads": "126.8K",
+      "lastUpdated": "9 months ago",
       "runCommand": "ollama run glm4",
       "parameterVersions": [
         {
@@ -1787,6 +1862,46 @@
       "defaultDiskSize": "5.5GB"
     },
     {
+      "name": "stable-code",
+      "fullName": "stable-code",
+      "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
+      "modelSize": "3b",
+      "tags": [
+        "3b"
+      ],
+      "downloads": "125.2K",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run stable-code",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "1.6GB"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "tinydolphin",
+      "fullName": "tinydolphin",
+      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
+      "modelSize": "1.1b",
+      "tags": [
+        "1.1b"
+      ],
+      "downloads": "123.3K",
+      "lastUpdated": "14 months ago",
+      "runCommand": "ollama run tinydolphin",
+      "parameterVersions": [
+        {
+          "size": "1.1b",
+          "diskSize": "637MB"
+        }
+      ],
+      "defaultSize": "1.1b",
+      "defaultDiskSize": "637MB"
+    },
+    {
       "name": "nous-hermes2",
       "fullName": "nous-hermes2",
       "description": "The powerful family of models by Nous Research that excels at scientific discussion and coding tasks.",
@@ -1795,8 +1910,8 @@
         "10.7b",
         "34b"
       ],
-      "downloads": "121.3K",
-      "lastUpdated": "14 months ago",
+      "downloads": "123.3K",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run nous-hermes2",
       "parameterVersions": [
         {
@@ -1812,46 +1927,6 @@
       "defaultDiskSize": "6.1GB"
     },
     {
-      "name": "stable-code",
-      "fullName": "stable-code",
-      "description": "Stable Code 3B is a coding model with instruct and code completion variants on par with models such as Code Llama 7B that are 2.5x larger.",
-      "modelSize": "3b",
-      "tags": [
-        "3b"
-      ],
-      "downloads": "120.5K",
-      "lastUpdated": "11 months ago",
-      "runCommand": "ollama run stable-code",
-      "parameterVersions": [
-        {
-          "size": "3b",
-          "diskSize": "1.6GB"
-        }
-      ],
-      "defaultSize": "3b",
-      "defaultDiskSize": "1.6GB"
-    },
-    {
-      "name": "openhermes",
-      "fullName": "openhermes",
-      "description": "OpenHermes 2.5 is a 7B model fine-tuned by Teknium on Mistral with fully open datasets.",
-      "modelSize": "latest",
-      "tags": [
-        "latest"
-      ],
-      "downloads": "120.2K",
-      "lastUpdated": "14 months ago",
-      "runCommand": "ollama run openhermes",
-      "parameterVersions": [
-        {
-          "size": "latest",
-          "diskSize": "4.1GB"
-        }
-      ],
-      "defaultSize": "latest",
-      "defaultDiskSize": "4.1GB"
-    },
-    {
       "name": "qwen2-math",
       "fullName": "qwen2-math",
       "description": "Qwen2 Math is a series of specialized math language models built upon the Qwen2 LLMs, which significantly outperforms the mathematical capabilities of open-source models and even closed-source models (e.g., GPT4o).",
@@ -1861,8 +1936,8 @@
         "7b",
         "72b"
       ],
-      "downloads": "119K",
-      "lastUpdated": "6 months ago",
+      "downloads": "123.2K",
+      "lastUpdated": "7 months ago",
       "runCommand": "ollama run qwen2-math",
       "parameterVersions": [
         {
@@ -1889,8 +1964,8 @@
       "tags": [
         "104b"
       ],
-      "downloads": "118.8K",
-      "lastUpdated": "6 months ago",
+      "downloads": "121.6K",
+      "lastUpdated": "7 months ago",
       "runCommand": "ollama run command-r-plus",
       "parameterVersions": [
         {
@@ -1902,26 +1977,6 @@
       "defaultDiskSize": "59GB"
     },
     {
-      "name": "tinydolphin",
-      "fullName": "tinydolphin",
-      "description": "An experimental 1.1B parameter model trained on the new Dolphin 2.8 dataset by Eric Hartford and based on TinyLlama.",
-      "modelSize": "1.1b",
-      "tags": [
-        "1.1b"
-      ],
-      "downloads": "118.8K",
-      "lastUpdated": "13 months ago",
-      "runCommand": "ollama run tinydolphin",
-      "parameterVersions": [
-        {
-          "size": "1.1b",
-          "diskSize": "637MB"
-        }
-      ],
-      "defaultSize": "1.1b",
-      "defaultDiskSize": "637MB"
-    },
-    {
       "name": "wizardcoder",
       "fullName": "wizardcoder",
       "description": "State-of-the-art code generation model",
@@ -1929,8 +1984,8 @@
       "tags": [
         "33b"
       ],
-      "downloads": "116.2K",
-      "lastUpdated": "13 months ago",
+      "downloads": "119.2K",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run wizardcoder",
       "parameterVersions": [
         {
@@ -1942,26 +1997,6 @@
       "defaultDiskSize": "19GB"
     },
     {
-      "name": "moondream",
-      "fullName": "moondream",
-      "description": "moondream2 is a small vision language model designed to run efficiently on edge devices.",
-      "modelSize": "1.8b",
-      "tags": [
-        "1.8b"
-      ],
-      "downloads": "110.1K",
-      "lastUpdated": "9 months ago",
-      "runCommand": "ollama run moondream",
-      "parameterVersions": [
-        {
-          "size": "1.8b",
-          "diskSize": "1.7GB"
-        }
-      ],
-      "defaultSize": "1.8b",
-      "defaultDiskSize": "1.7GB"
-    },
-    {
       "name": "bakllava",
       "fullName": "bakllava",
       "description": "BakLLaVA is a multimodal model consisting of the Mistral 7B base model augmented with the LLaVA architecture.",
@@ -1969,8 +2004,8 @@
       "tags": [
         "7b"
       ],
-      "downloads": "108.4K",
-      "lastUpdated": "14 months ago",
+      "downloads": "112.5K",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run bakllava",
       "parameterVersions": [
         {
@@ -1990,8 +2025,8 @@
         "1.6b",
         "12b"
       ],
-      "downloads": "107K",
-      "lastUpdated": "9 months ago",
+      "downloads": "109.9K",
+      "lastUpdated": "11 months ago",
       "runCommand": "ollama run stablelm2",
       "parameterVersions": [
         {
@@ -2014,8 +2049,8 @@
       "tags": [
         "7b"
       ],
-      "downloads": "103.4K",
-      "lastUpdated": "14 months ago",
+      "downloads": "106.9K",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run neural-chat",
       "parameterVersions": [
         {
@@ -2034,8 +2069,8 @@
       "tags": [
         "70b"
       ],
-      "downloads": "103K",
-      "lastUpdated": "5 months ago",
+      "downloads": "104.2K",
+      "lastUpdated": "6 months ago",
       "runCommand": "ollama run reflection",
       "parameterVersions": [
         {
@@ -2056,8 +2091,8 @@
         "13b",
         "70b"
       ],
-      "downloads": "100K",
-      "lastUpdated": "14 months ago",
+      "downloads": "102.3K",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run wizard-math",
       "parameterVersions": [
         {
@@ -2077,6 +2112,31 @@
       "defaultDiskSize": "4.1GB"
     },
     {
+      "name": "llama3-chatqa",
+      "fullName": "llama3-chatqa",
+      "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
+      "modelSize": "8b",
+      "tags": [
+        "8b",
+        "70b"
+      ],
+      "downloads": "100.1K",
+      "lastUpdated": "10 months ago",
+      "runCommand": "ollama run llama3-chatqa",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "40GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
       "name": "llama3-gradient",
       "fullName": "llama3-gradient",
       "description": "This model extends LLama-3 8B's context length from 8k to over 1m tokens.",
@@ -2086,8 +2146,8 @@
         "8b",
         "70b"
       ],
-      "downloads": "97.4K",
-      "lastUpdated": "9 months ago",
+      "downloads": "99.4K",
+      "lastUpdated": "11 months ago",
       "runCommand": "ollama run llama3-gradient",
       "parameterVersions": [
         {
@@ -2107,31 +2167,6 @@
       "defaultDiskSize": "4.7GB"
     },
     {
-      "name": "llama3-chatqa",
-      "fullName": "llama3-chatqa",
-      "description": "A model from NVIDIA based on Llama 3 that excels at conversational question answering (QA) and retrieval-augmented generation (RAG).",
-      "modelSize": "8b",
-      "tags": [
-        "8b",
-        "70b"
-      ],
-      "downloads": "95.5K",
-      "lastUpdated": "9 months ago",
-      "runCommand": "ollama run llama3-chatqa",
-      "parameterVersions": [
-        {
-          "size": "8b",
-          "diskSize": "4.7GB"
-        },
-        {
-          "size": "70b",
-          "diskSize": "40GB"
-        }
-      ],
-      "defaultSize": "8b",
-      "defaultDiskSize": "4.7GB"
-    },
-    {
       "name": "sqlcoder",
       "fullName": "sqlcoder",
       "description": "SQLCoder is a code completion model fined-tuned on StarCoder for SQL generation tasks",
@@ -2140,8 +2175,8 @@
         "7b",
         "15b"
       ],
-      "downloads": "91.6K",
-      "lastUpdated": "13 months ago",
+      "downloads": "98.9K",
+      "lastUpdated": "14 months ago",
       "runCommand": "ollama run sqlcoder",
       "parameterVersions": [
         {
@@ -2164,8 +2199,8 @@
       "tags": [
         "335m"
       ],
-      "downloads": "84.3K",
-      "lastUpdated": "6 months ago",
+      "downloads": "95.2K",
+      "lastUpdated": "8 months ago",
       "runCommand": "ollama run bge-large",
       "parameterVersions": [
         {
@@ -2177,29 +2212,69 @@
       "defaultDiskSize": "671MB"
     },
     {
-      "name": "xwinlm",
-      "fullName": "xwinlm",
-      "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
+      "name": "phi4-mini",
+      "fullName": "phi4-mini",
+      "description": "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported.",
+      "modelSize": "3.8b",
+      "tags": [
+        "3.8b"
+      ],
+      "downloads": "93.7K",
+      "lastUpdated": "5 weeks ago",
+      "runCommand": "ollama run phi4-mini",
+      "parameterVersions": [
+        {
+          "size": "3.8b",
+          "diskSize": "2.5GB"
+        }
+      ],
+      "defaultSize": "3.8b",
+      "defaultDiskSize": "2.5GB"
+    },
+    {
+      "name": "samantha-mistral",
+      "fullName": "samantha-mistral",
+      "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
       "modelSize": "7b",
       "tags": [
-        "7b",
-        "13b"
+        "7b"
       ],
-      "downloads": "84K",
-      "lastUpdated": "16 months ago",
-      "runCommand": "ollama run xwinlm",
+      "downloads": "91.3K",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run samantha-mistral",
       "parameterVersions": [
         {
           "size": "7b",
-          "diskSize": "3.8GB"
-        },
-        {
-          "size": "13b",
-          "diskSize": "7.4GB"
+          "diskSize": "4.1GB"
         }
       ],
       "defaultSize": "7b",
-      "defaultDiskSize": "3.8GB"
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "granite3.1-dense",
+      "fullName": "granite3.1-dense",
+      "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "8b"
+      ],
+      "downloads": "87.4K",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run granite3.1-dense",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "1.6GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "5.0GB"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "1.6GB"
     },
     {
       "name": "dolphincoder",
@@ -2210,8 +2285,8 @@
         "7b",
         "15b"
       ],
-      "downloads": "83.2K",
-      "lastUpdated": "10 months ago",
+      "downloads": "86.1K",
+      "lastUpdated": "12 months ago",
       "runCommand": "ollama run dolphincoder",
       "parameterVersions": [
         {
@@ -2227,6 +2302,51 @@
       "defaultDiskSize": "4.2GB"
     },
     {
+      "name": "xwinlm",
+      "fullName": "xwinlm",
+      "description": "Conversational model based on Llama 2 that performs competitively on various benchmarks.",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b"
+      ],
+      "downloads": "85.1K",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run xwinlm",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "llava-phi3",
+      "fullName": "llava-phi3",
+      "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
+      "modelSize": "3.8b",
+      "tags": [
+        "3.8b"
+      ],
+      "downloads": "85K",
+      "lastUpdated": "11 months ago",
+      "runCommand": "ollama run llava-phi3",
+      "parameterVersions": [
+        {
+          "size": "3.8b",
+          "diskSize": "2.9GB"
+        }
+      ],
+      "defaultSize": "3.8b",
+      "defaultDiskSize": "2.9GB"
+    },
+    {
       "name": "nous-hermes",
       "fullName": "nous-hermes",
       "description": "General use models based on Llama and Llama 2 from Nous Research.",
@@ -2235,8 +2355,8 @@
         "7b",
         "13b"
       ],
-      "downloads": "81.8K",
-      "lastUpdated": "16 months ago",
+      "downloads": "83.6K",
+      "lastUpdated": "17 months ago",
       "runCommand": "ollama run nous-hermes",
       "parameterVersions": [
         {
@@ -2259,8 +2379,8 @@
       "tags": [
         "34b"
       ],
-      "downloads": "81K",
-      "lastUpdated": "14 months ago",
+      "downloads": "82.5K",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run phind-codellama",
       "parameterVersions": [
         {
@@ -2272,24 +2392,44 @@
       "defaultDiskSize": "19GB"
     },
     {
-      "name": "llava-phi3",
-      "fullName": "llava-phi3",
-      "description": "A new small LLaVA model fine-tuned from Phi 3 Mini.",
-      "modelSize": "3.8b",
+      "name": "starling-lm",
+      "fullName": "starling-lm",
+      "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
+      "modelSize": "7b",
       "tags": [
-        "3.8b"
+        "7b"
       ],
-      "downloads": "79.1K",
-      "lastUpdated": "9 months ago",
-      "runCommand": "ollama run llava-phi3",
+      "downloads": "82.3K",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run starling-lm",
       "parameterVersions": [
         {
-          "size": "3.8b",
-          "diskSize": "2.9GB"
+          "size": "7b",
+          "diskSize": "4.1GB"
         }
       ],
-      "defaultSize": "3.8b",
-      "defaultDiskSize": "2.9GB"
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "solar",
+      "fullName": "solar",
+      "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
+      "modelSize": "10.7b",
+      "tags": [
+        "10.7b"
+      ],
+      "downloads": "80.2K",
+      "lastUpdated": "15 months ago",
+      "runCommand": "ollama run solar",
+      "parameterVersions": [
+        {
+          "size": "10.7b",
+          "diskSize": "6.1GB"
+        }
+      ],
+      "defaultSize": "10.7b",
+      "defaultDiskSize": "6.1GB"
     },
     {
       "name": "yarn-llama2",
@@ -2300,8 +2440,8 @@
         "7b",
         "13b"
       ],
-      "downloads": "78.4K",
-      "lastUpdated": "16 months ago",
+      "downloads": "79.6K",
+      "lastUpdated": "17 months ago",
       "runCommand": "ollama run yarn-llama2",
       "parameterVersions": [
         {
@@ -2317,111 +2457,6 @@
       "defaultDiskSize": "3.8GB"
     },
     {
-      "name": "solar",
-      "fullName": "solar",
-      "description": "A compact, yet powerful 10.7B large language model designed for single-turn conversation.",
-      "modelSize": "10.7b",
-      "tags": [
-        "10.7b"
-      ],
-      "downloads": "78.3K",
-      "lastUpdated": "14 months ago",
-      "runCommand": "ollama run solar",
-      "parameterVersions": [
-        {
-          "size": "10.7b",
-          "diskSize": "6.1GB"
-        }
-      ],
-      "defaultSize": "10.7b",
-      "defaultDiskSize": "6.1GB"
-    },
-    {
-      "name": "granite3.1-dense",
-      "fullName": "granite3.1-dense",
-      "description": "The IBM Granite 2B and 8B models are text-only dense LLMs trained on over 12 trillion tokens of data, demonstrated significant improvements over their predecessors in performance and speed in IBM’s initial testing.",
-      "modelSize": "2b",
-      "tags": [
-        "2b",
-        "8b"
-      ],
-      "downloads": "78K",
-      "lastUpdated": "5 weeks ago",
-      "runCommand": "ollama run granite3.1-dense",
-      "parameterVersions": [
-        {
-          "size": "2b",
-          "diskSize": "1.6GB"
-        },
-        {
-          "size": "8b",
-          "diskSize": "5.0GB"
-        }
-      ],
-      "defaultSize": "2b",
-      "defaultDiskSize": "1.6GB"
-    },
-    {
-      "name": "starling-lm",
-      "fullName": "starling-lm",
-      "description": "Starling is a large language model trained by reinforcement learning from AI feedback focused on improving chatbot helpfulness.",
-      "modelSize": "7b",
-      "tags": [
-        "7b"
-      ],
-      "downloads": "77K",
-      "lastUpdated": "11 months ago",
-      "runCommand": "ollama run starling-lm",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "4.1GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.1GB"
-    },
-    {
-      "name": "athene-v2",
-      "fullName": "athene-v2",
-      "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
-      "modelSize": "72b",
-      "tags": [
-        "72b"
-      ],
-      "downloads": "76.1K",
-      "lastUpdated": "3 months ago",
-      "runCommand": "ollama run athene-v2",
-      "parameterVersions": [
-        {
-          "size": "72b",
-          "diskSize": "47GB"
-        }
-      ],
-      "defaultSize": "72b",
-      "defaultDiskSize": "47GB"
-    },
-    {
-      "name": "wizardlm",
-      "fullName": "wizardlm",
-      "description": "General use model based on Llama 2.",
-      "modelSize": "13b-fp16",
-      "tags": [
-        "13b-fp16"
-      ],
-      "downloads": "75.6K",
-      "lastUpdated": "16 months ago",
-      "runCommand": "ollama run wizardlm",
-      "parameterVersions": [
-        {
-          "size": "13b-fp16",
-          "diskSize": "26GB"
-        }
-      ],
-      "defaultSize": "13b-fp16",
-      "defaultDiskSize": "26GB"
-    },
-    {
       "name": "yi-coder",
       "fullName": "yi-coder",
       "description": "Yi-Coder is a series of open-source code language models that delivers state-of-the-art coding performance with fewer than 10 billion parameters.",
@@ -2430,8 +2465,8 @@
         "1.5b",
         "9b"
       ],
-      "downloads": "75.6K",
-      "lastUpdated": "5 months ago",
+      "downloads": "79.3K",
+      "lastUpdated": "6 months ago",
       "runCommand": "ollama run yi-coder",
       "parameterVersions": [
         {
@@ -2447,6 +2482,26 @@
       "defaultDiskSize": "866MB"
     },
     {
+      "name": "athene-v2",
+      "fullName": "athene-v2",
+      "description": "Athene-V2 is a 72B parameter model which excels at code completion, mathematics, and log extraction tasks.",
+      "modelSize": "72b",
+      "tags": [
+        "72b"
+      ],
+      "downloads": "78.3K",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run athene-v2",
+      "parameterVersions": [
+        {
+          "size": "72b",
+          "diskSize": "47GB"
+        }
+      ],
+      "defaultSize": "72b",
+      "defaultDiskSize": "47GB"
+    },
+    {
       "name": "internlm2",
       "fullName": "internlm2",
       "description": "InternLM2.5 is a 7B parameter model tailored for practical scenarios with outstanding reasoning capability.",
@@ -2457,8 +2512,8 @@
         "7b",
         "20b"
       ],
-      "downloads": "72.8K",
-      "lastUpdated": "6 months ago",
+      "downloads": "76.3K",
+      "lastUpdated": "7 months ago",
       "runCommand": "ollama run internlm2",
       "parameterVersions": [
         {
@@ -2482,24 +2537,64 @@
       "defaultDiskSize": "4.5GB"
     },
     {
-      "name": "samantha-mistral",
-      "fullName": "samantha-mistral",
-      "description": "A companion assistant trained in philosophy, psychology, and personal relationships. Based on Mistral.",
-      "modelSize": "7b",
+      "name": "wizardlm",
+      "fullName": "wizardlm",
+      "description": "General use model based on Llama 2.",
+      "modelSize": "13b-fp16",
       "tags": [
-        "7b"
+        "13b-fp16"
       ],
-      "downloads": "72.8K",
-      "lastUpdated": "16 months ago",
-      "runCommand": "ollama run samantha-mistral",
+      "downloads": "76.2K",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run wizardlm",
       "parameterVersions": [
         {
-          "size": "7b",
-          "diskSize": "4.1GB"
+          "size": "13b-fp16",
+          "diskSize": "26GB"
         }
       ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.1GB"
+      "defaultSize": "13b-fp16",
+      "defaultDiskSize": "26GB"
+    },
+    {
+      "name": "nemotron-mini",
+      "fullName": "nemotron-mini",
+      "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
+      "modelSize": "4b",
+      "tags": [
+        "4b"
+      ],
+      "downloads": "73.9K",
+      "lastUpdated": "6 months ago",
+      "runCommand": "ollama run nemotron-mini",
+      "parameterVersions": [
+        {
+          "size": "4b",
+          "diskSize": "2.7GB"
+        }
+      ],
+      "defaultSize": "4b",
+      "defaultDiskSize": "2.7GB"
+    },
+    {
+      "name": "deepscaler",
+      "fullName": "deepscaler",
+      "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
+      "modelSize": "1.5b",
+      "tags": [
+        "1.5b"
+      ],
+      "downloads": "72K",
+      "lastUpdated": "7 weeks ago",
+      "runCommand": "ollama run deepscaler",
+      "parameterVersions": [
+        {
+          "size": "1.5b",
+          "diskSize": "3.6GB"
+        }
+      ],
+      "defaultSize": "1.5b",
+      "defaultDiskSize": "3.6GB"
     },
     {
       "name": "falcon",
@@ -2511,8 +2606,8 @@
         "40b",
         "180b"
       ],
-      "downloads": "69.3K",
-      "lastUpdated": "16 months ago",
+      "downloads": "71.7K",
+      "lastUpdated": "17 months ago",
       "runCommand": "ollama run falcon",
       "parameterVersions": [
         {
@@ -2532,26 +2627,6 @@
       "defaultDiskSize": "4.2GB"
     },
     {
-      "name": "nemotron-mini",
-      "fullName": "nemotron-mini",
-      "description": "A commercial-friendly small language model by NVIDIA optimized for roleplay, RAG QA, and function calling.",
-      "modelSize": "4b",
-      "tags": [
-        "4b"
-      ],
-      "downloads": "67.6K",
-      "lastUpdated": "5 months ago",
-      "runCommand": "ollama run nemotron-mini",
-      "parameterVersions": [
-        {
-          "size": "4b",
-          "diskSize": "2.7GB"
-        }
-      ],
-      "defaultSize": "4b",
-      "defaultDiskSize": "2.7GB"
-    },
-    {
       "name": "nemotron",
       "fullName": "nemotron",
       "description": "Llama-3.1-Nemotron-70B-Instruct is a large language model customized by NVIDIA to improve the helpfulness of LLM generated responses to user queries.",
@@ -2559,8 +2634,8 @@
       "tags": [
         "70b"
       ],
-      "downloads": "66K",
-      "lastUpdated": "4 months ago",
+      "downloads": "69.4K",
+      "lastUpdated": "5 months ago",
       "runCommand": "ollama run nemotron",
       "parameterVersions": [
         {
@@ -2572,6 +2647,31 @@
       "defaultDiskSize": "43GB"
     },
     {
+      "name": "granite3-dense",
+      "fullName": "granite3-dense",
+      "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "8b"
+      ],
+      "downloads": "69.1K",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run granite3-dense",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "1.6GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
       "name": "dolphin-phi",
       "fullName": "dolphin-phi",
       "description": "2.7B uncensored Dolphin model by Eric Hartford, based on the Phi language model by Microsoft Research.",
@@ -2579,8 +2679,8 @@
       "tags": [
         "2.7b"
       ],
-      "downloads": "64.3K",
-      "lastUpdated": "14 months ago",
+      "downloads": "68.7K",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run dolphin-phi",
       "parameterVersions": [
         {
@@ -2600,8 +2700,8 @@
         "7b",
         "13b"
       ],
-      "downloads": "62.9K",
-      "lastUpdated": "15 months ago",
+      "downloads": "64.7K",
+      "lastUpdated": "16 months ago",
       "runCommand": "ollama run orca2",
       "parameterVersions": [
         {
@@ -2617,26 +2717,6 @@
       "defaultDiskSize": "3.8GB"
     },
     {
-      "name": "deepscaler",
-      "fullName": "deepscaler",
-      "description": "A fine-tuned version of Deepseek-R1-Distilled-Qwen-1.5B that surpasses the performance of OpenAI’s o1-preview with just 1.5B parameters on popular math evaluations.",
-      "modelSize": "1.5b",
-      "tags": [
-        "1.5b"
-      ],
-      "downloads": "61K",
-      "lastUpdated": "2 weeks ago",
-      "runCommand": "ollama run deepscaler",
-      "parameterVersions": [
-        {
-          "size": "1.5b",
-          "diskSize": "3.6GB"
-        }
-      ],
-      "defaultSize": "1.5b",
-      "defaultDiskSize": "3.6GB"
-    },
-    {
       "name": "wizardlm-uncensored",
       "fullName": "wizardlm-uncensored",
       "description": "Uncensored version of Wizard LM model",
@@ -2644,8 +2724,8 @@
       "tags": [
         "13b"
       ],
-      "downloads": "59.9K",
-      "lastUpdated": "16 months ago",
+      "downloads": "62.6K",
+      "lastUpdated": "17 months ago",
       "runCommand": "ollama run wizardlm-uncensored",
       "parameterVersions": [
         {
@@ -2666,8 +2746,8 @@
         "13b",
         "70b"
       ],
-      "downloads": "58.6K",
-      "lastUpdated": "16 months ago",
+      "downloads": "59.6K",
+      "lastUpdated": "17 months ago",
       "runCommand": "ollama run stable-beluga",
       "parameterVersions": [
         {
@@ -2687,31 +2767,6 @@
       "defaultDiskSize": "3.8GB"
     },
     {
-      "name": "granite3-dense",
-      "fullName": "granite3-dense",
-      "description": "The IBM Granite 2B and 8B models are designed to support tool-based use cases and support for retrieval augmented generation (RAG), streamlining code generation, translation and bug fixing.",
-      "modelSize": "2b",
-      "tags": [
-        "2b",
-        "8b"
-      ],
-      "downloads": "56K",
-      "lastUpdated": "3 months ago",
-      "runCommand": "ollama run granite3-dense",
-      "parameterVersions": [
-        {
-          "size": "2b",
-          "diskSize": "1.6GB"
-        },
-        {
-          "size": "8b",
-          "diskSize": "4.9GB"
-        }
-      ],
-      "defaultSize": "2b",
-      "defaultDiskSize": "1.6GB"
-    },
-    {
       "name": "llama3-groq-tool-use",
       "fullName": "llama3-groq-tool-use",
       "description": "A series of models from Groq that represent a significant advancement in open-source AI capabilities for tool use/function calling.",
@@ -2720,8 +2775,8 @@
         "8b",
         "70b"
       ],
-      "downloads": "54.4K",
-      "lastUpdated": "7 months ago",
+      "downloads": "59.5K",
+      "lastUpdated": "8 months ago",
       "runCommand": "ollama run llama3-groq-tool-use",
       "parameterVersions": [
         {
@@ -2737,109 +2792,29 @@
       "defaultDiskSize": "4.7GB"
     },
     {
-      "name": "deepseek-v2.5",
-      "fullName": "deepseek-v2.5",
-      "description": "An upgraded version of DeekSeek-V2 that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
-      "modelSize": "236b",
+      "name": "granite3.2",
+      "fullName": "granite3.2",
+      "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
+      "modelSize": "2b",
       "tags": [
-        "236b"
+        "2b",
+        "8b"
       ],
-      "downloads": "48.5K",
-      "lastUpdated": "5 months ago",
-      "runCommand": "ollama run deepseek-v2.5",
+      "downloads": "56.8K",
+      "lastUpdated": "5 weeks ago",
+      "runCommand": "ollama run granite3.2",
       "parameterVersions": [
         {
-          "size": "236b",
-          "diskSize": "133GB"
-        }
-      ],
-      "defaultSize": "236b",
-      "defaultDiskSize": "133GB"
-    },
-    {
-      "name": "medllama2",
-      "fullName": "medllama2",
-      "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
-      "modelSize": "7b",
-      "tags": [
-        "7b"
-      ],
-      "downloads": "46.8K",
-      "lastUpdated": "16 months ago",
-      "runCommand": "ollama run medllama2",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "3.8GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "3.8GB"
-    },
-    {
-      "name": "meditron",
-      "fullName": "meditron",
-      "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
-      "modelSize": "7b",
-      "tags": [
-        "7b",
-        "70b"
-      ],
-      "downloads": "46.5K",
-      "lastUpdated": "15 months ago",
-      "runCommand": "ollama run meditron",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "3.8GB"
+          "size": "2b",
+          "diskSize": "1.5GB"
         },
         {
-          "size": "70b",
-          "diskSize": "39GB"
+          "size": "8b",
+          "diskSize": "4.9GB"
         }
       ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "3.8GB"
-    },
-    {
-      "name": "smallthinker",
-      "fullName": "smallthinker",
-      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
-      "modelSize": "3b",
-      "tags": [
-        "3b"
-      ],
-      "downloads": "45.8K",
-      "lastUpdated": "8 weeks ago",
-      "runCommand": "ollama run smallthinker",
-      "parameterVersions": [
-        {
-          "size": "3b",
-          "diskSize": "3.6GB"
-        }
-      ],
-      "defaultSize": "3b",
-      "defaultDiskSize": "3.6GB"
-    },
-    {
-      "name": "llama-pro",
-      "fullName": "llama-pro",
-      "description": "An expansion of Llama 2 that specializes in integrating both general language understanding and domain-specific knowledge, particularly in programming and mathematics.",
-      "modelSize": "latest",
-      "tags": [
-        "latest"
-      ],
-      "downloads": "45.3K",
-      "lastUpdated": "13 months ago",
-      "runCommand": "ollama run llama-pro",
-      "parameterVersions": [
-        {
-          "size": "latest",
-          "diskSize": "4.7GB"
-        }
-      ],
-      "defaultSize": "latest",
-      "defaultDiskSize": "4.7GB"
+      "defaultSize": "2b",
+      "defaultDiskSize": "1.5GB"
     },
     {
       "name": "paraphrase-multilingual",
@@ -2849,8 +2824,8 @@
       "tags": [
         "278m"
       ],
-      "downloads": "45K",
-      "lastUpdated": "6 months ago",
+      "downloads": "56.3K",
+      "lastUpdated": "8 months ago",
       "runCommand": "ollama run paraphrase-multilingual",
       "parameterVersions": [
         {
@@ -2862,24 +2837,64 @@
       "defaultDiskSize": "563MB"
     },
     {
-      "name": "yarn-mistral",
-      "fullName": "yarn-mistral",
-      "description": "An extension of Mistral to support context windows of 64K or 128K.",
-      "modelSize": "7b",
+      "name": "snowflake-arctic-embed2",
+      "fullName": "snowflake-arctic-embed2",
+      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
+      "modelSize": "568m",
       "tags": [
-        "7b"
+        "568m"
       ],
-      "downloads": "44.9K",
-      "lastUpdated": "16 months ago",
-      "runCommand": "ollama run yarn-mistral",
+      "downloads": "54.6K",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run snowflake-arctic-embed2",
       "parameterVersions": [
         {
-          "size": "7b",
-          "diskSize": "4.1GB"
+          "size": "568m",
+          "diskSize": "1.2GB"
         }
       ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.1GB"
+      "defaultSize": "568m",
+      "defaultDiskSize": "1.2GB"
+    },
+    {
+      "name": "deepseek-v2.5",
+      "fullName": "deepseek-v2.5",
+      "description": "An upgraded version of DeekSeek-V2 that integrates the general and coding abilities of both DeepSeek-V2-Chat and DeepSeek-Coder-V2-Instruct.",
+      "modelSize": "236b",
+      "tags": [
+        "236b"
+      ],
+      "downloads": "51.6K",
+      "lastUpdated": "6 months ago",
+      "runCommand": "ollama run deepseek-v2.5",
+      "parameterVersions": [
+        {
+          "size": "236b",
+          "diskSize": "133GB"
+        }
+      ],
+      "defaultSize": "236b",
+      "defaultDiskSize": "133GB"
+    },
+    {
+      "name": "smallthinker",
+      "fullName": "smallthinker",
+      "description": "A new small reasoning model fine-tuned from the Qwen 2.5 3B Instruct model.",
+      "modelSize": "3b",
+      "tags": [
+        "3b"
+      ],
+      "downloads": "51.3K",
+      "lastUpdated": "3 months ago",
+      "runCommand": "ollama run smallthinker",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "3.6GB"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "3.6GB"
     },
     {
       "name": "aya-expanse",
@@ -2890,8 +2905,8 @@
         "8b",
         "32b"
       ],
-      "downloads": "44.7K",
-      "lastUpdated": "4 months ago",
+      "downloads": "49.8K",
+      "lastUpdated": "5 months ago",
       "runCommand": "ollama run aya-expanse",
       "parameterVersions": [
         {
@@ -2907,6 +2922,51 @@
       "defaultDiskSize": "5.1GB"
     },
     {
+      "name": "meditron",
+      "fullName": "meditron",
+      "description": "Open-source medical large language model adapted from Llama 2 to the medical domain.",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "70b"
+      ],
+      "downloads": "49.7K",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run meditron",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "39GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "medllama2",
+      "fullName": "medllama2",
+      "description": "Fine-tuned Llama 2 model to answer medical questions based on an open source medical dataset.",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "49K",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run medllama2",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
       "name": "granite3-moe",
       "fullName": "granite3-moe",
       "description": "The IBM Granite 1B and 3B models are the first mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
@@ -2915,8 +2975,8 @@
         "1b",
         "3b"
       ],
-      "downloads": "43.2K",
-      "lastUpdated": "3 months ago",
+      "downloads": "46.4K",
+      "lastUpdated": "4 months ago",
       "runCommand": "ollama run granite3-moe",
       "parameterVersions": [
         {
@@ -2932,24 +2992,24 @@
       "defaultDiskSize": "822MB"
     },
     {
-      "name": "nexusraven",
-      "fullName": "nexusraven",
-      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
-      "modelSize": "13b",
+      "name": "llama-pro",
+      "fullName": "llama-pro",
+      "description": "An expansion of Llama 2 that specializes in integrating both general language understanding and domain-specific knowledge, particularly in programming and mathematics.",
+      "modelSize": "latest",
       "tags": [
-        "13b"
+        "latest"
       ],
-      "downloads": "41.3K",
-      "lastUpdated": "13 months ago",
-      "runCommand": "ollama run nexusraven",
+      "downloads": "46.4K",
+      "lastUpdated": "15 months ago",
+      "runCommand": "ollama run llama-pro",
       "parameterVersions": [
         {
-          "size": "13b",
-          "diskSize": "7.4GB"
+          "size": "latest",
+          "diskSize": "4.7GB"
         }
       ],
-      "defaultSize": "13b",
-      "defaultDiskSize": "7.4GB"
+      "defaultSize": "latest",
+      "defaultDiskSize": "4.7GB"
     },
     {
       "name": "falcon3",
@@ -2962,8 +3022,8 @@
         "7b",
         "10b"
       ],
-      "downloads": "39.4K",
-      "lastUpdated": "2 months ago",
+      "downloads": "46.3K",
+      "lastUpdated": "3 months ago",
       "runCommand": "ollama run falcon3",
       "parameterVersions": [
         {
@@ -2987,6 +3047,46 @@
       "defaultDiskSize": "1.8GB"
     },
     {
+      "name": "yarn-mistral",
+      "fullName": "yarn-mistral",
+      "description": "An extension of Mistral to support context windows of 64K or 128K.",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "45.7K",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run yarn-mistral",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "nexusraven",
+      "fullName": "nexusraven",
+      "description": "Nexus Raven is a 13B instruction tuned model for function calling tasks.",
+      "modelSize": "13b",
+      "tags": [
+        "13b"
+      ],
+      "downloads": "42.2K",
+      "lastUpdated": "14 months ago",
+      "runCommand": "ollama run nexusraven",
+      "parameterVersions": [
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "13b",
+      "defaultDiskSize": "7.4GB"
+    },
+    {
       "name": "codeup",
       "fullName": "codeup",
       "description": "Great code generation model based on Llama2.",
@@ -2994,9 +3094,29 @@
       "tags": [
         "13b"
       ],
-      "downloads": "39.3K",
-      "lastUpdated": "16 months ago",
+      "downloads": "40.3K",
+      "lastUpdated": "17 months ago",
       "runCommand": "ollama run codeup",
+      "parameterVersions": [
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "13b",
+      "defaultDiskSize": "7.4GB"
+    },
+    {
+      "name": "everythinglm",
+      "fullName": "everythinglm",
+      "description": "Uncensored Llama2 based model with support for a 16K context window.",
+      "modelSize": "13b",
+      "tags": [
+        "13b"
+      ],
+      "downloads": "39.4K",
+      "lastUpdated": "15 months ago",
+      "runCommand": "ollama run everythinglm",
       "parameterVersions": [
         {
           "size": "13b",
@@ -3014,8 +3134,8 @@
       "tags": [
         "8x7b"
       ],
-      "downloads": "38K",
-      "lastUpdated": "2 months ago",
+      "downloads": "39.1K",
+      "lastUpdated": "3 months ago",
       "runCommand": "ollama run nous-hermes2-mixtral",
       "parameterVersions": [
         {
@@ -3027,24 +3147,29 @@
       "defaultDiskSize": "26GB"
     },
     {
-      "name": "everythinglm",
-      "fullName": "everythinglm",
-      "description": "Uncensored Llama2 based model with support for a 16K context window.",
-      "modelSize": "13b",
+      "name": "granite3.1-moe",
+      "fullName": "granite3.1-moe",
+      "description": "The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
+      "modelSize": "1b",
       "tags": [
-        "13b"
+        "1b",
+        "3b"
       ],
-      "downloads": "37.8K",
-      "lastUpdated": "14 months ago",
-      "runCommand": "ollama run everythinglm",
+      "downloads": "38.6K",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run granite3.1-moe",
       "parameterVersions": [
         {
-          "size": "13b",
-          "diskSize": "7.4GB"
+          "size": "1b",
+          "diskSize": "1.4GB"
+        },
+        {
+          "size": "3b",
+          "diskSize": "2.0GB"
         }
       ],
-      "defaultSize": "13b",
-      "defaultDiskSize": "7.4GB"
+      "defaultSize": "1b",
+      "defaultDiskSize": "1.4GB"
     },
     {
       "name": "shieldgemma",
@@ -3056,8 +3181,8 @@
         "9b",
         "27b"
       ],
-      "downloads": "34.9K",
-      "lastUpdated": "4 months ago",
+      "downloads": "38.1K",
+      "lastUpdated": "5 months ago",
       "runCommand": "ollama run shieldgemma",
       "parameterVersions": [
         {
@@ -3077,151 +3202,6 @@
       "defaultDiskSize": "1.7GB"
     },
     {
-      "name": "granite3.1-moe",
-      "fullName": "granite3.1-moe",
-      "description": "The IBM Granite 1B and 3B models are long-context mixture of experts (MoE) Granite models from IBM designed for low latency usage.",
-      "modelSize": "1b",
-      "tags": [
-        "1b",
-        "3b"
-      ],
-      "downloads": "33.7K",
-      "lastUpdated": "5 weeks ago",
-      "runCommand": "ollama run granite3.1-moe",
-      "parameterVersions": [
-        {
-          "size": "1b",
-          "diskSize": "1.4GB"
-        },
-        {
-          "size": "3b",
-          "diskSize": "2.0GB"
-        }
-      ],
-      "defaultSize": "1b",
-      "defaultDiskSize": "1.4GB"
-    },
-    {
-      "name": "snowflake-arctic-embed2",
-      "fullName": "snowflake-arctic-embed2",
-      "description": "Snowflake's frontier embedding model. Arctic Embed 2.0 adds multilingual support without sacrificing English performance or scalability.",
-      "modelSize": "568m",
-      "tags": [
-        "568m"
-      ],
-      "downloads": "32.9K",
-      "lastUpdated": "2 months ago",
-      "runCommand": "ollama run snowflake-arctic-embed2",
-      "parameterVersions": [
-        {
-          "size": "568m",
-          "diskSize": "1.2GB"
-        }
-      ],
-      "defaultSize": "568m",
-      "defaultDiskSize": "1.2GB"
-    },
-    {
-      "name": "marco-o1",
-      "fullName": "marco-o1",
-      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
-      "modelSize": "7b",
-      "tags": [
-        "7b"
-      ],
-      "downloads": "32.2K",
-      "lastUpdated": "2 months ago",
-      "runCommand": "ollama run marco-o1",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "4.7GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.7GB"
-    },
-    {
-      "name": "falcon2",
-      "fullName": "falcon2",
-      "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
-      "modelSize": "11b",
-      "tags": [
-        "11b"
-      ],
-      "downloads": "31.9K",
-      "lastUpdated": "9 months ago",
-      "runCommand": "ollama run falcon2",
-      "parameterVersions": [
-        {
-          "size": "11b",
-          "diskSize": "6.4GB"
-        }
-      ],
-      "defaultSize": "11b",
-      "defaultDiskSize": "6.4GB"
-    },
-    {
-      "name": "mathstral",
-      "fullName": "mathstral",
-      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
-      "modelSize": "7b",
-      "tags": [
-        "7b"
-      ],
-      "downloads": "31.8K",
-      "lastUpdated": "7 months ago",
-      "runCommand": "ollama run mathstral",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "4.1GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.1GB"
-    },
-    {
-      "name": "magicoder",
-      "fullName": "magicoder",
-      "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
-      "modelSize": "7b",
-      "tags": [
-        "7b"
-      ],
-      "downloads": "31.8K",
-      "lastUpdated": "15 months ago",
-      "runCommand": "ollama run magicoder",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "3.8GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "3.8GB"
-    },
-    {
-      "name": "stablelm-zephyr",
-      "fullName": "stablelm-zephyr",
-      "description": "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.",
-      "modelSize": "3b",
-      "tags": [
-        "3b"
-      ],
-      "downloads": "31.6K",
-      "lastUpdated": "14 months ago",
-      "runCommand": "ollama run stablelm-zephyr",
-      "parameterVersions": [
-        {
-          "size": "3b",
-          "diskSize": "1.6GB"
-        }
-      ],
-      "defaultSize": "3b",
-      "defaultDiskSize": "1.6GB"
-    },
-    {
       "name": "reader-lm",
       "fullName": "reader-lm",
       "description": "A series of models that convert HTML content to Markdown content, which is useful for content conversion tasks.",
@@ -3230,8 +3210,8 @@
         "0.5b",
         "1.5b"
       ],
-      "downloads": "31.3K",
-      "lastUpdated": "5 months ago",
+      "downloads": "35K",
+      "lastUpdated": "6 months ago",
       "runCommand": "ollama run reader-lm",
       "parameterVersions": [
         {
@@ -3247,129 +3227,24 @@
       "defaultDiskSize": "352MB"
     },
     {
-      "name": "solar-pro",
-      "fullName": "solar-pro",
-      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
-      "modelSize": "22b",
-      "tags": [
-        "22b"
-      ],
-      "downloads": "31.2K",
-      "lastUpdated": "5 months ago",
-      "runCommand": "ollama run solar-pro",
-      "parameterVersions": [
-        {
-          "size": "22b",
-          "diskSize": "13GB"
-        }
-      ],
-      "defaultSize": "22b",
-      "defaultDiskSize": "13GB"
-    },
-    {
-      "name": "codebooga",
-      "fullName": "codebooga",
-      "description": "A high-performing code instruct model created by merging two existing code models.",
-      "modelSize": "34b",
-      "tags": [
-        "34b"
-      ],
-      "downloads": "31K",
-      "lastUpdated": "16 months ago",
-      "runCommand": "ollama run codebooga",
-      "parameterVersions": [
-        {
-          "size": "34b",
-          "diskSize": "19GB"
-        }
-      ],
-      "defaultSize": "34b",
-      "defaultDiskSize": "19GB"
-    },
-    {
-      "name": "duckdb-nsql",
-      "fullName": "duckdb-nsql",
-      "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
+      "name": "marco-o1",
+      "fullName": "marco-o1",
+      "description": "An open large reasoning model for real-world solutions by the Alibaba International Digital Commerce Group (AIDC-AI).",
       "modelSize": "7b",
       "tags": [
         "7b"
       ],
-      "downloads": "29.8K",
-      "lastUpdated": "13 months ago",
-      "runCommand": "ollama run duckdb-nsql",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "3.8GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "3.8GB"
-    },
-    {
-      "name": "mistrallite",
-      "fullName": "mistrallite",
-      "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
-      "modelSize": "7b",
-      "tags": [
-        "7b"
-      ],
-      "downloads": "29.6K",
-      "lastUpdated": "16 months ago",
-      "runCommand": "ollama run mistrallite",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "4.1GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.1GB"
-    },
-    {
-      "name": "wizard-vicuna",
-      "fullName": "wizard-vicuna",
-      "description": "Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.",
-      "modelSize": "13b",
-      "tags": [
-        "13b"
-      ],
-      "downloads": "29.3K",
-      "lastUpdated": "16 months ago",
-      "runCommand": "ollama run wizard-vicuna",
-      "parameterVersions": [
-        {
-          "size": "13b",
-          "diskSize": "7.4GB"
-        }
-      ],
-      "defaultSize": "13b",
-      "defaultDiskSize": "7.4GB"
-    },
-    {
-      "name": "llama-guard3",
-      "fullName": "llama-guard3",
-      "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
-      "modelSize": "1b",
-      "tags": [
-        "1b",
-        "8b"
-      ],
-      "downloads": "29.3K",
+      "downloads": "34.5K",
       "lastUpdated": "4 months ago",
-      "runCommand": "ollama run llama-guard3",
+      "runCommand": "ollama run marco-o1",
       "parameterVersions": [
         {
-          "size": "1b",
-          "diskSize": "1.6GB"
-        },
-        {
-          "size": "8b",
-          "diskSize": "4.9GB"
+          "size": "7b",
+          "diskSize": "4.7GB"
         }
       ],
-      "defaultSize": "1b",
-      "defaultDiskSize": "1.6GB"
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.7GB"
     },
     {
       "name": "exaone3.5",
@@ -3381,8 +3256,8 @@
         "7.8b",
         "32b"
       ],
-      "downloads": "25.9K",
-      "lastUpdated": "2 months ago",
+      "downloads": "34.3K",
+      "lastUpdated": "3 months ago",
       "runCommand": "ollama run exaone3.5",
       "parameterVersions": [
         {
@@ -3402,44 +3277,274 @@
       "defaultDiskSize": "1.6GB"
     },
     {
-      "name": "megadolphin",
-      "fullName": "megadolphin",
-      "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
-      "modelSize": "120b",
+      "name": "granite3.2-vision",
+      "fullName": "granite3.2-vision",
+      "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
+      "modelSize": "2b",
       "tags": [
-        "120b"
+        "2b"
       ],
-      "downloads": "25.1K",
-      "lastUpdated": "13 months ago",
-      "runCommand": "ollama run megadolphin",
+      "downloads": "34.3K",
+      "lastUpdated": "5 weeks ago",
+      "runCommand": "ollama run granite3.2-vision",
       "parameterVersions": [
         {
-          "size": "120b",
-          "diskSize": "68GB"
+          "size": "2b",
+          "diskSize": "2.4GB"
         }
       ],
-      "defaultSize": "120b",
-      "defaultDiskSize": "68GB"
+      "defaultSize": "2b",
+      "defaultDiskSize": "2.4GB"
     },
     {
-      "name": "nuextract",
-      "fullName": "nuextract",
-      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
-      "modelSize": "3.8b",
+      "name": "mathstral",
+      "fullName": "mathstral",
+      "description": "MathΣtral: a 7B model designed for math reasoning and scientific discovery by Mistral AI.",
+      "modelSize": "7b",
       "tags": [
-        "3.8b"
+        "7b"
       ],
-      "downloads": "25K",
-      "lastUpdated": "7 months ago",
-      "runCommand": "ollama run nuextract",
+      "downloads": "34.3K",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run mathstral",
       "parameterVersions": [
         {
-          "size": "3.8b",
-          "diskSize": "2.2GB"
+          "size": "7b",
+          "diskSize": "4.1GB"
         }
       ],
-      "defaultSize": "3.8b",
-      "defaultDiskSize": "2.2GB"
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "llama-guard3",
+      "fullName": "llama-guard3",
+      "description": "Llama Guard 3 is a series of models fine-tuned for content safety classification of LLM inputs and responses.",
+      "modelSize": "1b",
+      "tags": [
+        "1b",
+        "8b"
+      ],
+      "downloads": "34K",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run llama-guard3",
+      "parameterVersions": [
+        {
+          "size": "1b",
+          "diskSize": "1.6GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        }
+      ],
+      "defaultSize": "1b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "solar-pro",
+      "fullName": "solar-pro",
+      "description": "Solar Pro Preview: an advanced large language model (LLM) with 22 billion parameters designed to fit into a single GPU",
+      "modelSize": "22b",
+      "tags": [
+        "22b"
+      ],
+      "downloads": "33.7K",
+      "lastUpdated": "6 months ago",
+      "runCommand": "ollama run solar-pro",
+      "parameterVersions": [
+        {
+          "size": "22b",
+          "diskSize": "13GB"
+        }
+      ],
+      "defaultSize": "22b",
+      "defaultDiskSize": "13GB"
+    },
+    {
+      "name": "falcon2",
+      "fullName": "falcon2",
+      "description": "Falcon2 is an 11B parameters causal decoder-only model built by TII and trained over 5T tokens.",
+      "modelSize": "11b",
+      "tags": [
+        "11b"
+      ],
+      "downloads": "33.2K",
+      "lastUpdated": "10 months ago",
+      "runCommand": "ollama run falcon2",
+      "parameterVersions": [
+        {
+          "size": "11b",
+          "diskSize": "6.4GB"
+        }
+      ],
+      "defaultSize": "11b",
+      "defaultDiskSize": "6.4GB"
+    },
+    {
+      "name": "stablelm-zephyr",
+      "fullName": "stablelm-zephyr",
+      "description": "A lightweight chat model allowing accurate, and responsive output without requiring high-end hardware.",
+      "modelSize": "3b",
+      "tags": [
+        "3b"
+      ],
+      "downloads": "32.8K",
+      "lastUpdated": "15 months ago",
+      "runCommand": "ollama run stablelm-zephyr",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "1.6GB"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "magicoder",
+      "fullName": "magicoder",
+      "description": "🎩 Magicoder is a family of 7B parameter models trained on 75K synthetic instruction data using OSS-Instruct, a novel approach to enlightening LLMs with open-source code snippets.",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "32.6K",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run magicoder",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "codebooga",
+      "fullName": "codebooga",
+      "description": "A high-performing code instruct model created by merging two existing code models.",
+      "modelSize": "34b",
+      "tags": [
+        "34b"
+      ],
+      "downloads": "31.9K",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run codebooga",
+      "parameterVersions": [
+        {
+          "size": "34b",
+          "diskSize": "19GB"
+        }
+      ],
+      "defaultSize": "34b",
+      "defaultDiskSize": "19GB"
+    },
+    {
+      "name": "duckdb-nsql",
+      "fullName": "duckdb-nsql",
+      "description": "7B parameter text-to-SQL model made by MotherDuck and Numbers Station.",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "31.5K",
+      "lastUpdated": "14 months ago",
+      "runCommand": "ollama run duckdb-nsql",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "mistrallite",
+      "fullName": "mistrallite",
+      "description": "MistralLite is a fine-tuned model based on Mistral with enhanced capabilities of processing long contexts.",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "30.8K",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run mistrallite",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "wizard-vicuna",
+      "fullName": "wizard-vicuna",
+      "description": "Wizard Vicuna is a 13B parameter model based on Llama 2 trained by MelodysDreamj.",
+      "modelSize": "13b",
+      "tags": [
+        "13b"
+      ],
+      "downloads": "30K",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run wizard-vicuna",
+      "parameterVersions": [
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "13b",
+      "defaultDiskSize": "7.4GB"
+    },
+    {
+      "name": "command-r7b",
+      "fullName": "command-r7b",
+      "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "28.6K",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run command-r7b",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "5.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "5.1GB"
+    },
+    {
+      "name": "granite-embedding",
+      "fullName": "granite-embedding",
+      "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
+      "modelSize": "30m",
+      "tags": [
+        "30m",
+        "278m"
+      ],
+      "downloads": "28.3K",
+      "lastUpdated": "3 months ago",
+      "runCommand": "ollama run granite-embedding",
+      "parameterVersions": [
+        {
+          "size": "30m",
+          "diskSize": "63MB"
+        },
+        {
+          "size": "278m",
+          "diskSize": "563MB"
+        }
+      ],
+      "defaultSize": "30m",
+      "defaultDiskSize": "63MB"
     },
     {
       "name": "opencoder",
@@ -3450,8 +3555,8 @@
         "1.5b",
         "8b"
       ],
-      "downloads": "24.8K",
-      "lastUpdated": "3 months ago",
+      "downloads": "28.2K",
+      "lastUpdated": "4 months ago",
       "runCommand": "ollama run opencoder",
       "parameterVersions": [
         {
@@ -3467,6 +3572,66 @@
       "defaultDiskSize": "1.4GB"
     },
     {
+      "name": "nuextract",
+      "fullName": "nuextract",
+      "description": "A 3.8B model fine-tuned on a private high-quality synthetic dataset for information extraction, based on Phi-3.",
+      "modelSize": "3.8b",
+      "tags": [
+        "3.8b"
+      ],
+      "downloads": "27.6K",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run nuextract",
+      "parameterVersions": [
+        {
+          "size": "3.8b",
+          "diskSize": "2.2GB"
+        }
+      ],
+      "defaultSize": "3.8b",
+      "defaultDiskSize": "2.2GB"
+    },
+    {
+      "name": "megadolphin",
+      "fullName": "megadolphin",
+      "description": "MegaDolphin-2.2-120b is a transformation of Dolphin-2.2-70b created by interleaving the model with itself.",
+      "modelSize": "120b",
+      "tags": [
+        "120b"
+      ],
+      "downloads": "25.6K",
+      "lastUpdated": "15 months ago",
+      "runCommand": "ollama run megadolphin",
+      "parameterVersions": [
+        {
+          "size": "120b",
+          "diskSize": "68GB"
+        }
+      ],
+      "defaultSize": "120b",
+      "defaultDiskSize": "68GB"
+    },
+    {
+      "name": "bespoke-minicheck",
+      "fullName": "bespoke-minicheck",
+      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "25.3K",
+      "lastUpdated": "6 months ago",
+      "runCommand": "ollama run bespoke-minicheck",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
       "name": "notux",
       "fullName": "notux",
       "description": "A top-performing mixture of experts model, fine-tuned with high-quality data.",
@@ -3474,8 +3639,8 @@
       "tags": [
         "8x7b"
       ],
-      "downloads": "24.1K",
-      "lastUpdated": "14 months ago",
+      "downloads": "24.7K",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run notux",
       "parameterVersions": [
         {
@@ -3494,8 +3659,8 @@
       "tags": [
         "13b"
       ],
-      "downloads": "23.6K",
-      "lastUpdated": "16 months ago",
+      "downloads": "24.2K",
+      "lastUpdated": "17 months ago",
       "runCommand": "ollama run open-orca-platypus2",
       "parameterVersions": [
         {
@@ -3514,8 +3679,8 @@
       "tags": [
         "7b"
       ],
-      "downloads": "23.5K",
-      "lastUpdated": "14 months ago",
+      "downloads": "24K",
+      "lastUpdated": "15 months ago",
       "runCommand": "ollama run notus",
       "parameterVersions": [
         {
@@ -3534,8 +3699,8 @@
       "tags": [
         "latest"
       ],
-      "downloads": "22.9K",
-      "lastUpdated": "15 months ago",
+      "downloads": "23.3K",
+      "lastUpdated": "16 months ago",
       "runCommand": "ollama run goliath",
       "parameterVersions": [
         {
@@ -3547,64 +3712,34 @@
       "defaultDiskSize": "66GB"
     },
     {
-      "name": "bespoke-minicheck",
-      "fullName": "bespoke-minicheck",
-      "description": "A state-of-the-art fact-checking model developed by Bespoke Labs.",
-      "modelSize": "7b",
+      "name": "exaone-deep",
+      "fullName": "exaone-deep",
+      "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
+      "modelSize": "2.4b",
       "tags": [
-        "7b"
+        "2.4b",
+        "7.8b",
+        "32b"
       ],
-      "downloads": "22K",
-      "lastUpdated": "5 months ago",
-      "runCommand": "ollama run bespoke-minicheck",
+      "downloads": "23K",
+      "lastUpdated": "2 weeks ago",
+      "runCommand": "ollama run exaone-deep",
       "parameterVersions": [
         {
-          "size": "7b",
-          "diskSize": "4.7GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "4.7GB"
-    },
-    {
-      "name": "command-r7b",
-      "fullName": "command-r7b",
-      "description": "The smallest model in Cohere's R series delivers top-tier speed, efficiency, and quality to build powerful AI applications on commodity GPUs and edge devices.",
-      "modelSize": "7b",
-      "tags": [
-        "7b"
-      ],
-      "downloads": "21.9K",
-      "lastUpdated": "6 weeks ago",
-      "runCommand": "ollama run command-r7b",
-      "parameterVersions": [
+          "size": "2.4b",
+          "diskSize": "1.6GB"
+        },
         {
-          "size": "7b",
-          "diskSize": "5.1GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "5.1GB"
-    },
-    {
-      "name": "firefunction-v2",
-      "fullName": "firefunction-v2",
-      "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
-      "modelSize": "70b",
-      "tags": [
-        "70b"
-      ],
-      "downloads": "18.7K",
-      "lastUpdated": "7 months ago",
-      "runCommand": "ollama run firefunction-v2",
-      "parameterVersions": [
+          "size": "7.8b",
+          "diskSize": "4.8GB"
+        },
         {
-          "size": "70b",
-          "diskSize": "40GB"
+          "size": "32b",
+          "diskSize": "19GB"
         }
       ],
-      "defaultSize": "70b",
-      "defaultDiskSize": "40GB"
+      "defaultSize": "2.4b",
+      "defaultDiskSize": "1.6GB"
     },
     {
       "name": "tulu3",
@@ -3615,8 +3750,8 @@
         "8b",
         "70b"
       ],
-      "downloads": "18.6K",
-      "lastUpdated": "2 months ago",
+      "downloads": "22.9K",
+      "lastUpdated": "3 months ago",
       "runCommand": "ollama run tulu3",
       "parameterVersions": [
         {
@@ -3632,6 +3767,51 @@
       "defaultDiskSize": "4.9GB"
     },
     {
+      "name": "r1-1776",
+      "fullName": "r1-1776",
+      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
+      "modelSize": "70b",
+      "tags": [
+        "70b",
+        "671b"
+      ],
+      "downloads": "20.9K",
+      "lastUpdated": "6 weeks ago",
+      "runCommand": "ollama run r1-1776",
+      "parameterVersions": [
+        {
+          "size": "70b",
+          "diskSize": "43GB"
+        },
+        {
+          "size": "671b",
+          "diskSize": "404GB"
+        }
+      ],
+      "defaultSize": "70b",
+      "defaultDiskSize": "43GB"
+    },
+    {
+      "name": "firefunction-v2",
+      "fullName": "firefunction-v2",
+      "description": "An open weights function calling model based on Llama 3, competitive with GPT-4o function calling capabilities.",
+      "modelSize": "70b",
+      "tags": [
+        "70b"
+      ],
+      "downloads": "19.9K",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run firefunction-v2",
+      "parameterVersions": [
+        {
+          "size": "70b",
+          "diskSize": "40GB"
+        }
+      ],
+      "defaultSize": "70b",
+      "defaultDiskSize": "40GB"
+    },
+    {
       "name": "dbrx",
       "fullName": "dbrx",
       "description": "DBRX is an open, general-purpose LLM created by Databricks.",
@@ -3639,8 +3819,8 @@
       "tags": [
         "132b"
       ],
-      "downloads": "18.2K",
-      "lastUpdated": "10 months ago",
+      "downloads": "18.7K",
+      "lastUpdated": "11 months ago",
       "runCommand": "ollama run dbrx",
       "parameterVersions": [
         {
@@ -3652,31 +3832,6 @@
       "defaultDiskSize": "74GB"
     },
     {
-      "name": "granite-embedding",
-      "fullName": "granite-embedding",
-      "description": "The IBM Granite Embedding 30M and 278M models models are text-only dense biencoder embedding models, with 30M available in English only and 278M serving multilingual use cases.",
-      "modelSize": "30m",
-      "tags": [
-        "30m",
-        "278m"
-      ],
-      "downloads": "18.2K",
-      "lastUpdated": "2 months ago",
-      "runCommand": "ollama run granite-embedding",
-      "parameterVersions": [
-        {
-          "size": "30m",
-          "diskSize": "63MB"
-        },
-        {
-          "size": "278m",
-          "diskSize": "563MB"
-        }
-      ],
-      "defaultSize": "30m",
-      "defaultDiskSize": "63MB"
-    },
-    {
       "name": "granite3-guardian",
       "fullName": "granite3-guardian",
       "description": "The IBM Granite Guardian 3.0 2B and 8B models are designed to detect risks in prompts and/or responses.",
@@ -3685,8 +3840,8 @@
         "2b",
         "8b"
       ],
-      "downloads": "16.1K",
-      "lastUpdated": "3 months ago",
+      "downloads": "17.5K",
+      "lastUpdated": "4 months ago",
       "runCommand": "ollama run granite3-guardian",
       "parameterVersions": [
         {
@@ -3709,8 +3864,8 @@
       "tags": [
         "40b"
       ],
-      "downloads": "15.6K",
-      "lastUpdated": "15 months ago",
+      "downloads": "16.3K",
+      "lastUpdated": "16 months ago",
       "runCommand": "ollama run alfred",
       "parameterVersions": [
         {
@@ -3731,8 +3886,8 @@
         "8b",
         "20b"
       ],
-      "downloads": "9,276",
-      "lastUpdated": "2 months ago",
+      "downloads": "10.5K",
+      "lastUpdated": "4 months ago",
       "runCommand": "ollama run sailor2",
       "parameterVersions": [
         {
@@ -3752,151 +3907,6 @@
       "defaultDiskSize": "1.1GB"
     },
     {
-      "name": "r1-1776",
-      "fullName": "r1-1776",
-      "description": "A version of the DeepSeek-R1 model that has been post trained to provide unbiased, accurate, and factual information by Perplexity.",
-      "modelSize": "70b",
-      "tags": [
-        "70b",
-        "671b"
-      ],
-      "downloads": "8,275",
-      "lastUpdated": "6 days ago",
-      "runCommand": "ollama run r1-1776",
-      "parameterVersions": [
-        {
-          "size": "70b",
-          "diskSize": "43GB"
-        },
-        {
-          "size": "671b",
-          "diskSize": "404GB"
-        }
-      ],
-      "defaultSize": "70b",
-      "defaultDiskSize": "43GB"
-    },
-    {
-      "name": "granite3.2",
-      "fullName": "granite3.2",
-      "description": "Granite-3.2 is a family of long-context AI models from IBM Granite fine-tuned for thinking capabilities.",
-      "modelSize": "2b",
-      "tags": [
-        "2b",
-        "8b"
-      ],
-      "downloads": "4,139",
-      "lastUpdated": "Unknown",
-      "runCommand": "ollama run granite3.2",
-      "parameterVersions": [
-        {
-          "size": "2b",
-          "diskSize": "1.5GB"
-        },
-        {
-          "size": "8b",
-          "diskSize": "4.9GB"
-        }
-      ],
-      "defaultSize": "2b",
-      "defaultDiskSize": "1.5GB"
-    },
-    {
-      "name": "phi4-mini",
-      "fullName": "phi4-mini",
-      "description": "Phi-4-mini brings significant enhancements in multilingual support, reasoning, and mathematics, and now, the long-awaited function calling feature is finally supported.",
-      "modelSize": "3.8b",
-      "tags": [
-        "3.8b"
-      ],
-      "downloads": "3,182",
-      "lastUpdated": "6 hours ago",
-      "runCommand": "ollama run phi4-mini",
-      "parameterVersions": [
-        {
-          "size": "3.8b",
-          "diskSize": "2.5GB"
-        }
-      ],
-      "defaultSize": "3.8b",
-      "defaultDiskSize": "2.5GB"
-    },
-    {
-      "name": "granite3.2-vision",
-      "fullName": "granite3.2-vision",
-      "description": "A compact and efficient vision-language model, specifically designed for visual document understanding, enabling automated content extraction from tables, charts, infographics, plots, diagrams, and more.",
-      "modelSize": "2b",
-      "tags": [
-        "2b"
-      ],
-      "downloads": "2,021",
-      "lastUpdated": "Unknown",
-      "runCommand": "ollama run granite3.2-vision",
-      "parameterVersions": [
-        {
-          "size": "2b",
-          "diskSize": "2.4GB"
-        }
-      ],
-      "defaultSize": "2b",
-      "defaultDiskSize": "2.4GB"
-    },
-    {
-      "name": "command-r7b-arabic",
-      "fullName": "command-r7b-arabic",
-      "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
-      "modelSize": "7b",
-      "tags": [
-        "7b"
-      ],
-      "downloads": "33",
-      "lastUpdated": "4 hours ago",
-      "runCommand": "ollama run command-r7b-arabic",
-      "parameterVersions": [
-        {
-          "size": "7b",
-          "diskSize": "5.1GB"
-        }
-      ],
-      "defaultSize": "7b",
-      "defaultDiskSize": "5.1GB"
-    },
-    {
-      "name": "gemma3",
-      "fullName": "gemma3",
-      "description": "The current strongest model that fits on a single GPU.",
-      "modelSize": "1b",
-      "tags": [
-        "1b",
-        "4b",
-        "12b",
-        "27b"
-      ],
-      "downloads": "61K",
-      "lastUpdated": "17 hours ago",
-      "runCommand": "ollama run gemma3",
-      "parameterVersions": [
-        {
-          "size": "1b",
-          "diskSize": "815MB"
-        },
-        {
-          "size": "4b",
-          "diskSize": "3.3GB"
-        },
-        {
-          "size": "12b",
-          "diskSize": "8.1GB"
-        },
-        {
-          "size": "27b",
-          "diskSize": "17GB"
-        }
-      ],
-      "defaultSize": "1b",
-      "defaultDiskSize": "815MB"
-    },
-    {
       "name": "command-a",
       "fullName": "command-a",
       "description": "111 billion parameter model optimized for demanding enterprises that require fast, secure, and high-quality AI",
@@ -3904,8 +3914,8 @@
       "tags": [
         "111b"
       ],
-      "downloads": "362",
-      "lastUpdated": "13 hours ago",
+      "downloads": "5,416",
+      "lastUpdated": "3 weeks ago",
       "runCommand": "ollama run command-a",
       "parameterVersions": [
         {
@@ -3917,34 +3927,24 @@
       "defaultDiskSize": "67GB"
     },
     {
-      "name": "exaone-deep",
-      "fullName": "exaone-deep",
-      "description": "EXAONE Deep exhibits superior capabilities in various reasoning tasks including math and coding benchmarks, ranging from 2.4B to 32B parameters developed and released by LG AI Research.",
-      "modelSize": "2.4b",
+      "name": "command-r7b-arabic",
+      "fullName": "command-r7b-arabic",
+      "description": "A new state-of-the-art version of the lightweight Command R7B model that excels in advanced Arabic language capabilities for enterprises in the Middle East and Northern Africa.",
+      "modelSize": "7b",
       "tags": [
-        "2.4b",
-        "7.8b",
-        "32b"
+        "7b"
       ],
-      "downloads": "2,781",
-      "lastUpdated": "9 hours ago",
-      "runCommand": "ollama run exaone-deep",
+      "downloads": "4,389",
+      "lastUpdated": "5 weeks ago",
+      "runCommand": "ollama run command-r7b-arabic",
       "parameterVersions": [
         {
-          "size": "2.4b",
-          "diskSize": "1.6GB"
-        },
-        {
-          "size": "7.8b",
-          "diskSize": "4.8GB"
-        },
-        {
-          "size": "32b",
-          "diskSize": "19GB"
+          "size": "7b",
+          "diskSize": "5.1GB"
         }
       ],
-      "defaultSize": "2.4b",
-      "defaultDiskSize": "1.6GB"
+      "defaultSize": "7b",
+      "defaultDiskSize": "5.1GB"
     }
   ]
 }
