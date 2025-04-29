@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-04-28T01:51:10.495718",
+  "lastUpdated": "2025-04-29T01:50:21.248702",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4055,6 +4055,181 @@
       ],
       "defaultSize": "2b",
       "defaultDiskSize": "1.5GB"
+    },
+    {
+      "name": "qwen3",
+      "fullName": "qwen3",
+      "description": "Qwen3 is the latest generation of large language models in Qwen series, offering a comprehensive suite of dense and mixture-of-experts (MoE) models.",
+      "modelSize": "0.6b",
+      "tags": [
+        "0.6b",
+        "1.7b",
+        "4b",
+        "8b",
+        "14b",
+        "30b",
+        "32b",
+        "235b",
+        "0.6b-fp16",
+        "0.6b-q4_k_m",
+        "0.6b-q8_0",
+        "1.7b-fp16",
+        "1.7b-q4_k_m",
+        "1.7b-q8_0",
+        "4b-fp16",
+        "4b-q4_k_m",
+        "4b-q8_0",
+        "8b-fp16",
+        "8b-q4_k_m",
+        "8b-q8_0",
+        "14b-fp16",
+        "14b-q4_k_m",
+        "14b-q8_0",
+        "30b-a3b",
+        "30b-a3b-fp16",
+        "30b-a3b-q4_k_m",
+        "30b-a3b-q8_0",
+        "32b-fp16",
+        "32b-q4_k_m",
+        "32b-q8_0",
+        "235b-a22b",
+        "235b-a22b-q4_k_m"
+      ],
+      "downloads": "17.1K",
+      "lastUpdated": "4 hours ago",
+      "runCommand": "ollama run qwen3",
+      "parameterVersions": [
+        {
+          "size": "0.6b",
+          "diskSize": "523MB"
+        },
+        {
+          "size": "1.7b",
+          "diskSize": "1.4GB"
+        },
+        {
+          "size": "4b",
+          "diskSize": "2.6GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "5.2GB"
+        },
+        {
+          "size": "14b",
+          "diskSize": "9.3GB"
+        },
+        {
+          "size": "30b",
+          "diskSize": "19GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "20GB"
+        },
+        {
+          "size": "235b",
+          "diskSize": "142GB"
+        },
+        {
+          "size": "0.6b-fp16",
+          "diskSize": "1.5GB"
+        },
+        {
+          "size": "0.6b-q4_k_m",
+          "diskSize": "523MB"
+        },
+        {
+          "size": "0.6b-q8_0",
+          "diskSize": "832MB"
+        },
+        {
+          "size": "1.7b-fp16",
+          "diskSize": "4.1GB"
+        },
+        {
+          "size": "1.7b-q4_k_m",
+          "diskSize": "1.4GB"
+        },
+        {
+          "size": "1.7b-q8_0",
+          "diskSize": "2.2GB"
+        },
+        {
+          "size": "4b-fp16",
+          "diskSize": "8.1GB"
+        },
+        {
+          "size": "4b-q4_k_m",
+          "diskSize": "2.6GB"
+        },
+        {
+          "size": "4b-q8_0",
+          "diskSize": "4.4GB"
+        },
+        {
+          "size": "8b-fp16",
+          "diskSize": "16GB"
+        },
+        {
+          "size": "8b-q4_k_m",
+          "diskSize": "5.2GB"
+        },
+        {
+          "size": "8b-q8_0",
+          "diskSize": "8.9GB"
+        },
+        {
+          "size": "14b-fp16",
+          "diskSize": "30GB"
+        },
+        {
+          "size": "14b-q4_k_m",
+          "diskSize": "9.3GB"
+        },
+        {
+          "size": "14b-q8_0",
+          "diskSize": "16GB"
+        },
+        {
+          "size": "30b-a3b",
+          "diskSize": "19GB"
+        },
+        {
+          "size": "30b-a3b-fp16",
+          "diskSize": "61GB"
+        },
+        {
+          "size": "30b-a3b-q4_k_m",
+          "diskSize": "19GB"
+        },
+        {
+          "size": "30b-a3b-q8_0",
+          "diskSize": "33GB"
+        },
+        {
+          "size": "32b-fp16",
+          "diskSize": "66GB"
+        },
+        {
+          "size": "32b-q4_k_m",
+          "diskSize": "20GB"
+        },
+        {
+          "size": "32b-q8_0",
+          "diskSize": "35GB"
+        },
+        {
+          "size": "235b-a22b",
+          "diskSize": "142GB"
+        },
+        {
+          "size": "235b-a22b-q4_k_m",
+          "diskSize": "142GB"
+        }
+      ],
+      "defaultSize": "0.6b",
+      "defaultDiskSize": "523MB"
     }
   ]
 }
