@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-01T01:54:59.426468",
+  "lastUpdated": "2025-05-02T01:48:56.122648",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4230,6 +4230,66 @@
       ],
       "defaultSize": "0.6b",
       "defaultDiskSize": "523MB"
+    },
+    {
+      "name": "llama4",
+      "fullName": "llama4",
+      "description": "Meta's latest collection of multimodal models.",
+      "modelSize": "latest",
+      "tags": [
+        "latest"
+      ],
+      "downloads": "680",
+      "lastUpdated": "6 hours ago",
+      "runCommand": "ollama run llama4",
+      "parameterVersions": [
+        {
+          "size": "latest",
+          "diskSize": "67GB"
+        }
+      ],
+      "defaultSize": "latest",
+      "defaultDiskSize": "67GB"
+    },
+    {
+      "name": "phi4-reasoning",
+      "fullName": "phi4-reasoning",
+      "description": "Phi 4 reasoning and reasoning plus are 14-billion parameter open-weight reasoning models that rival much larger models on complex reasoning tasks.",
+      "modelSize": "14b",
+      "tags": [
+        "14b"
+      ],
+      "downloads": "4,194",
+      "lastUpdated": "20 hours ago",
+      "runCommand": "ollama run phi4-reasoning",
+      "parameterVersions": [
+        {
+          "size": "14b",
+          "diskSize": "11GB"
+        }
+      ],
+      "defaultSize": "14b",
+      "defaultDiskSize": "11GB"
+    },
+    {
+      "name": "phi4-mini-reasoning",
+      "fullName": "phi4-mini-reasoning",
+      "description": "Phi 4 mini reasoning is a lightweight open model that balances efficiency with advanced reasoning ability.",
+      "modelSize": "3.8b",
+      "tags": [
+        "3.8b"
+      ],
+      "downloads": "1,791",
+      "lastUpdated": "22 hours ago",
+      "runCommand": "ollama run phi4-mini-reasoning",
+      "parameterVersions": [
+        {
+          "size": "3.8b",
+          "diskSize": "3.2GB"
+        }
+      ],
+      "defaultSize": "3.8b",
+      "defaultDiskSize": "3.2GB"
     }
   ]
 }
