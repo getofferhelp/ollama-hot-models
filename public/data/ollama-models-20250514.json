@@ -1,0 +1,4175 @@
+{
+  "lastUpdated": "2025-05-14T01:49:32.944477",
+  "models": [
+    {
+      "name": "gemma3",
+      "fullName": "gemma3",
+      "description": "4.7M",
+      "modelSize": "1b",
+      "tags": [
+        "1b",
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 weeks ago",
+      "runCommand": "ollama run gemma3",
+      "parameterVersions": [
+        {
+          "size": "1b",
+          "diskSize": "815MB"
+        },
+        {
+          "size": "4b",
+          "diskSize": "3.3GB"
+        },
+        {
+          "size": "12b",
+          "diskSize": "8.1GB"
+        },
+        {
+          "size": "27b",
+          "diskSize": "17GB"
+        }
+      ],
+      "defaultSize": "1b",
+      "defaultDiskSize": "815MB"
+    },
+    {
+      "name": "qwen3",
+      "fullName": "qwen3",
+      "description": "1.3M",
+      "modelSize": "0.6b",
+      "tags": [
+        "0.6b",
+        "1.7b",
+        "4b",
+        "8b",
+        "14b",
+        "30b",
+        "32b",
+        "235b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "10 days ago",
+      "runCommand": "ollama run qwen3",
+      "parameterVersions": [
+        {
+          "size": "0.6b",
+          "diskSize": "523MB"
+        },
+        {
+          "size": "1.7b",
+          "diskSize": "1.4GB"
+        },
+        {
+          "size": "4b",
+          "diskSize": "2.6GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "5.2GB"
+        },
+        {
+          "size": "14b",
+          "diskSize": "9.3GB"
+        },
+        {
+          "size": "30b",
+          "diskSize": "19GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "20GB"
+        },
+        {
+          "size": "235b",
+          "diskSize": "142GB"
+        }
+      ],
+      "defaultSize": "0.6b",
+      "defaultDiskSize": "523MB"
+    },
+    {
+      "name": "deepseek-r1",
+      "fullName": "deepseek-r1",
+      "description": "44.3M",
+      "modelSize": "1.5b",
+      "tags": [
+        "1.5b",
+        "7b",
+        "8b",
+        "14b",
+        "32b",
+        "70b",
+        "671b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 months ago",
+      "runCommand": "ollama run deepseek-r1",
+      "parameterVersions": [
+        {
+          "size": "1.5b",
+          "diskSize": "1.1GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        },
+        {
+          "size": "14b",
+          "diskSize": "9.0GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "20GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "43GB"
+        },
+        {
+          "size": "671b",
+          "diskSize": "404GB"
+        }
+      ],
+      "defaultSize": "1.5b",
+      "defaultDiskSize": "1.1GB"
+    },
+    {
+      "name": "llama4",
+      "fullName": "llama4",
+      "description": "264K",
+      "modelSize": "latest",
+      "tags": [
+        "latest"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 days ago",
+      "runCommand": "ollama run llama4",
+      "parameterVersions": [
+        {
+          "size": "latest",
+          "diskSize": "67GB"
+        }
+      ],
+      "defaultSize": "latest",
+      "defaultDiskSize": "67GB"
+    },
+    {
+      "name": "llama3.3",
+      "fullName": "llama3.3",
+      "description": "1.8M",
+      "modelSize": "70b",
+      "tags": [
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run llama3.3",
+      "parameterVersions": [
+        {
+          "size": "70b",
+          "diskSize": "43GB"
+        }
+      ],
+      "defaultSize": "70b",
+      "defaultDiskSize": "43GB"
+    },
+    {
+      "name": "phi4",
+      "fullName": "phi4",
+      "description": "2.1M",
+      "modelSize": "14b",
+      "tags": [
+        "14b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run phi4",
+      "parameterVersions": [
+        {
+          "size": "14b",
+          "diskSize": "9.1GB"
+        }
+      ],
+      "defaultSize": "14b",
+      "defaultDiskSize": "9.1GB"
+    },
+    {
+      "name": "mistral-small3.1",
+      "fullName": "mistral-small3.1",
+      "description": "88.1K",
+      "modelSize": "24b",
+      "tags": [
+        "24b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 weeks ago",
+      "runCommand": "ollama run mistral-small3.1",
+      "parameterVersions": [
+        {
+          "size": "24b",
+          "diskSize": "15GB"
+        }
+      ],
+      "defaultSize": "24b",
+      "defaultDiskSize": "15GB"
+    },
+    {
+      "name": "llama3.2",
+      "fullName": "llama3.2",
+      "description": "16.5M",
+      "modelSize": "1b",
+      "tags": [
+        "1b",
+        "3b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "7 months ago",
+      "runCommand": "ollama run llama3.2",
+      "parameterVersions": [
+        {
+          "size": "1b",
+          "diskSize": "1.3GB"
+        },
+        {
+          "size": "3b",
+          "diskSize": "2.0GB"
+        }
+      ],
+      "defaultSize": "1b",
+      "defaultDiskSize": "1.3GB"
+    },
+    {
+      "name": "llama3.1",
+      "fullName": "llama3.1",
+      "description": "92.7M",
+      "modelSize": "8b",
+      "tags": [
+        "8b",
+        "70b",
+        "405b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run llama3.1",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "43GB"
+        },
+        {
+          "size": "405b",
+          "diskSize": "243GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "4.9GB"
+    },
+    {
+      "name": "nomic-embed-text",
+      "fullName": "nomic-embed-text",
+      "description": "25.1M",
+      "modelSize": "latest",
+      "tags": [
+        "latest"
+      ],
+      "downloads": "0",
+      "lastUpdated": "14 months ago",
+      "runCommand": "ollama run nomic-embed-text",
+      "parameterVersions": [
+        {
+          "size": "latest",
+          "diskSize": "274MB"
+        }
+      ],
+      "defaultSize": "latest",
+      "defaultDiskSize": "274MB"
+    },
+    {
+      "name": "mistral",
+      "fullName": "mistral",
+      "description": "13.4M",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run mistral",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "llama3",
+      "fullName": "llama3",
+      "description": "8.1M",
+      "modelSize": "8b",
+      "tags": [
+        "8b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "11 months ago",
+      "runCommand": "ollama run llama3",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "40GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
+      "name": "qwen2.5",
+      "fullName": "qwen2.5",
+      "description": "7.9M",
+      "modelSize": "0.5b",
+      "tags": [
+        "0.5b",
+        "1.5b",
+        "3b",
+        "7b",
+        "14b",
+        "32b",
+        "72b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "7 months ago",
+      "runCommand": "ollama run qwen2.5",
+      "parameterVersions": [
+        {
+          "size": "0.5b",
+          "diskSize": "398MB"
+        },
+        {
+          "size": "1.5b",
+          "diskSize": "986MB"
+        },
+        {
+          "size": "3b",
+          "diskSize": "1.9GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "14b",
+          "diskSize": "9.0GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "20GB"
+        },
+        {
+          "size": "72b",
+          "diskSize": "47GB"
+        }
+      ],
+      "defaultSize": "0.5b",
+      "defaultDiskSize": "398MB"
+    },
+    {
+      "name": "llava",
+      "fullName": "llava",
+      "description": "5.7M",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b",
+        "34b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "15 months ago",
+      "runCommand": "ollama run llava",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "8.0GB"
+        },
+        {
+          "size": "34b",
+          "diskSize": "20GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
+      "name": "qwen2.5-coder",
+      "fullName": "qwen2.5-coder",
+      "description": "5.2M",
+      "modelSize": "0.5b",
+      "tags": [
+        "0.5b",
+        "1.5b",
+        "3b",
+        "7b",
+        "14b",
+        "32b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "6 months ago",
+      "runCommand": "ollama run qwen2.5-coder",
+      "parameterVersions": [
+        {
+          "size": "0.5b",
+          "diskSize": "531MB"
+        },
+        {
+          "size": "1.5b",
+          "diskSize": "986MB"
+        },
+        {
+          "size": "3b",
+          "diskSize": "1.9GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "14b",
+          "diskSize": "9.0GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "20GB"
+        }
+      ],
+      "defaultSize": "0.5b",
+      "defaultDiskSize": "531MB"
+    },
+    {
+      "name": "qwen",
+      "fullName": "qwen",
+      "description": "4.7M",
+      "modelSize": "0.5b",
+      "tags": [
+        "0.5b",
+        "1.8b",
+        "4b",
+        "7b",
+        "14b",
+        "32b",
+        "72b",
+        "110b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run qwen",
+      "parameterVersions": [
+        {
+          "size": "0.5b",
+          "diskSize": "395MB"
+        },
+        {
+          "size": "1.8b",
+          "diskSize": "1.1GB"
+        },
+        {
+          "size": "4b",
+          "diskSize": "2.3GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "4.5GB"
+        },
+        {
+          "size": "14b",
+          "diskSize": "8.2GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "18GB"
+        },
+        {
+          "size": "72b",
+          "diskSize": "41GB"
+        },
+        {
+          "size": "110b",
+          "diskSize": "63GB"
+        }
+      ],
+      "defaultSize": "0.5b",
+      "defaultDiskSize": "395MB"
+    },
+    {
+      "name": "gemma2",
+      "fullName": "gemma2",
+      "description": "4.7M",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "9b",
+        "27b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run gemma2",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "1.6GB"
+        },
+        {
+          "size": "9b",
+          "diskSize": "5.4GB"
+        },
+        {
+          "size": "27b",
+          "diskSize": "16GB"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "gemma",
+      "fullName": "gemma",
+      "description": "4.5M",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "13 months ago",
+      "runCommand": "ollama run gemma",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "1.7GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "5.0GB"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "1.7GB"
+    },
+    {
+      "name": "qwen2",
+      "fullName": "qwen2",
+      "description": "4.2M",
+      "modelSize": "0.5b",
+      "tags": [
+        "0.5b",
+        "1.5b",
+        "7b",
+        "72b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run qwen2",
+      "parameterVersions": [
+        {
+          "size": "0.5b",
+          "diskSize": "352MB"
+        },
+        {
+          "size": "1.5b",
+          "diskSize": "935MB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "4.4GB"
+        },
+        {
+          "size": "72b",
+          "diskSize": "41GB"
+        }
+      ],
+      "defaultSize": "0.5b",
+      "defaultDiskSize": "352MB"
+    },
+    {
+      "name": "llama2",
+      "fullName": "llama2",
+      "description": "3.4M",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run llama2",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "39GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "phi3",
+      "fullName": "phi3",
+      "description": "3.2M",
+      "modelSize": "3.8b",
+      "tags": [
+        "3.8b",
+        "14b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run phi3",
+      "parameterVersions": [
+        {
+          "size": "3.8b",
+          "diskSize": "2.2GB"
+        },
+        {
+          "size": "14b",
+          "diskSize": "7.9GB"
+        }
+      ],
+      "defaultSize": "3.8b",
+      "defaultDiskSize": "2.2GB"
+    },
+    {
+      "name": "mxbai-embed-large",
+      "fullName": "mxbai-embed-large",
+      "description": "3M",
+      "modelSize": "335m",
+      "tags": [
+        "335m"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run mxbai-embed-large",
+      "parameterVersions": [
+        {
+          "size": "335m",
+          "diskSize": "670MB"
+        }
+      ],
+      "defaultSize": "335m",
+      "defaultDiskSize": "670MB"
+    },
+    {
+      "name": "llama3.2-vision",
+      "fullName": "llama3.2-vision",
+      "description": "2.1M",
+      "modelSize": "11b",
+      "tags": [
+        "11b",
+        "90b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "6 months ago",
+      "runCommand": "ollama run llama3.2-vision",
+      "parameterVersions": [
+        {
+          "size": "11b",
+          "diskSize": "7.9GB"
+        },
+        {
+          "size": "90b",
+          "diskSize": "55GB"
+        }
+      ],
+      "defaultSize": "11b",
+      "defaultDiskSize": "7.9GB"
+    },
+    {
+      "name": "codellama",
+      "fullName": "codellama",
+      "description": "2M",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b",
+        "34b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run codellama",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        },
+        {
+          "size": "34b",
+          "diskSize": "19GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "39GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "mistral-nemo",
+      "fullName": "mistral-nemo",
+      "description": "1.7M",
+      "modelSize": "12b",
+      "tags": [
+        "12b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run mistral-nemo",
+      "parameterVersions": [
+        {
+          "size": "12b",
+          "diskSize": "7.1GB"
+        }
+      ],
+      "defaultSize": "12b",
+      "defaultDiskSize": "7.1GB"
+    },
+    {
+      "name": "tinyllama",
+      "fullName": "tinyllama",
+      "description": "1.7M",
+      "modelSize": "1.1b",
+      "tags": [
+        "1.1b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run tinyllama",
+      "parameterVersions": [
+        {
+          "size": "1.1b",
+          "diskSize": "638MB"
+        }
+      ],
+      "defaultSize": "1.1b",
+      "defaultDiskSize": "638MB"
+    },
+    {
+      "name": "minicpm-v",
+      "fullName": "minicpm-v",
+      "description": "1.5M",
+      "modelSize": "8b",
+      "tags": [
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run minicpm-v",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "5.5GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "5.5GB"
+    },
+    {
+      "name": "qwq",
+      "fullName": "qwq",
+      "description": "1.4M",
+      "modelSize": "32b",
+      "tags": [
+        "32b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run qwq",
+      "parameterVersions": [
+        {
+          "size": "32b",
+          "diskSize": "20GB"
+        }
+      ],
+      "defaultSize": "32b",
+      "defaultDiskSize": "20GB"
+    },
+    {
+      "name": "deepseek-v3",
+      "fullName": "deepseek-v3",
+      "description": "1.3M",
+      "modelSize": "671b",
+      "tags": [
+        "671b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run deepseek-v3",
+      "parameterVersions": [
+        {
+          "size": "671b",
+          "diskSize": "404GB"
+        }
+      ],
+      "defaultSize": "671b",
+      "defaultDiskSize": "404GB"
+    },
+    {
+      "name": "llama2-uncensored",
+      "fullName": "llama2-uncensored",
+      "description": "1.1M",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run llama2-uncensored",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "39GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "dolphin3",
+      "fullName": "dolphin3",
+      "description": "1.1M",
+      "modelSize": "8b",
+      "tags": [
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run dolphin3",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "4.9GB"
+    },
+    {
+      "name": "olmo2",
+      "fullName": "olmo2",
+      "description": "1.1M",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run olmo2",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.5GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "8.4GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.5GB"
+    },
+    {
+      "name": "bge-m3",
+      "fullName": "bge-m3",
+      "description": "1.1M",
+      "modelSize": "567m",
+      "tags": [
+        "567m"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run bge-m3",
+      "parameterVersions": [
+        {
+          "size": "567m",
+          "diskSize": "1.2GB"
+        }
+      ],
+      "defaultSize": "567m",
+      "defaultDiskSize": "1.2GB"
+    },
+    {
+      "name": "mixtral",
+      "fullName": "mixtral",
+      "description": "1M",
+      "modelSize": "8x7b",
+      "tags": [
+        "8x7b",
+        "8x22b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run mixtral",
+      "parameterVersions": [
+        {
+          "size": "8x7b",
+          "diskSize": "26GB"
+        },
+        {
+          "size": "8x22b",
+          "diskSize": "80GB"
+        }
+      ],
+      "defaultSize": "8x7b",
+      "defaultDiskSize": "26GB"
+    },
+    {
+      "name": "starcoder2",
+      "fullName": "starcoder2",
+      "description": "936.9K",
+      "modelSize": "3b",
+      "tags": [
+        "3b",
+        "7b",
+        "15b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run starcoder2",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "1.7GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "4.0GB"
+        },
+        {
+          "size": "15b",
+          "diskSize": "9.1GB"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "1.7GB"
+    },
+    {
+      "name": "llava-llama3",
+      "fullName": "llava-llama3",
+      "description": "835.9K",
+      "modelSize": "8b",
+      "tags": [
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run llava-llama3",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "5.5GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "5.5GB"
+    },
+    {
+      "name": "deepseek-coder-v2",
+      "fullName": "deepseek-coder-v2",
+      "description": "816.3K",
+      "modelSize": "16b",
+      "tags": [
+        "16b",
+        "236b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run deepseek-coder-v2",
+      "parameterVersions": [
+        {
+          "size": "16b",
+          "diskSize": "8.9GB"
+        },
+        {
+          "size": "236b",
+          "diskSize": "133GB"
+        }
+      ],
+      "defaultSize": "16b",
+      "defaultDiskSize": "8.9GB"
+    },
+    {
+      "name": "smollm2",
+      "fullName": "smollm2",
+      "description": "769.9K",
+      "modelSize": "135m",
+      "tags": [
+        "135m",
+        "360m",
+        "1.7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "6 months ago",
+      "runCommand": "ollama run smollm2",
+      "parameterVersions": [
+        {
+          "size": "135m",
+          "diskSize": "271MB"
+        },
+        {
+          "size": "360m",
+          "diskSize": "726MB"
+        },
+        {
+          "size": "1.7b",
+          "diskSize": "1.8GB"
+        }
+      ],
+      "defaultSize": "135m",
+      "defaultDiskSize": "271MB"
+    },
+    {
+      "name": "mistral-small",
+      "fullName": "mistral-small",
+      "description": "769.1K",
+      "modelSize": "22b",
+      "tags": [
+        "22b",
+        "24b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 months ago",
+      "runCommand": "ollama run mistral-small",
+      "parameterVersions": [
+        {
+          "size": "22b",
+          "diskSize": "13GB"
+        },
+        {
+          "size": "24b",
+          "diskSize": "14GB"
+        }
+      ],
+      "defaultSize": "22b",
+      "defaultDiskSize": "13GB"
+    },
+    {
+      "name": "snowflake-arctic-embed",
+      "fullName": "snowflake-arctic-embed",
+      "description": "721.9K",
+      "modelSize": "22m",
+      "tags": [
+        "22m",
+        "33m",
+        "110m",
+        "137m",
+        "335m"
+      ],
+      "downloads": "0",
+      "lastUpdated": "13 months ago",
+      "runCommand": "ollama run snowflake-arctic-embed",
+      "parameterVersions": [
+        {
+          "size": "22m",
+          "diskSize": "46MB"
+        },
+        {
+          "size": "33m",
+          "diskSize": "67MB"
+        },
+        {
+          "size": "110m",
+          "diskSize": "219MB"
+        },
+        {
+          "size": "137m",
+          "diskSize": "274MB"
+        },
+        {
+          "size": "335m",
+          "diskSize": "669MB"
+        }
+      ],
+      "defaultSize": "22m",
+      "defaultDiskSize": "46MB"
+    },
+    {
+      "name": "deepseek-coder",
+      "fullName": "deepseek-coder",
+      "description": "703K",
+      "modelSize": "1.3b",
+      "tags": [
+        "1.3b",
+        "6.7b",
+        "33b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run deepseek-coder",
+      "parameterVersions": [
+        {
+          "size": "1.3b",
+          "diskSize": "776MB"
+        },
+        {
+          "size": "6.7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "33b",
+          "diskSize": "19GB"
+        }
+      ],
+      "defaultSize": "1.3b",
+      "defaultDiskSize": "776MB"
+    },
+    {
+      "name": "codegemma",
+      "fullName": "codegemma",
+      "description": "585.2K",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run codegemma",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "1.6GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "5.0GB"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "dolphin-mixtral",
+      "fullName": "dolphin-mixtral",
+      "description": "567.4K",
+      "modelSize": "8x7b",
+      "tags": [
+        "8x7b",
+        "8x22b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run dolphin-mixtral",
+      "parameterVersions": [
+        {
+          "size": "8x7b",
+          "diskSize": "26GB"
+        },
+        {
+          "size": "8x22b",
+          "diskSize": "80GB"
+        }
+      ],
+      "defaultSize": "8x7b",
+      "defaultDiskSize": "26GB"
+    },
+    {
+      "name": "phi",
+      "fullName": "phi",
+      "description": "531.8K",
+      "modelSize": "2.7b",
+      "tags": [
+        "2.7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run phi",
+      "parameterVersions": [
+        {
+          "size": "2.7b",
+          "diskSize": "1.6GB"
+        }
+      ],
+      "defaultSize": "2.7b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "openthinker",
+      "fullName": "openthinker",
+      "description": "524.9K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "32b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 weeks ago",
+      "runCommand": "ollama run openthinker",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "20GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
+      "name": "all-minilm",
+      "fullName": "all-minilm",
+      "description": "458.3K",
+      "modelSize": "22m",
+      "tags": [
+        "22m",
+        "33m"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run all-minilm",
+      "parameterVersions": [
+        {
+          "size": "22m",
+          "diskSize": "46MB"
+        },
+        {
+          "size": "33m",
+          "diskSize": "67MB"
+        }
+      ],
+      "defaultSize": "22m",
+      "defaultDiskSize": "46MB"
+    },
+    {
+      "name": "wizardlm2",
+      "fullName": "wizardlm2",
+      "description": "364.6K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "8x22b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "13 months ago",
+      "runCommand": "ollama run wizardlm2",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        },
+        {
+          "size": "8x22b",
+          "diskSize": "80GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "dolphin-mistral",
+      "fullName": "dolphin-mistral",
+      "description": "343.2K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "13 months ago",
+      "runCommand": "ollama run dolphin-mistral",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "orca-mini",
+      "fullName": "orca-mini",
+      "description": "336K",
+      "modelSize": "3b",
+      "tags": [
+        "3b",
+        "7b",
+        "13b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run orca-mini",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "2.0GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "39GB"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "2.0GB"
+    },
+    {
+      "name": "dolphin-llama3",
+      "fullName": "dolphin-llama3",
+      "description": "319.8K",
+      "modelSize": "8b",
+      "tags": [
+        "8b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run dolphin-llama3",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "40GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
+      "name": "command-r",
+      "fullName": "command-r",
+      "description": "294.4K",
+      "modelSize": "35b",
+      "tags": [
+        "35b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run command-r",
+      "parameterVersions": [
+        {
+          "size": "35b",
+          "diskSize": "19GB"
+        }
+      ],
+      "defaultSize": "35b",
+      "defaultDiskSize": "19GB"
+    },
+    {
+      "name": "codestral",
+      "fullName": "codestral",
+      "description": "281.3K",
+      "modelSize": "22b",
+      "tags": [
+        "22b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run codestral",
+      "parameterVersions": [
+        {
+          "size": "22b",
+          "diskSize": "13GB"
+        }
+      ],
+      "defaultSize": "22b",
+      "defaultDiskSize": "13GB"
+    },
+    {
+      "name": "hermes3",
+      "fullName": "hermes3",
+      "description": "279.8K",
+      "modelSize": "3b",
+      "tags": [
+        "3b",
+        "8b",
+        "70b",
+        "405b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run hermes3",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "2.0GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "40GB"
+        },
+        {
+          "size": "405b",
+          "diskSize": "229GB"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "2.0GB"
+    },
+    {
+      "name": "yi",
+      "fullName": "yi",
+      "description": "276K",
+      "modelSize": "6b",
+      "tags": [
+        "6b",
+        "9b",
+        "34b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run yi",
+      "parameterVersions": [
+        {
+          "size": "6b",
+          "diskSize": "3.5GB"
+        },
+        {
+          "size": "9b",
+          "diskSize": "5.0GB"
+        },
+        {
+          "size": "34b",
+          "diskSize": "19GB"
+        }
+      ],
+      "defaultSize": "6b",
+      "defaultDiskSize": "3.5GB"
+    },
+    {
+      "name": "phi3.5",
+      "fullName": "phi3.5",
+      "description": "270.9K",
+      "modelSize": "3.8b",
+      "tags": [
+        "3.8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run phi3.5",
+      "parameterVersions": [
+        {
+          "size": "3.8b",
+          "diskSize": "2.2GB"
+        }
+      ],
+      "defaultSize": "3.8b",
+      "defaultDiskSize": "2.2GB"
+    },
+    {
+      "name": "zephyr",
+      "fullName": "zephyr",
+      "description": "261.8K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "141b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "13 months ago",
+      "runCommand": "ollama run zephyr",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        },
+        {
+          "size": "141b",
+          "diskSize": "80GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "smollm",
+      "fullName": "smollm",
+      "description": "254.4K",
+      "modelSize": "135m",
+      "tags": [
+        "135m",
+        "360m",
+        "1.7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run smollm",
+      "parameterVersions": [
+        {
+          "size": "135m",
+          "diskSize": "92MB"
+        },
+        {
+          "size": "360m",
+          "diskSize": "229MB"
+        },
+        {
+          "size": "1.7b",
+          "diskSize": "991MB"
+        }
+      ],
+      "defaultSize": "135m",
+      "defaultDiskSize": "92MB"
+    },
+    {
+      "name": "granite-code",
+      "fullName": "granite-code",
+      "description": "207.9K",
+      "modelSize": "3b",
+      "tags": [
+        "3b",
+        "8b",
+        "20b",
+        "34b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run granite-code",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "2.0GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.6GB"
+        },
+        {
+          "size": "20b",
+          "diskSize": "12GB"
+        },
+        {
+          "size": "34b",
+          "diskSize": "19GB"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "2.0GB"
+    },
+    {
+      "name": "wizard-vicuna-uncensored",
+      "fullName": "wizard-vicuna-uncensored",
+      "description": "200.3K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b",
+        "30b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run wizard-vicuna-uncensored",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        },
+        {
+          "size": "30b",
+          "diskSize": "18GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "starcoder",
+      "fullName": "starcoder",
+      "description": "195.4K",
+      "modelSize": "1b",
+      "tags": [
+        "1b",
+        "3b",
+        "7b",
+        "15b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run starcoder",
+      "parameterVersions": [
+        {
+          "size": "1b",
+          "diskSize": "726MB"
+        },
+        {
+          "size": "3b",
+          "diskSize": "1.8GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "4.3GB"
+        },
+        {
+          "size": "15b",
+          "diskSize": "9.0GB"
+        }
+      ],
+      "defaultSize": "1b",
+      "defaultDiskSize": "726MB"
+    },
+    {
+      "name": "moondream",
+      "fullName": "moondream",
+      "description": "191K",
+      "modelSize": "1.8b",
+      "tags": [
+        "1.8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run moondream",
+      "parameterVersions": [
+        {
+          "size": "1.8b",
+          "diskSize": "1.7GB"
+        }
+      ],
+      "defaultSize": "1.8b",
+      "defaultDiskSize": "1.7GB"
+    },
+    {
+      "name": "vicuna",
+      "fullName": "vicuna",
+      "description": "181.5K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b",
+        "33b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run vicuna",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        },
+        {
+          "size": "33b",
+          "diskSize": "18GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "mistral-openorca",
+      "fullName": "mistral-openorca",
+      "description": "170.2K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "19 months ago",
+      "runCommand": "ollama run mistral-openorca",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "openchat",
+      "fullName": "openchat",
+      "description": "157.8K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run openchat",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "llama2-chinese",
+      "fullName": "llama2-chinese",
+      "description": "153.1K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run llama2-chinese",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "deepseek-v2",
+      "fullName": "deepseek-v2",
+      "description": "148.9K",
+      "modelSize": "16b",
+      "tags": [
+        "16b",
+        "236b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "10 months ago",
+      "runCommand": "ollama run deepseek-v2",
+      "parameterVersions": [
+        {
+          "size": "16b",
+          "diskSize": "8.9GB"
+        },
+        {
+          "size": "236b",
+          "diskSize": "133GB"
+        }
+      ],
+      "defaultSize": "16b",
+      "defaultDiskSize": "8.9GB"
+    },
+    {
+      "name": "deepseek-llm",
+      "fullName": "deepseek-llm",
+      "description": "147.4K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "67b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run deepseek-llm",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.0GB"
+        },
+        {
+          "size": "67b",
+          "diskSize": "38GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.0GB"
+    },
+    {
+      "name": "openhermes",
+      "fullName": "openhermes",
+      "description": "145.7K",
+      "modelSize": "latest",
+      "tags": [
+        "latest"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run openhermes",
+      "parameterVersions": [
+        {
+          "size": "latest",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "latest",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "codeqwen",
+      "fullName": "codeqwen",
+      "description": "145K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "10 months ago",
+      "runCommand": "ollama run codeqwen",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.2GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.2GB"
+    },
+    {
+      "name": "codegeex4",
+      "fullName": "codegeex4",
+      "description": "144.1K",
+      "modelSize": "9b",
+      "tags": [
+        "9b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "10 months ago",
+      "runCommand": "ollama run codegeex4",
+      "parameterVersions": [
+        {
+          "size": "9b",
+          "diskSize": "5.5GB"
+        }
+      ],
+      "defaultSize": "9b",
+      "defaultDiskSize": "5.5GB"
+    },
+    {
+      "name": "aya",
+      "fullName": "aya",
+      "description": "142.8K",
+      "modelSize": "8b",
+      "tags": [
+        "8b",
+        "35b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "11 months ago",
+      "runCommand": "ollama run aya",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "4.8GB"
+        },
+        {
+          "size": "35b",
+          "diskSize": "20GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "4.8GB"
+    },
+    {
+      "name": "phi4-mini",
+      "fullName": "phi4-mini",
+      "description": "137K",
+      "modelSize": "3.8b",
+      "tags": [
+        "3.8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run phi4-mini",
+      "parameterVersions": [
+        {
+          "size": "3.8b",
+          "diskSize": "2.5GB"
+        }
+      ],
+      "defaultSize": "3.8b",
+      "defaultDiskSize": "2.5GB"
+    },
+    {
+      "name": "mistral-large",
+      "fullName": "mistral-large",
+      "description": "134.4K",
+      "modelSize": "123b",
+      "tags": [
+        "123b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run mistral-large",
+      "parameterVersions": [
+        {
+          "size": "123b",
+          "diskSize": "73GB"
+        }
+      ],
+      "defaultSize": "123b",
+      "defaultDiskSize": "73GB"
+    },
+    {
+      "name": "glm4",
+      "fullName": "glm4",
+      "description": "131.5K",
+      "modelSize": "9b",
+      "tags": [
+        "9b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "10 months ago",
+      "runCommand": "ollama run glm4",
+      "parameterVersions": [
+        {
+          "size": "9b",
+          "diskSize": "5.5GB"
+        }
+      ],
+      "defaultSize": "9b",
+      "defaultDiskSize": "5.5GB"
+    },
+    {
+      "name": "stable-code",
+      "fullName": "stable-code",
+      "description": "128.9K",
+      "modelSize": "3b",
+      "tags": [
+        "3b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "13 months ago",
+      "runCommand": "ollama run stable-code",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "1.6GB"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "qwen2-math",
+      "fullName": "qwen2-math",
+      "description": "127.4K",
+      "modelSize": "1.5b",
+      "tags": [
+        "1.5b",
+        "7b",
+        "72b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run qwen2-math",
+      "parameterVersions": [
+        {
+          "size": "1.5b",
+          "diskSize": "935MB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "4.4GB"
+        },
+        {
+          "size": "72b",
+          "diskSize": "41GB"
+        }
+      ],
+      "defaultSize": "1.5b",
+      "defaultDiskSize": "935MB"
+    },
+    {
+      "name": "tinydolphin",
+      "fullName": "tinydolphin",
+      "description": "127.3K",
+      "modelSize": "1.1b",
+      "tags": [
+        "1.1b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "15 months ago",
+      "runCommand": "ollama run tinydolphin",
+      "parameterVersions": [
+        {
+          "size": "1.1b",
+          "diskSize": "637MB"
+        }
+      ],
+      "defaultSize": "1.1b",
+      "defaultDiskSize": "637MB"
+    },
+    {
+      "name": "nous-hermes2",
+      "fullName": "nous-hermes2",
+      "description": "126.9K",
+      "modelSize": "10.7b",
+      "tags": [
+        "10.7b",
+        "34b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run nous-hermes2",
+      "parameterVersions": [
+        {
+          "size": "10.7b",
+          "diskSize": "6.1GB"
+        },
+        {
+          "size": "34b",
+          "diskSize": "19GB"
+        }
+      ],
+      "defaultSize": "10.7b",
+      "defaultDiskSize": "6.1GB"
+    },
+    {
+      "name": "command-r-plus",
+      "fullName": "command-r-plus",
+      "description": "124.6K",
+      "modelSize": "104b",
+      "tags": [
+        "104b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run command-r-plus",
+      "parameterVersions": [
+        {
+          "size": "104b",
+          "diskSize": "59GB"
+        }
+      ],
+      "defaultSize": "104b",
+      "defaultDiskSize": "59GB"
+    },
+    {
+      "name": "wizardcoder",
+      "fullName": "wizardcoder",
+      "description": "122.8K",
+      "modelSize": "33b",
+      "tags": [
+        "33b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run wizardcoder",
+      "parameterVersions": [
+        {
+          "size": "33b",
+          "diskSize": "19GB"
+        }
+      ],
+      "defaultSize": "33b",
+      "defaultDiskSize": "19GB"
+    },
+    {
+      "name": "bakllava",
+      "fullName": "bakllava",
+      "description": "116.9K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run bakllava",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
+      "name": "stablelm2",
+      "fullName": "stablelm2",
+      "description": "112.5K",
+      "modelSize": "1.6b",
+      "tags": [
+        "1.6b",
+        "12b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run stablelm2",
+      "parameterVersions": [
+        {
+          "size": "1.6b",
+          "diskSize": "983MB"
+        },
+        {
+          "size": "12b",
+          "diskSize": "7.0GB"
+        }
+      ],
+      "defaultSize": "1.6b",
+      "defaultDiskSize": "983MB"
+    },
+    {
+      "name": "neural-chat",
+      "fullName": "neural-chat",
+      "description": "111K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run neural-chat",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "reflection",
+      "fullName": "reflection",
+      "description": "105.4K",
+      "modelSize": "70b",
+      "tags": [
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run reflection",
+      "parameterVersions": [
+        {
+          "size": "70b",
+          "diskSize": "40GB"
+        }
+      ],
+      "defaultSize": "70b",
+      "defaultDiskSize": "40GB"
+    },
+    {
+      "name": "llama3-chatqa",
+      "fullName": "llama3-chatqa",
+      "description": "104.2K",
+      "modelSize": "8b",
+      "tags": [
+        "8b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run llama3-chatqa",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "40GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
+      "name": "wizard-math",
+      "fullName": "wizard-math",
+      "description": "104.1K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run wizard-math",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "39GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "sqlcoder",
+      "fullName": "sqlcoder",
+      "description": "103.7K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "15b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "15 months ago",
+      "runCommand": "ollama run sqlcoder",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        },
+        {
+          "size": "15b",
+          "diskSize": "9.0GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "bge-large",
+      "fullName": "bge-large",
+      "description": "101.8K",
+      "modelSize": "335m",
+      "tags": [
+        "335m"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run bge-large",
+      "parameterVersions": [
+        {
+          "size": "335m",
+          "diskSize": "671MB"
+        }
+      ],
+      "defaultSize": "335m",
+      "defaultDiskSize": "671MB"
+    },
+    {
+      "name": "llama3-gradient",
+      "fullName": "llama3-gradient",
+      "description": "101.3K",
+      "modelSize": "1048k",
+      "tags": [
+        "1048k",
+        "8b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run llama3-gradient",
+      "parameterVersions": [
+        {
+          "size": "1048k",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "40GB"
+        }
+      ],
+      "defaultSize": "1048k",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
+      "name": "granite3-dense",
+      "fullName": "granite3-dense",
+      "description": "96.6K",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run granite3-dense",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "1.6GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "granite3.2",
+      "fullName": "granite3.2",
+      "description": "96.2K",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run granite3.2",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "1.5GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "1.5GB"
+    },
+    {
+      "name": "granite3.1-dense",
+      "fullName": "granite3.1-dense",
+      "description": "93.9K",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 months ago",
+      "runCommand": "ollama run granite3.1-dense",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "1.6GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "5.0GB"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "samantha-mistral",
+      "fullName": "samantha-mistral",
+      "description": "93.5K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "19 months ago",
+      "runCommand": "ollama run samantha-mistral",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "llava-phi3",
+      "fullName": "llava-phi3",
+      "description": "89.6K",
+      "modelSize": "3.8b",
+      "tags": [
+        "3.8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run llava-phi3",
+      "parameterVersions": [
+        {
+          "size": "3.8b",
+          "diskSize": "2.9GB"
+        }
+      ],
+      "defaultSize": "3.8b",
+      "defaultDiskSize": "2.9GB"
+    },
+    {
+      "name": "dolphincoder",
+      "fullName": "dolphincoder",
+      "description": "88.5K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "15b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "13 months ago",
+      "runCommand": "ollama run dolphincoder",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.2GB"
+        },
+        {
+          "size": "15b",
+          "diskSize": "9.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.2GB"
+    },
+    {
+      "name": "nous-hermes",
+      "fullName": "nous-hermes",
+      "description": "86.3K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run nous-hermes",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "xwinlm",
+      "fullName": "xwinlm",
+      "description": "86.2K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run xwinlm",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "starling-lm",
+      "fullName": "starling-lm",
+      "description": "84.5K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "13 months ago",
+      "runCommand": "ollama run starling-lm",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "phind-codellama",
+      "fullName": "phind-codellama",
+      "description": "84.2K",
+      "modelSize": "34b",
+      "tags": [
+        "34b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run phind-codellama",
+      "parameterVersions": [
+        {
+          "size": "34b",
+          "diskSize": "19GB"
+        }
+      ],
+      "defaultSize": "34b",
+      "defaultDiskSize": "19GB"
+    },
+    {
+      "name": "yi-coder",
+      "fullName": "yi-coder",
+      "description": "82.4K",
+      "modelSize": "1.5b",
+      "tags": [
+        "1.5b",
+        "9b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run yi-coder",
+      "parameterVersions": [
+        {
+          "size": "1.5b",
+          "diskSize": "866MB"
+        },
+        {
+          "size": "9b",
+          "diskSize": "5.0GB"
+        }
+      ],
+      "defaultSize": "1.5b",
+      "defaultDiskSize": "866MB"
+    },
+    {
+      "name": "solar",
+      "fullName": "solar",
+      "description": "81.7K",
+      "modelSize": "10.7b",
+      "tags": [
+        "10.7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run solar",
+      "parameterVersions": [
+        {
+          "size": "10.7b",
+          "diskSize": "6.1GB"
+        }
+      ],
+      "defaultSize": "10.7b",
+      "defaultDiskSize": "6.1GB"
+    },
+    {
+      "name": "athene-v2",
+      "fullName": "athene-v2",
+      "description": "80.6K",
+      "modelSize": "72b",
+      "tags": [
+        "72b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run athene-v2",
+      "parameterVersions": [
+        {
+          "size": "72b",
+          "diskSize": "47GB"
+        }
+      ],
+      "defaultSize": "72b",
+      "defaultDiskSize": "47GB"
+    },
+    {
+      "name": "yarn-llama2",
+      "fullName": "yarn-llama2",
+      "description": "80.6K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run yarn-llama2",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "nemotron-mini",
+      "fullName": "nemotron-mini",
+      "description": "80.5K",
+      "modelSize": "4b",
+      "tags": [
+        "4b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "7 months ago",
+      "runCommand": "ollama run nemotron-mini",
+      "parameterVersions": [
+        {
+          "size": "4b",
+          "diskSize": "2.7GB"
+        }
+      ],
+      "defaultSize": "4b",
+      "defaultDiskSize": "2.7GB"
+    },
+    {
+      "name": "internlm2",
+      "fullName": "internlm2",
+      "description": "79.3K",
+      "modelSize": "1m",
+      "tags": [
+        "1m",
+        "1.8b",
+        "7b",
+        "20b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run internlm2",
+      "parameterVersions": [
+        {
+          "size": "1m",
+          "diskSize": "4.5GB"
+        },
+        {
+          "size": "1.8b",
+          "diskSize": "1.1GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "4.5GB"
+        },
+        {
+          "size": "20b",
+          "diskSize": "11GB"
+        }
+      ],
+      "defaultSize": "1m",
+      "defaultDiskSize": "4.5GB"
+    },
+    {
+      "name": "deepscaler",
+      "fullName": "deepscaler",
+      "description": "79.1K",
+      "modelSize": "1.5b",
+      "tags": [
+        "1.5b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 months ago",
+      "runCommand": "ollama run deepscaler",
+      "parameterVersions": [
+        {
+          "size": "1.5b",
+          "diskSize": "3.6GB"
+        }
+      ],
+      "defaultSize": "1.5b",
+      "defaultDiskSize": "3.6GB"
+    },
+    {
+      "name": "wizardlm",
+      "fullName": "wizardlm",
+      "description": "76.9K",
+      "modelSize": "13b-fp16",
+      "tags": [
+        "13b-fp16"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run wizardlm",
+      "parameterVersions": [
+        {
+          "size": "13b-fp16",
+          "diskSize": "26GB"
+        }
+      ],
+      "defaultSize": "13b-fp16",
+      "defaultDiskSize": "26GB"
+    },
+    {
+      "name": "deepcoder",
+      "fullName": "deepcoder",
+      "description": "76.4K",
+      "modelSize": "1.5b",
+      "tags": [
+        "1.5b",
+        "14b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 weeks ago",
+      "runCommand": "ollama run deepcoder",
+      "parameterVersions": [
+        {
+          "size": "1.5b",
+          "diskSize": "1.1GB"
+        },
+        {
+          "size": "14b",
+          "diskSize": "9.0GB"
+        }
+      ],
+      "defaultSize": "1.5b",
+      "defaultDiskSize": "1.1GB"
+    },
+    {
+      "name": "falcon",
+      "fullName": "falcon",
+      "description": "73.8K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "40b",
+        "180b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run falcon",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.2GB"
+        },
+        {
+          "size": "40b",
+          "diskSize": "24GB"
+        },
+        {
+          "size": "180b",
+          "diskSize": "101GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.2GB"
+    },
+    {
+      "name": "dolphin-phi",
+      "fullName": "dolphin-phi",
+      "description": "73.5K",
+      "modelSize": "2.7b",
+      "tags": [
+        "2.7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run dolphin-phi",
+      "parameterVersions": [
+        {
+          "size": "2.7b",
+          "diskSize": "1.6GB"
+        }
+      ],
+      "defaultSize": "2.7b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "exaone3.5",
+      "fullName": "exaone3.5",
+      "description": "72.9K",
+      "modelSize": "2.4b",
+      "tags": [
+        "2.4b",
+        "7.8b",
+        "32b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run exaone3.5",
+      "parameterVersions": [
+        {
+          "size": "2.4b",
+          "diskSize": "1.6GB"
+        },
+        {
+          "size": "7.8b",
+          "diskSize": "4.8GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "19GB"
+        }
+      ],
+      "defaultSize": "2.4b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "nemotron",
+      "fullName": "nemotron",
+      "description": "72.5K",
+      "modelSize": "70b",
+      "tags": [
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "6 months ago",
+      "runCommand": "ollama run nemotron",
+      "parameterVersions": [
+        {
+          "size": "70b",
+          "diskSize": "43GB"
+        }
+      ],
+      "defaultSize": "70b",
+      "defaultDiskSize": "43GB"
+    },
+    {
+      "name": "cogito",
+      "fullName": "cogito",
+      "description": "67.3K",
+      "modelSize": "3b",
+      "tags": [
+        "3b",
+        "8b",
+        "14b",
+        "32b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 weeks ago",
+      "runCommand": "ollama run cogito",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "2.2GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        },
+        {
+          "size": "14b",
+          "diskSize": "9.0GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "20GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "43GB"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "2.2GB"
+    },
+    {
+      "name": "snowflake-arctic-embed2",
+      "fullName": "snowflake-arctic-embed2",
+      "description": "66.7K",
+      "modelSize": "568m",
+      "tags": [
+        "568m"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run snowflake-arctic-embed2",
+      "parameterVersions": [
+        {
+          "size": "568m",
+          "diskSize": "1.2GB"
+        }
+      ],
+      "defaultSize": "568m",
+      "defaultDiskSize": "1.2GB"
+    },
+    {
+      "name": "granite3.2-vision",
+      "fullName": "granite3.2-vision",
+      "description": "66.3K",
+      "modelSize": "2b",
+      "tags": [
+        "2b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run granite3.2-vision",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "2.4GB"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "2.4GB"
+    },
+    {
+      "name": "orca2",
+      "fullName": "orca2",
+      "description": "66.1K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run orca2",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "wizardlm-uncensored",
+      "fullName": "wizardlm-uncensored",
+      "description": "65.1K",
+      "modelSize": "13b",
+      "tags": [
+        "13b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run wizardlm-uncensored",
+      "parameterVersions": [
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "13b",
+      "defaultDiskSize": "7.4GB"
+    },
+    {
+      "name": "llama3-groq-tool-use",
+      "fullName": "llama3-groq-tool-use",
+      "description": "63.7K",
+      "modelSize": "8b",
+      "tags": [
+        "8b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run llama3-groq-tool-use",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "4.7GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "40GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
+      "name": "aya-expanse",
+      "fullName": "aya-expanse",
+      "description": "61.6K",
+      "modelSize": "8b",
+      "tags": [
+        "8b",
+        "32b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "6 months ago",
+      "runCommand": "ollama run aya-expanse",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "5.1GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "20GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "5.1GB"
+    },
+    {
+      "name": "stable-beluga",
+      "fullName": "stable-beluga",
+      "description": "60.4K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "13b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run stable-beluga",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "39GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "paraphrase-multilingual",
+      "fullName": "paraphrase-multilingual",
+      "description": "60.1K",
+      "modelSize": "278m",
+      "tags": [
+        "278m"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run paraphrase-multilingual",
+      "parameterVersions": [
+        {
+          "size": "278m",
+          "diskSize": "563MB"
+        }
+      ],
+      "defaultSize": "278m",
+      "defaultDiskSize": "563MB"
+    },
+    {
+      "name": "nous-hermes2-mixtral",
+      "fullName": "nous-hermes2-mixtral",
+      "description": "58.8K",
+      "modelSize": "8x7b",
+      "tags": [
+        "8x7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run nous-hermes2-mixtral",
+      "parameterVersions": [
+        {
+          "size": "8x7b",
+          "diskSize": "26GB"
+        }
+      ],
+      "defaultSize": "8x7b",
+      "defaultDiskSize": "26GB"
+    },
+    {
+      "name": "smallthinker",
+      "fullName": "smallthinker",
+      "description": "55.9K",
+      "modelSize": "3b",
+      "tags": [
+        "3b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run smallthinker",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "3.6GB"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "3.6GB"
+    },
+    {
+      "name": "deepseek-v2.5",
+      "fullName": "deepseek-v2.5",
+      "description": "53.4K",
+      "modelSize": "236b",
+      "tags": [
+        "236b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run deepseek-v2.5",
+      "parameterVersions": [
+        {
+          "size": "236b",
+          "diskSize": "133GB"
+        }
+      ],
+      "defaultSize": "236b",
+      "defaultDiskSize": "133GB"
+    },
+    {
+      "name": "meditron",
+      "fullName": "meditron",
+      "description": "53.3K",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run meditron",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "39GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "falcon3",
+      "fullName": "falcon3",
+      "description": "52.5K",
+      "modelSize": "1b",
+      "tags": [
+        "1b",
+        "3b",
+        "7b",
+        "10b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run falcon3",
+      "parameterVersions": [
+        {
+          "size": "1b",
+          "diskSize": "1.8GB"
+        },
+        {
+          "size": "3b",
+          "diskSize": "2.0GB"
+        },
+        {
+          "size": "7b",
+          "diskSize": "4.6GB"
+        },
+        {
+          "size": "10b",
+          "diskSize": "6.3GB"
+        }
+      ],
+      "defaultSize": "1b",
+      "defaultDiskSize": "1.8GB"
+    },
+    {
+      "name": "medllama2",
+      "fullName": "medllama2",
+      "description": "51.6K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run medllama2",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "granite3-moe",
+      "fullName": "granite3-moe",
+      "description": "49K",
+      "modelSize": "1b",
+      "tags": [
+        "1b",
+        "3b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run granite3-moe",
+      "parameterVersions": [
+        {
+          "size": "1b",
+          "diskSize": "822MB"
+        },
+        {
+          "size": "3b",
+          "diskSize": "2.1GB"
+        }
+      ],
+      "defaultSize": "1b",
+      "defaultDiskSize": "822MB"
+    },
+    {
+      "name": "llama-pro",
+      "fullName": "llama-pro",
+      "description": "47.3K",
+      "modelSize": "latest",
+      "tags": [
+        "latest"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run llama-pro",
+      "parameterVersions": [
+        {
+          "size": "latest",
+          "diskSize": "4.7GB"
+        }
+      ],
+      "defaultSize": "latest",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
+      "name": "granite-embedding",
+      "fullName": "granite-embedding",
+      "description": "47.2K",
+      "modelSize": "30m",
+      "tags": [
+        "30m",
+        "278m"
+      ],
+      "downloads": "0",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run granite-embedding",
+      "parameterVersions": [
+        {
+          "size": "30m",
+          "diskSize": "63MB"
+        },
+        {
+          "size": "278m",
+          "diskSize": "563MB"
+        }
+      ],
+      "defaultSize": "30m",
+      "defaultDiskSize": "63MB"
+    },
+    {
+      "name": "yarn-mistral",
+      "fullName": "yarn-mistral",
+      "description": "46.4K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run yarn-mistral",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "nexusraven",
+      "fullName": "nexusraven",
+      "description": "43K",
+      "modelSize": "13b",
+      "tags": [
+        "13b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run nexusraven",
+      "parameterVersions": [
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "13b",
+      "defaultDiskSize": "7.4GB"
+    },
+    {
+      "name": "granite3.1-moe",
+      "fullName": "granite3.1-moe",
+      "description": "42.6K",
+      "modelSize": "1b",
+      "tags": [
+        "1b",
+        "3b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 months ago",
+      "runCommand": "ollama run granite3.1-moe",
+      "parameterVersions": [
+        {
+          "size": "1b",
+          "diskSize": "1.4GB"
+        },
+        {
+          "size": "3b",
+          "diskSize": "2.0GB"
+        }
+      ],
+      "defaultSize": "1b",
+      "defaultDiskSize": "1.4GB"
+    },
+    {
+      "name": "codeup",
+      "fullName": "codeup",
+      "description": "41K",
+      "modelSize": "13b",
+      "tags": [
+        "13b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run codeup",
+      "parameterVersions": [
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "13b",
+      "defaultDiskSize": "7.4GB"
+    },
+    {
+      "name": "shieldgemma",
+      "fullName": "shieldgemma",
+      "description": "40.7K",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "9b",
+        "27b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "7 months ago",
+      "runCommand": "ollama run shieldgemma",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "1.7GB"
+        },
+        {
+          "size": "9b",
+          "diskSize": "5.8GB"
+        },
+        {
+          "size": "27b",
+          "diskSize": "17GB"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "1.7GB"
+    },
+    {
+      "name": "everythinglm",
+      "fullName": "everythinglm",
+      "description": "40.6K",
+      "modelSize": "13b",
+      "tags": [
+        "13b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run everythinglm",
+      "parameterVersions": [
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "13b",
+      "defaultDiskSize": "7.4GB"
+    },
+    {
+      "name": "opencoder",
+      "fullName": "opencoder",
+      "description": "39.2K",
+      "modelSize": "1.5b",
+      "tags": [
+        "1.5b",
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run opencoder",
+      "parameterVersions": [
+        {
+          "size": "1.5b",
+          "diskSize": "1.4GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.7GB"
+        }
+      ],
+      "defaultSize": "1.5b",
+      "defaultDiskSize": "1.4GB"
+    },
+    {
+      "name": "llama-guard3",
+      "fullName": "llama-guard3",
+      "description": "39.1K",
+      "modelSize": "1b",
+      "tags": [
+        "1b",
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "7 months ago",
+      "runCommand": "ollama run llama-guard3",
+      "parameterVersions": [
+        {
+          "size": "1b",
+          "diskSize": "1.6GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        }
+      ],
+      "defaultSize": "1b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "reader-lm",
+      "fullName": "reader-lm",
+      "description": "38.4K",
+      "modelSize": "0.5b",
+      "tags": [
+        "0.5b",
+        "1.5b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 months ago",
+      "runCommand": "ollama run reader-lm",
+      "parameterVersions": [
+        {
+          "size": "0.5b",
+          "diskSize": "352MB"
+        },
+        {
+          "size": "1.5b",
+          "diskSize": "935MB"
+        }
+      ],
+      "defaultSize": "0.5b",
+      "defaultDiskSize": "352MB"
+    },
+    {
+      "name": "exaone-deep",
+      "fullName": "exaone-deep",
+      "description": "36.6K",
+      "modelSize": "2.4b",
+      "tags": [
+        "2.4b",
+        "7.8b",
+        "32b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "7 weeks ago",
+      "runCommand": "ollama run exaone-deep",
+      "parameterVersions": [
+        {
+          "size": "2.4b",
+          "diskSize": "1.6GB"
+        },
+        {
+          "size": "7.8b",
+          "diskSize": "4.8GB"
+        },
+        {
+          "size": "32b",
+          "diskSize": "19GB"
+        }
+      ],
+      "defaultSize": "2.4b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "granite3.3",
+      "fullName": "granite3.3",
+      "description": "36.6K",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 weeks ago",
+      "runCommand": "ollama run granite3.3",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "1.5GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "1.5GB"
+    },
+    {
+      "name": "mathstral",
+      "fullName": "mathstral",
+      "description": "36.4K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "10 months ago",
+      "runCommand": "ollama run mathstral",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "solar-pro",
+      "fullName": "solar-pro",
+      "description": "36.2K",
+      "modelSize": "22b",
+      "tags": [
+        "22b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "7 months ago",
+      "runCommand": "ollama run solar-pro",
+      "parameterVersions": [
+        {
+          "size": "22b",
+          "diskSize": "13GB"
+        }
+      ],
+      "defaultSize": "22b",
+      "defaultDiskSize": "13GB"
+    },
+    {
+      "name": "marco-o1",
+      "fullName": "marco-o1",
+      "description": "35.8K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run marco-o1",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
+      "name": "falcon2",
+      "fullName": "falcon2",
+      "description": "34.6K",
+      "modelSize": "11b",
+      "tags": [
+        "11b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 months ago",
+      "runCommand": "ollama run falcon2",
+      "parameterVersions": [
+        {
+          "size": "11b",
+          "diskSize": "6.4GB"
+        }
+      ],
+      "defaultSize": "11b",
+      "defaultDiskSize": "6.4GB"
+    },
+    {
+      "name": "duckdb-nsql",
+      "fullName": "duckdb-nsql",
+      "description": "34.5K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "15 months ago",
+      "runCommand": "ollama run duckdb-nsql",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "stablelm-zephyr",
+      "fullName": "stablelm-zephyr",
+      "description": "34K",
+      "modelSize": "3b",
+      "tags": [
+        "3b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run stablelm-zephyr",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "1.6GB"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "1.6GB"
+    },
+    {
+      "name": "magicoder",
+      "fullName": "magicoder",
+      "description": "33.5K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "17 months ago",
+      "runCommand": "ollama run magicoder",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "3.8GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "3.8GB"
+    },
+    {
+      "name": "command-r7b",
+      "fullName": "command-r7b",
+      "description": "33.1K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 months ago",
+      "runCommand": "ollama run command-r7b",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "5.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "5.1GB"
+    },
+    {
+      "name": "mistrallite",
+      "fullName": "mistrallite",
+      "description": "32.9K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run mistrallite",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "codebooga",
+      "fullName": "codebooga",
+      "description": "32.6K",
+      "modelSize": "34b",
+      "tags": [
+        "34b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run codebooga",
+      "parameterVersions": [
+        {
+          "size": "34b",
+          "diskSize": "19GB"
+        }
+      ],
+      "defaultSize": "34b",
+      "defaultDiskSize": "19GB"
+    },
+    {
+      "name": "wizard-vicuna",
+      "fullName": "wizard-vicuna",
+      "description": "30.7K",
+      "modelSize": "13b",
+      "tags": [
+        "13b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run wizard-vicuna",
+      "parameterVersions": [
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "13b",
+      "defaultDiskSize": "7.4GB"
+    },
+    {
+      "name": "r1-1776",
+      "fullName": "r1-1776",
+      "description": "30.3K",
+      "modelSize": "70b",
+      "tags": [
+        "70b",
+        "671b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run r1-1776",
+      "parameterVersions": [
+        {
+          "size": "70b",
+          "diskSize": "43GB"
+        },
+        {
+          "size": "671b",
+          "diskSize": "404GB"
+        }
+      ],
+      "defaultSize": "70b",
+      "defaultDiskSize": "43GB"
+    },
+    {
+      "name": "nuextract",
+      "fullName": "nuextract",
+      "description": "28.8K",
+      "modelSize": "3.8b",
+      "tags": [
+        "3.8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run nuextract",
+      "parameterVersions": [
+        {
+          "size": "3.8b",
+          "diskSize": "2.2GB"
+        }
+      ],
+      "defaultSize": "3.8b",
+      "defaultDiskSize": "2.2GB"
+    },
+    {
+      "name": "phi4-reasoning",
+      "fullName": "phi4-reasoning",
+      "description": "27.3K",
+      "modelSize": "14b",
+      "tags": [
+        "14b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 days ago",
+      "runCommand": "ollama run phi4-reasoning",
+      "parameterVersions": [
+        {
+          "size": "14b",
+          "diskSize": "11GB"
+        }
+      ],
+      "defaultSize": "14b",
+      "defaultDiskSize": "11GB"
+    },
+    {
+      "name": "bespoke-minicheck",
+      "fullName": "bespoke-minicheck",
+      "description": "26.6K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "7 months ago",
+      "runCommand": "ollama run bespoke-minicheck",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.7GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.7GB"
+    },
+    {
+      "name": "megadolphin",
+      "fullName": "megadolphin",
+      "description": "26K",
+      "modelSize": "120b",
+      "tags": [
+        "120b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run megadolphin",
+      "parameterVersions": [
+        {
+          "size": "120b",
+          "diskSize": "68GB"
+        }
+      ],
+      "defaultSize": "120b",
+      "defaultDiskSize": "68GB"
+    },
+    {
+      "name": "tulu3",
+      "fullName": "tulu3",
+      "description": "25.6K",
+      "modelSize": "8b",
+      "tags": [
+        "8b",
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "4 months ago",
+      "runCommand": "ollama run tulu3",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "4.9GB"
+        },
+        {
+          "size": "70b",
+          "diskSize": "43GB"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "4.9GB"
+    },
+    {
+      "name": "notux",
+      "fullName": "notux",
+      "description": "25.2K",
+      "modelSize": "8x7b",
+      "tags": [
+        "8x7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run notux",
+      "parameterVersions": [
+        {
+          "size": "8x7b",
+          "diskSize": "26GB"
+        }
+      ],
+      "defaultSize": "8x7b",
+      "defaultDiskSize": "26GB"
+    },
+    {
+      "name": "open-orca-platypus2",
+      "fullName": "open-orca-platypus2",
+      "description": "24.8K",
+      "modelSize": "13b",
+      "tags": [
+        "13b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run open-orca-platypus2",
+      "parameterVersions": [
+        {
+          "size": "13b",
+          "diskSize": "7.4GB"
+        }
+      ],
+      "defaultSize": "13b",
+      "defaultDiskSize": "7.4GB"
+    },
+    {
+      "name": "notus",
+      "fullName": "notus",
+      "description": "24.5K",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "16 months ago",
+      "runCommand": "ollama run notus",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "4.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "4.1GB"
+    },
+    {
+      "name": "goliath",
+      "fullName": "goliath",
+      "description": "23.6K",
+      "modelSize": "latest",
+      "tags": [
+        "latest"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run goliath",
+      "parameterVersions": [
+        {
+          "size": "latest",
+          "diskSize": "66GB"
+        }
+      ],
+      "defaultSize": "latest",
+      "defaultDiskSize": "66GB"
+    },
+    {
+      "name": "firefunction-v2",
+      "fullName": "firefunction-v2",
+      "description": "21.1K",
+      "modelSize": "70b",
+      "tags": [
+        "70b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 months ago",
+      "runCommand": "ollama run firefunction-v2",
+      "parameterVersions": [
+        {
+          "size": "70b",
+          "diskSize": "40GB"
+        }
+      ],
+      "defaultSize": "70b",
+      "defaultDiskSize": "40GB"
+    },
+    {
+      "name": "dbrx",
+      "fullName": "dbrx",
+      "description": "19.1K",
+      "modelSize": "132b",
+      "tags": [
+        "132b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "13 months ago",
+      "runCommand": "ollama run dbrx",
+      "parameterVersions": [
+        {
+          "size": "132b",
+          "diskSize": "74GB"
+        }
+      ],
+      "defaultSize": "132b",
+      "defaultDiskSize": "74GB"
+    },
+    {
+      "name": "granite3-guardian",
+      "fullName": "granite3-guardian",
+      "description": "18.7K",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run granite3-guardian",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "2.7GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "5.8GB"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "2.7GB"
+    },
+    {
+      "name": "alfred",
+      "fullName": "alfred",
+      "description": "16.8K",
+      "modelSize": "40b",
+      "tags": [
+        "40b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 months ago",
+      "runCommand": "ollama run alfred",
+      "parameterVersions": [
+        {
+          "size": "40b",
+          "diskSize": "24GB"
+        }
+      ],
+      "defaultSize": "40b",
+      "defaultDiskSize": "24GB"
+    },
+    {
+      "name": "sailor2",
+      "fullName": "sailor2",
+      "description": "11.5K",
+      "modelSize": "1b",
+      "tags": [
+        "1b",
+        "8b",
+        "20b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 months ago",
+      "runCommand": "ollama run sailor2",
+      "parameterVersions": [
+        {
+          "size": "1b",
+          "diskSize": "1.1GB"
+        },
+        {
+          "size": "8b",
+          "diskSize": "5.2GB"
+        },
+        {
+          "size": "20b",
+          "diskSize": "12GB"
+        }
+      ],
+      "defaultSize": "1b",
+      "defaultDiskSize": "1.1GB"
+    },
+    {
+      "name": "command-a",
+      "fullName": "command-a",
+      "description": "11.5K",
+      "modelSize": "111b",
+      "tags": [
+        "111b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run command-a",
+      "parameterVersions": [
+        {
+          "size": "111b",
+          "diskSize": "67GB"
+        }
+      ],
+      "defaultSize": "111b",
+      "defaultDiskSize": "67GB"
+    },
+    {
+      "name": "phi4-mini-reasoning",
+      "fullName": "phi4-mini-reasoning",
+      "description": "11.3K",
+      "modelSize": "3.8b",
+      "tags": [
+        "3.8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 days ago",
+      "runCommand": "ollama run phi4-mini-reasoning",
+      "parameterVersions": [
+        {
+          "size": "3.8b",
+          "diskSize": "3.2GB"
+        }
+      ],
+      "defaultSize": "3.8b",
+      "defaultDiskSize": "3.2GB"
+    },
+    {
+      "name": "command-r7b-arabic",
+      "fullName": "command-r7b-arabic",
+      "description": "5,821",
+      "modelSize": "7b",
+      "tags": [
+        "7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "2 months ago",
+      "runCommand": "ollama run command-r7b-arabic",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "5.1GB"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "5.1GB"
+    }
+  ]
+}
