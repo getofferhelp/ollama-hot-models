@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-15T01:43:50.786755",
+  "lastUpdated": "2025-05-16T01:48:12.564958",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4290,6 +4290,41 @@
       ],
       "defaultSize": "3.8b",
       "defaultDiskSize": "3.2GB"
+    },
+    {
+      "name": "qwen2.5vl",
+      "fullName": "qwen2.5vl",
+      "description": "1,090",
+      "modelSize": "3b",
+      "tags": [
+        "3b",
+        "7b",
+        "32b",
+        "72b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run qwen2.5vl",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "7b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "32b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "72b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "未知"
     }
   ]
 }
