@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-05-21T01:47:53.314646",
+  "lastUpdated": "2025-05-22T01:46:54.590416",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4324,6 +4324,26 @@
         }
       ],
       "defaultSize": "3b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "devstral",
+      "fullName": "devstral",
+      "description": "3,630",
+      "modelSize": "24b",
+      "tags": [
+        "24b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "11 hours ago",
+      "runCommand": "ollama run devstral",
+      "parameterVersions": [
+        {
+          "size": "24b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "24b",
       "defaultDiskSize": "未知"
     }
   ]
