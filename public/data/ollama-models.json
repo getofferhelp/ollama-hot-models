@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-10T01:50:11.352699",
+  "lastUpdated": "2025-06-11T01:50:22.757479",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4337,6 +4337,26 @@
       "downloads": "0",
       "lastUpdated": "11 hours ago",
       "runCommand": "ollama run devstral",
+      "parameterVersions": [
+        {
+          "size": "24b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "24b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "magistral",
+      "fullName": "magistral",
+      "description": "1,617",
+      "modelSize": "24b",
+      "tags": [
+        "24b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run magistral",
       "parameterVersions": [
         {
           "size": "24b",
