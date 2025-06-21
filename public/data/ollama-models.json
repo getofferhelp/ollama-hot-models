@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-20T01:50:24.654675",
+  "lastUpdated": "2025-06-21T01:50:00.911823",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4357,6 +4357,26 @@
       "downloads": "0",
       "lastUpdated": "Unknown",
       "runCommand": "ollama run magistral",
+      "parameterVersions": [
+        {
+          "size": "24b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "24b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "mistral-small3.2",
+      "fullName": "mistral-small3.2",
+      "description": "220",
+      "modelSize": "24b",
+      "tags": [
+        "24b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 hours ago",
+      "runCommand": "ollama run mistral-small3.2",
       "parameterVersions": [
         {
           "size": "24b",
