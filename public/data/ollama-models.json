@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-06-26T01:50:31.740144",
+  "lastUpdated": "2025-06-27T01:51:39.569370",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4384,6 +4384,19 @@
         }
       ],
       "defaultSize": "24b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "gemma3n",
+      "fullName": "gemma3n",
+      "description": "4,776",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "18 hours ago",
+      "runCommand": "ollama run gemma3n",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
