@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-05T02:09:46.194319",
+  "lastUpdated": "2025-08-06T02:08:15.491245",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4417,6 +4417,31 @@
         }
       ],
       "defaultSize": "30b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "gpt-oss",
+      "fullName": "gpt-oss",
+      "description": "104.2K",
+      "modelSize": "20b",
+      "tags": [
+        "20b",
+        "120b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "7 hours ago",
+      "runCommand": "ollama run gpt-oss",
+      "parameterVersions": [
+        {
+          "size": "20b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "120b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "20b",
       "defaultDiskSize": "未知"
     }
   ]
