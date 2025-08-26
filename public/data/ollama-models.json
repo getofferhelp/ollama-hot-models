@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-25T01:49:42.785179",
+  "lastUpdated": "2025-08-26T01:46:59.961391",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4442,6 +4442,26 @@
         }
       ],
       "defaultSize": "20b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "deepseek-v3.1",
+      "fullName": "deepseek-v3.1",
+      "description": "333",
+      "modelSize": "671b",
+      "tags": [
+        "671b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "21 hours ago",
+      "runCommand": "ollama run deepseek-v3.1",
+      "parameterVersions": [
+        {
+          "size": "671b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "671b",
       "defaultDiskSize": "未知"
     }
   ]
