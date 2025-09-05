@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-04T01:40:25.687680",
+  "lastUpdated": "2025-09-05T01:42:14.704515",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4462,6 +4462,19 @@
         }
       ],
       "defaultSize": "671b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "embeddinggemma",
+      "fullName": "embeddinggemma",
+      "description": "1,197",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "8 hours ago",
+      "runCommand": "ollama run embeddinggemma",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
