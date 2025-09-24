@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-23T01:41:54.497325",
+  "lastUpdated": "2025-09-24T01:42:42.781272",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4475,6 +4475,36 @@
       "runCommand": "ollama run embeddinggemma",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "qwen3-embedding",
+      "fullName": "qwen3-embedding",
+      "description": "429",
+      "modelSize": "0.6b",
+      "tags": [
+        "0.6b",
+        "4b",
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 hours ago",
+      "runCommand": "ollama run qwen3-embedding",
+      "parameterVersions": [
+        {
+          "size": "0.6b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "4b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "8b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "0.6b",
       "defaultDiskSize": "未知"
     }
   ]
