@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-02T01:41:40.589910",
+  "lastUpdated": "2025-10-03T01:41:34.458704",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4516,6 +4516,19 @@
       "downloads": "0",
       "lastUpdated": "22 hours ago",
       "runCommand": "ollama run kimi-k2",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "granite4",
+      "fullName": "granite4",
+      "description": "1,233",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "5 hours ago",
+      "runCommand": "ollama run granite4",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
