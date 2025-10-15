@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-14T01:43:49.804275",
+  "lastUpdated": "2025-10-15T01:45:42.933303",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4529,6 +4529,19 @@
       "downloads": "0",
       "lastUpdated": "5 hours ago",
       "runCommand": "ollama run granite4",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "qwen3-vl",
+      "fullName": "qwen3-vl",
+      "description": "63",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "4 hours ago",
+      "runCommand": "ollama run qwen3-vl",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
