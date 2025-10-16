@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-15T01:45:42.933303",
+  "lastUpdated": "2025-10-16T01:45:10.595878",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4542,6 +4542,19 @@
       "downloads": "0",
       "lastUpdated": "4 hours ago",
       "runCommand": "ollama run qwen3-vl",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "glm-4.6",
+      "fullName": "glm-4.6",
+      "description": "88",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "20 hours ago",
+      "runCommand": "ollama run glm-4.6",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
