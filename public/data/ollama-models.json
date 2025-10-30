@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-29T01:50:38.285694",
+  "lastUpdated": "2025-10-30T01:50:04.290720",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4570,6 +4570,31 @@
       "runCommand": "ollama run minimax-m2",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "gpt-oss-safeguard",
+      "fullName": "gpt-oss-safeguard",
+      "description": "308",
+      "modelSize": "20b",
+      "tags": [
+        "20b",
+        "120b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run gpt-oss-safeguard",
+      "parameterVersions": [
+        {
+          "size": "20b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "120b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "20b",
       "defaultDiskSize": "未知"
     }
   ]
