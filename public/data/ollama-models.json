@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-07T01:50:00.389386",
+  "lastUpdated": "2025-11-08T01:44:50.287370",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4595,6 +4595,19 @@
         }
       ],
       "defaultSize": "20b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "kimi-k2-thinking",
+      "fullName": "kimi-k2-thinking",
+      "description": "1,126",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run kimi-k2-thinking",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
