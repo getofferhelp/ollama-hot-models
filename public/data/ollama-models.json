@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-18T01:50:07.958533",
+  "lastUpdated": "2025-11-19T01:50:19.891008",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4606,6 +4606,19 @@
       "downloads": "0",
       "lastUpdated": "Unknown",
       "runCommand": "ollama run kimi-k2-thinking",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "gemini-3-pro-preview",
+      "fullName": "gemini-3-pro-preview",
+      "description": "709",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "9 hours ago",
+      "runCommand": "ollama run gemini-3-pro-preview",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
