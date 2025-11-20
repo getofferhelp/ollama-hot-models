@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-19T01:50:19.891008",
+  "lastUpdated": "2025-11-20T01:49:10.877310",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4621,6 +4621,51 @@
       "runCommand": "ollama run gemini-3-pro-preview",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "deepseek-ocr",
+      "fullName": "deepseek-ocr",
+      "description": "615",
+      "modelSize": "3b",
+      "tags": [
+        "3b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 hours ago",
+      "runCommand": "ollama run deepseek-ocr",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "cogito-2.1",
+      "fullName": "cogito-2.1",
+      "description": "227",
+      "modelSize": "671b",
+      "tags": [
+        "671b",
+        "671b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "7 hours ago",
+      "runCommand": "ollama run cogito-2.1",
+      "parameterVersions": [
+        {
+          "size": "671b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "671b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "671b",
       "defaultDiskSize": "未知"
     }
   ]
