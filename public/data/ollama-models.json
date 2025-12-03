@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-02T01:52:26.564454",
+  "lastUpdated": "2025-12-03T01:52:36.537673",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4666,6 +4666,49 @@
         }
       ],
       "defaultSize": "671b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "ministral-3",
+      "fullName": "ministral-3",
+      "description": "1,931",
+      "modelSize": "3b",
+      "tags": [
+        "3b",
+        "8b",
+        "14b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 hours ago",
+      "runCommand": "ollama run ministral-3",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "8b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "14b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "mistral-large-3",
+      "fullName": "mistral-large-3",
+      "description": "55",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "3 hours ago",
+      "runCommand": "ollama run mistral-large-3",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
