@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-08T01:53:18.250798",
+  "lastUpdated": "2025-12-09T01:52:55.875516",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4709,6 +4709,26 @@
       "runCommand": "ollama run mistral-large-3",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "qwen3-next",
+      "fullName": "qwen3-next",
+      "description": "225",
+      "modelSize": "80b",
+      "tags": [
+        "80b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "an hour ago",
+      "runCommand": "ollama run qwen3-next",
+      "parameterVersions": [
+        {
+          "size": "80b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "80b",
       "defaultDiskSize": "未知"
     }
   ]
