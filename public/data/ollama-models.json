@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-09T01:52:55.875516",
+  "lastUpdated": "2025-12-10T01:54:53.986109",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4729,6 +4729,39 @@
         }
       ],
       "defaultSize": "80b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "deepseek-v3.2",
+      "fullName": "deepseek-v3.2",
+      "description": "693",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run deepseek-v3.2",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "rnj-1",
+      "fullName": "rnj-1",
+      "description": "494",
+      "modelSize": "8b",
+      "tags": [
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 hours ago",
+      "runCommand": "ollama run rnj-1",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "8b",
       "defaultDiskSize": "未知"
     }
   ]
