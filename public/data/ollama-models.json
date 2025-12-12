@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-11T01:57:00.197358",
+  "lastUpdated": "2025-12-12T01:55:37.352170",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4762,6 +4762,59 @@
         }
       ],
       "defaultSize": "8b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "devstral-small-2",
+      "fullName": "devstral-small-2",
+      "description": "93",
+      "modelSize": "24b",
+      "tags": [
+        "24b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 hours ago",
+      "runCommand": "ollama run devstral-small-2",
+      "parameterVersions": [
+        {
+          "size": "24b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "24b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "nomic-embed-text-v2-moe",
+      "fullName": "nomic-embed-text-v2-moe",
+      "description": "22",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run nomic-embed-text-v2-moe",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "devstral-2",
+      "fullName": "devstral-2",
+      "description": "12",
+      "modelSize": "123b",
+      "tags": [
+        "123b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "33 minutes ago",
+      "runCommand": "ollama run devstral-2",
+      "parameterVersions": [
+        {
+          "size": "123b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "123b",
       "defaultDiskSize": "未知"
     }
   ]
