@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-16T01:56:44.883611",
+  "lastUpdated": "2025-12-17T01:52:18.992586",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4815,6 +4815,71 @@
         }
       ],
       "defaultSize": "123b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "nemotron-3-nano",
+      "fullName": "nemotron-3-nano",
+      "description": "4,132",
+      "modelSize": "30b",
+      "tags": [
+        "30b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "19 hours ago",
+      "runCommand": "ollama run nemotron-3-nano",
+      "parameterVersions": [
+        {
+          "size": "30b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "30b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "olmo-3",
+      "fullName": "olmo-3",
+      "description": "1,621",
+      "modelSize": "7b",
+      "tags": [
+        "7b",
+        "32b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "19 hours ago",
+      "runCommand": "ollama run olmo-3",
+      "parameterVersions": [
+        {
+          "size": "7b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "32b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "7b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "olmo-3.1",
+      "fullName": "olmo-3.1",
+      "description": "765",
+      "modelSize": "32b",
+      "tags": [
+        "32b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "20 hours ago",
+      "runCommand": "ollama run olmo-3.1",
+      "parameterVersions": [
+        {
+          "size": "32b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "32b",
       "defaultDiskSize": "未知"
     }
   ]
