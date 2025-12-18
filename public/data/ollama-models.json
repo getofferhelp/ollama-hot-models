@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-17T01:52:18.992586",
+  "lastUpdated": "2025-12-18T01:53:51.400503",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4880,6 +4880,19 @@
         }
       ],
       "defaultSize": "32b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "gemini-3-flash-preview",
+      "fullName": "gemini-3-flash-preview",
+      "description": "249",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "6 hours ago",
+      "runCommand": "ollama run gemini-3-flash-preview",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
