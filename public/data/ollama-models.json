@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-18T01:53:51.400503",
+  "lastUpdated": "2025-12-19T01:56:13.650148",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4891,6 +4891,19 @@
       "downloads": "0",
       "lastUpdated": "6 hours ago",
       "runCommand": "ollama run gemini-3-flash-preview",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "functiongemma",
+      "fullName": "functiongemma",
+      "description": "280",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "18 hours ago",
+      "runCommand": "ollama run functiongemma",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
