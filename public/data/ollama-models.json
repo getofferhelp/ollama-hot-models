@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-23T01:56:17.579364",
+  "lastUpdated": "2025-12-24T01:55:44.224627",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4904,6 +4904,32 @@
       "downloads": "0",
       "lastUpdated": "18 hours ago",
       "runCommand": "ollama run functiongemma",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "minimax-m2.1",
+      "fullName": "minimax-m2.1",
+      "description": "501",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "23 hours ago",
+      "runCommand": "ollama run minimax-m2.1",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "glm-4.7",
+      "fullName": "glm-4.7",
+      "description": "232",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "8 hours ago",
+      "runCommand": "ollama run glm-4.7",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
