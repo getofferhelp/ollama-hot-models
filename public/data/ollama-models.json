@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-16T02:09:35.901455",
+  "lastUpdated": "2026-01-17T01:56:21.376087",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4932,6 +4932,36 @@
       "runCommand": "ollama run glm-4.7",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "translategemma",
+      "fullName": "translategemma",
+      "description": "4,784",
+      "modelSize": "4b",
+      "tags": [
+        "4b",
+        "12b",
+        "27b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 hours ago",
+      "runCommand": "ollama run translategemma",
+      "parameterVersions": [
+        {
+          "size": "4b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "12b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "27b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "4b",
       "defaultDiskSize": "未知"
     }
   ]
