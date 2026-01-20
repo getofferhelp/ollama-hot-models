@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-19T02:14:54.056160",
+  "lastUpdated": "2026-01-20T02:09:44.045807",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4962,6 +4962,19 @@
         }
       ],
       "defaultSize": "4b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "glm-4.7-flash",
+      "fullName": "glm-4.7-flash",
+      "description": "372",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "6 hours ago",
+      "runCommand": "ollama run glm-4.7-flash",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
