@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-20T02:09:44.045807",
+  "lastUpdated": "2026-01-21T02:12:35.940071",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4975,6 +4975,26 @@
       "runCommand": "ollama run glm-4.7-flash",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "lfm2.5-thinking",
+      "fullName": "lfm2.5-thinking",
+      "description": "112",
+      "modelSize": "1.2b",
+      "tags": [
+        "1.2b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "14 hours ago",
+      "runCommand": "ollama run lfm2.5-thinking",
+      "parameterVersions": [
+        {
+          "size": "1.2b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "1.2b",
       "defaultDiskSize": "未知"
     }
   ]
