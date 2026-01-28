@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-27T02:16:37.358081",
+  "lastUpdated": "2026-01-28T02:13:00.734459",
   "models": [
     {
       "name": "deepseek-r1",
@@ -4995,6 +4995,19 @@
         }
       ],
       "defaultSize": "1.2b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "kimi-k2.5",
+      "fullName": "kimi-k2.5",
+      "description": "2,992",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "19 hours ago",
+      "runCommand": "ollama run kimi-k2.5",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
