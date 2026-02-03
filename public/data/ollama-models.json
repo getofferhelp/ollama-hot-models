@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-02T02:33:29.288517",
+  "lastUpdated": "2026-02-03T02:31:45.336466",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5006,6 +5006,19 @@
       "downloads": "0",
       "lastUpdated": "19 hours ago",
       "runCommand": "ollama run kimi-k2.5",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "glm-ocr",
+      "fullName": "glm-ocr",
+      "description": "68",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "3 hours ago",
+      "runCommand": "ollama run glm-ocr",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
