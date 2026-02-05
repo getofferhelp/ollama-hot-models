@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-04T02:26:55.487576",
+  "lastUpdated": "2026-02-05T02:27:38.184897",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5019,6 +5019,19 @@
       "downloads": "0",
       "lastUpdated": "3 hours ago",
       "runCommand": "ollama run glm-ocr",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "qwen3-coder-next",
+      "fullName": "qwen3-coder-next",
+      "description": "3,163",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "19 hours ago",
+      "runCommand": "ollama run qwen3-coder-next",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
