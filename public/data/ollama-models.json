@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-11T02:40:20.930228",
+  "lastUpdated": "2026-02-12T02:35:18.177311",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5032,6 +5032,19 @@
       "downloads": "0",
       "lastUpdated": "19 hours ago",
       "runCommand": "ollama run qwen3-coder-next",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "glm-5",
+      "fullName": "glm-5",
+      "description": "4,069",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "8 hours ago",
+      "runCommand": "ollama run glm-5",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
