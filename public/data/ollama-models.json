@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-12T02:35:18.177311",
+  "lastUpdated": "2026-02-13T02:37:01.334037",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5045,6 +5045,19 @@
       "downloads": "0",
       "lastUpdated": "8 hours ago",
       "runCommand": "ollama run glm-5",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "minimax-m2.5",
+      "fullName": "minimax-m2.5",
+      "description": "4,265",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "17 hours ago",
+      "runCommand": "ollama run minimax-m2.5",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
