@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T02:30:23.555347",
+  "lastUpdated": "2026-02-25T02:32:33.826459",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5073,6 +5073,26 @@
       "runCommand": "ollama run qwen3.5",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "lfm2",
+      "fullName": "lfm2",
+      "description": "1,145",
+      "modelSize": "24b",
+      "tags": [
+        "24b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run lfm2",
+      "parameterVersions": [
+        {
+          "size": "24b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "24b",
       "defaultDiskSize": "未知"
     }
   ]
