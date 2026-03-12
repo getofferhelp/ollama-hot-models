@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T02:24:41.085343",
+  "lastUpdated": "2026-03-12T02:30:32.299750",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5093,6 +5093,26 @@
         }
       ],
       "defaultSize": "24b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "nemotron-3-super",
+      "fullName": "nemotron-3-super",
+      "description": "1,383",
+      "modelSize": "120b",
+      "tags": [
+        "120b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "10 hours ago",
+      "runCommand": "ollama run nemotron-3-super",
+      "parameterVersions": [
+        {
+          "size": "120b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "120b",
       "defaultDiskSize": "未知"
     }
   ]
