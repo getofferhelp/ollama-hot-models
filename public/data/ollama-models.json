@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-20T02:30:31.558081",
+  "lastUpdated": "2026-03-21T02:23:41.694543",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5126,6 +5126,26 @@
       "runCommand": "ollama run minimax-m2.7",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "nemotron-cascade-2",
+      "fullName": "nemotron-cascade-2",
+      "description": "749",
+      "modelSize": "30b",
+      "tags": [
+        "30b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "6 hours ago",
+      "runCommand": "ollama run nemotron-cascade-2",
+      "parameterVersions": [
+        {
+          "size": "30b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "30b",
       "defaultDiskSize": "未知"
     }
   ]
