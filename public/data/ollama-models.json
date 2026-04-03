@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T02:39:17.187793",
+  "lastUpdated": "2026-04-03T02:40:24.090314",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5146,6 +5146,31 @@
         }
       ],
       "defaultSize": "30b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "gemma4",
+      "fullName": "gemma4",
+      "description": "41K",
+      "modelSize": "26b",
+      "tags": [
+        "26b",
+        "31b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "7 hours ago",
+      "runCommand": "ollama run gemma4",
+      "parameterVersions": [
+        {
+          "size": "26b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "31b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "26b",
       "defaultDiskSize": "未知"
     }
   ]
