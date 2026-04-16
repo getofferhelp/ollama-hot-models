@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T03:00:34.538132",
+  "lastUpdated": "2026-04-16T03:05:00.479970",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5184,6 +5184,51 @@
       "runCommand": "ollama run glm-5.1",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "medgemma1.5",
+      "fullName": "medgemma1.5",
+      "description": "147",
+      "modelSize": "4b",
+      "tags": [
+        "4b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 hours ago",
+      "runCommand": "ollama run medgemma1.5",
+      "parameterVersions": [
+        {
+          "size": "4b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "4b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "medgemma",
+      "fullName": "medgemma",
+      "description": "106",
+      "modelSize": "4b",
+      "tags": [
+        "4b",
+        "27b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 hours ago",
+      "runCommand": "ollama run medgemma",
+      "parameterVersions": [
+        {
+          "size": "4b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "27b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "4b",
       "defaultDiskSize": "未知"
     }
   ]
