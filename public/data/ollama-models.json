@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T03:05:00.479970",
+  "lastUpdated": "2026-04-17T03:01:09.935889",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5229,6 +5229,19 @@
         }
       ],
       "defaultSize": "4b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "qwen3.6",
+      "fullName": "qwen3.6",
+      "description": "26.9K",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run qwen3.6",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
