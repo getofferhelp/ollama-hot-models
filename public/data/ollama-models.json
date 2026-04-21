@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T03:13:14.880417",
+  "lastUpdated": "2026-04-21T03:01:32.930063",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5240,6 +5240,19 @@
       "downloads": "0",
       "lastUpdated": "Unknown",
       "runCommand": "ollama run qwen3.6",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "kimi-k2.6",
+      "fullName": "kimi-k2.6",
+      "description": "1,249",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "7 hours ago",
+      "runCommand": "ollama run kimi-k2.6",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
