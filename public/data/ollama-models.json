@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T03:02:45.027854",
+  "lastUpdated": "2026-04-26T03:08:16.674083",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5253,6 +5253,19 @@
       "downloads": "0",
       "lastUpdated": "7 hours ago",
       "runCommand": "ollama run kimi-k2.6",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "deepseek-v4-flash",
+      "fullName": "deepseek-v4-flash",
+      "description": "13.5K",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run deepseek-v4-flash",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
