@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T03:09:42.236037",
+  "lastUpdated": "2026-04-28T03:18:47.892302",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5266,6 +5266,19 @@
       "downloads": "0",
       "lastUpdated": "Unknown",
       "runCommand": "ollama run deepseek-v4-flash",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "deepseek-v4-pro",
+      "fullName": "deepseek-v4-pro",
+      "description": "6,295",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run deepseek-v4-pro",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
