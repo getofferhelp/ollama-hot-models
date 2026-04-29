@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T03:18:47.892302",
+  "lastUpdated": "2026-04-29T03:17:17.602124",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5279,6 +5279,39 @@
       "downloads": "0",
       "lastUpdated": "Unknown",
       "runCommand": "ollama run deepseek-v4-pro",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "nemotron3",
+      "fullName": "nemotron3",
+      "description": "1,321",
+      "modelSize": "33b",
+      "tags": [
+        "33b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run nemotron3",
+      "parameterVersions": [
+        {
+          "size": "33b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "33b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "laguna-xs.2",
+      "fullName": "laguna-xs.2",
+      "description": "683",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run laguna-xs.2",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
