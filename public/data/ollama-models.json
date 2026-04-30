@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T03:17:17.602124",
+  "lastUpdated": "2026-04-30T03:18:39.932434",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5314,6 +5314,56 @@
       "runCommand": "ollama run laguna-xs.2",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "granite4.1",
+      "fullName": "granite4.1",
+      "description": "1,839",
+      "modelSize": "3b",
+      "tags": [
+        "3b",
+        "8b",
+        "30b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "45 minutes ago",
+      "runCommand": "ollama run granite4.1",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "8b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "30b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "mistral-medium-3.5",
+      "fullName": "mistral-medium-3.5",
+      "description": "610",
+      "modelSize": "128b",
+      "tags": [
+        "128b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run mistral-medium-3.5",
+      "parameterVersions": [
+        {
+          "size": "128b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "128b",
       "defaultDiskSize": "未知"
     }
   ]
