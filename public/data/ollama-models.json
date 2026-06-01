@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T04:12:02.262974",
+  "lastUpdated": "2026-06-01T04:27:14.925416",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5364,6 +5364,19 @@
         }
       ],
       "defaultSize": "128b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "minimax-m3",
+      "fullName": "minimax-m3",
+      "description": "1,683",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "3 hours ago",
+      "runCommand": "ollama run minimax-m3",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
