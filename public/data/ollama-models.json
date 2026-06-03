@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T04:19:13.877193",
+  "lastUpdated": "2026-06-03T04:29:26.814908",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5377,6 +5377,26 @@
       "runCommand": "ollama run minimax-m3",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "lfm2.5",
+      "fullName": "lfm2.5",
+      "description": "930",
+      "modelSize": "8b",
+      "tags": [
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 days ago",
+      "runCommand": "ollama run lfm2.5",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "8b",
       "defaultDiskSize": "未知"
     }
   ]
