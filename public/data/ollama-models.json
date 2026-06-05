@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T04:24:42.526390",
+  "lastUpdated": "2026-06-05T04:08:28.505005",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5397,6 +5397,26 @@
         }
       ],
       "defaultSize": "8b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "nemotron-3-ultra",
+      "fullName": "nemotron-3-ultra",
+      "description": "928",
+      "modelSize": "550b",
+      "tags": [
+        "550b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run nemotron-3-ultra",
+      "parameterVersions": [
+        {
+          "size": "550b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "550b",
       "defaultDiskSize": "未知"
     }
   ]
