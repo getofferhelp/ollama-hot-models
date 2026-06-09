@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T04:25:02.598027",
+  "lastUpdated": "2026-06-09T03:29:56.596821",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5417,6 +5417,46 @@
         }
       ],
       "defaultSize": "550b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "minicpm-v4.6",
+      "fullName": "minicpm-v4.6",
+      "description": "64",
+      "modelSize": "1b",
+      "tags": [
+        "1b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "6 days ago",
+      "runCommand": "ollama run minicpm-v4.6",
+      "parameterVersions": [
+        {
+          "size": "1b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "1b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "minicpm-v4.5",
+      "fullName": "minicpm-v4.5",
+      "description": "38",
+      "modelSize": "8b",
+      "tags": [
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "6 days ago",
+      "runCommand": "ollama run minicpm-v4.5",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "8b",
       "defaultDiskSize": "未知"
     }
   ]
