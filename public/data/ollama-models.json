@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T04:21:11.894881",
+  "lastUpdated": "2026-06-12T04:18:49.640433",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5450,6 +5450,26 @@
       "downloads": "0",
       "lastUpdated": "6 days ago",
       "runCommand": "ollama run minicpm-v4.5",
+      "parameterVersions": [
+        {
+          "size": "8b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "8b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "granite4.1-guardian",
+      "fullName": "granite4.1-guardian",
+      "description": "11",
+      "modelSize": "8b",
+      "tags": [
+        "8b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run granite4.1-guardian",
       "parameterVersions": [
         {
           "size": "8b",
