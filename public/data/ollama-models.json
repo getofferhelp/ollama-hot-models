@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T04:29:23.004738",
+  "lastUpdated": "2026-06-17T04:30:08.296739",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5490,6 +5490,26 @@
       "runCommand": "ollama run kimi-k2.7-code",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "glm-5.2",
+      "fullName": "glm-5.2",
+      "description": "1,631",
+      "modelSize": "756b",
+      "tags": [
+        "756b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "11 hours ago",
+      "runCommand": "ollama run glm-5.2",
+      "parameterVersions": [
+        {
+          "size": "756b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "756b",
       "defaultDiskSize": "未知"
     }
   ]
