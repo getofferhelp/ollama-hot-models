@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T04:30:08.296739",
+  "lastUpdated": "2026-06-18T04:17:14.452116",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5510,6 +5510,19 @@
         }
       ],
       "defaultSize": "756b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "north-mini-code-1.0",
+      "fullName": "north-mini-code-1.0",
+      "description": "99",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "3 hours ago",
+      "runCommand": "ollama run north-mini-code-1.0",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
