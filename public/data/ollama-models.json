@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T04:01:02.370591",
+  "lastUpdated": "2026-07-03T03:21:48.592787",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5558,6 +5558,19 @@
         }
       ],
       "defaultSize": "9b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "laguna-xs-2.1",
+      "fullName": "laguna-xs-2.1",
+      "description": "598",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "12 hours ago",
+      "runCommand": "ollama run laguna-xs-2.1",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
