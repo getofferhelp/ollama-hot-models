@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T03:09:10.431152",
+  "lastUpdated": "2026-07-28T02:57:27.100538",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5582,6 +5582,19 @@
       "downloads": "0",
       "lastUpdated": "Unknown",
       "runCommand": "ollama run laguna-s-2.1",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "kimi-k3",
+      "fullName": "kimi-k3",
+      "description": "4,146",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "11 hours ago",
+      "runCommand": "ollama run kimi-k3",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
