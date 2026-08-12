@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T02:01:27.604357",
+  "lastUpdated": "2026-08-12T02:18:40.613219",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5610,6 +5610,26 @@
       "runCommand": "ollama run muse-glimmer",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "nemotron-3.5-lightning",
+      "fullName": "nemotron-3.5-lightning",
+      "description": "3,061",
+      "modelSize": "30b",
+      "tags": [
+        "30b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "13 hours ago",
+      "runCommand": "ollama run nemotron-3.5-lightning",
+      "parameterVersions": [
+        {
+          "size": "30b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "30b",
       "defaultDiskSize": "未知"
     }
   ]
