@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T02:19:22.307134",
+  "lastUpdated": "2026-08-15T01:39:35.119431",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5630,6 +5630,26 @@
         }
       ],
       "defaultSize": "30b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "qwen3.8",
+      "fullName": "qwen3.8",
+      "description": "20.7K",
+      "modelSize": "27b",
+      "tags": [
+        "27b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 hours ago",
+      "runCommand": "ollama run qwen3.8",
+      "parameterVersions": [
+        {
+          "size": "27b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "27b",
       "defaultDiskSize": "未知"
     }
   ]
