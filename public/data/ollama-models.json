@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T01:39:44.864548",
+  "lastUpdated": "2026-08-20T01:39:22.503840",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5650,6 +5650,36 @@
         }
       ],
       "defaultSize": "27b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "ornith-1.5",
+      "fullName": "ornith-1.5",
+      "description": "1,999",
+      "modelSize": "9b",
+      "tags": [
+        "9b",
+        "35b",
+        "397b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "8 hours ago",
+      "runCommand": "ollama run ornith-1.5",
+      "parameterVersions": [
+        {
+          "size": "9b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "35b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "397b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "9b",
       "defaultDiskSize": "未知"
     }
   ]
