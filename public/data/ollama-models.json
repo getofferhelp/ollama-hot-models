@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T01:40:34.558819",
+  "lastUpdated": "2026-08-26T01:43:23.024833",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5680,6 +5680,36 @@
         }
       ],
       "defaultSize": "9b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "granite4.2",
+      "fullName": "granite4.2",
+      "description": "1,592",
+      "modelSize": "3b",
+      "tags": [
+        "3b",
+        "8b",
+        "30b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "11 hours ago",
+      "runCommand": "ollama run granite4.2",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "8b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "30b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "3b",
       "defaultDiskSize": "未知"
     }
   ]
