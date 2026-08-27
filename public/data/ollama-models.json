@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T01:43:23.024833",
+  "lastUpdated": "2026-08-27T07:52:51.474528",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5710,6 +5710,39 @@
         }
       ],
       "defaultSize": "3b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "glm-5.3-flash",
+      "fullName": "glm-5.3-flash",
+      "description": "5,533",
+      "modelSize": "321b",
+      "tags": [
+        "321b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "18 hours ago",
+      "runCommand": "ollama run glm-5.3-flash",
+      "parameterVersions": [
+        {
+          "size": "321b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "321b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "qwen3.8-flash-next",
+      "fullName": "qwen3.8-flash-next",
+      "description": "1,227",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "9 hours ago",
+      "runCommand": "ollama run qwen3.8-flash-next",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
