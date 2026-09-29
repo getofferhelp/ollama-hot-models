@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T04:15:06.366758",
+  "lastUpdated": "2026-09-29T04:49:44.187573",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5783,6 +5783,51 @@
         }
       ],
       "defaultSize": "763b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "tev1",
+      "fullName": "tev1",
+      "description": "98",
+      "modelSize": "0.8b",
+      "tags": [
+        "0.8b",
+        "4b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 hours ago",
+      "runCommand": "ollama run tev1",
+      "parameterVersions": [
+        {
+          "size": "0.8b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "4b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "0.8b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "nimble",
+      "fullName": "nimble",
+      "description": "69",
+      "modelSize": "9b",
+      "tags": [
+        "9b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run nimble",
+      "parameterVersions": [
+        {
+          "size": "9b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "9b",
       "defaultDiskSize": "未知"
     }
   ]
