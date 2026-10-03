@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T04:39:59.299150",
+  "lastUpdated": "2026-10-03T04:24:21.183074",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5828,6 +5828,46 @@
         }
       ],
       "defaultSize": "9b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "clef-flash",
+      "fullName": "clef-flash",
+      "description": "734",
+      "modelSize": "9b",
+      "tags": [
+        "9b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "22 hours ago",
+      "runCommand": "ollama run clef-flash",
+      "parameterVersions": [
+        {
+          "size": "9b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "9b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "clef",
+      "fullName": "clef",
+      "description": "476",
+      "modelSize": "27b",
+      "tags": [
+        "27b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "22 hours ago",
+      "runCommand": "ollama run clef",
+      "parameterVersions": [
+        {
+          "size": "27b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "27b",
       "defaultDiskSize": "未知"
     }
   ]
