@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T05:28:08.757972",
+  "lastUpdated": "2026-10-07T04:55:05.308718",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5868,6 +5868,45 @@
         }
       ],
       "defaultSize": "27b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "embeddinggemma-2",
+      "fullName": "embeddinggemma-2",
+      "description": "3,504",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "Unknown",
+      "runCommand": "ollama run embeddinggemma-2",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "laya",
+      "fullName": "laya",
+      "description": "365",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "6 days ago",
+      "runCommand": "ollama run laya",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "mistral-large-4",
+      "fullName": "mistral-large-4",
+      "description": "203",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "16 hours ago",
+      "runCommand": "ollama run mistral-large-4",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
