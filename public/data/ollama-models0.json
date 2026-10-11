@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T04:22:07.580120",
+  "lastUpdated": "2026-10-11T04:02:25.327628",
   "models": [
     {
       "name": "llama3.1",
@@ -398,12 +398,12 @@
       "fullName": "falcon"
     },
     {
-      "name": "openthinker",
-      "fullName": "openthinker"
-    },
-    {
       "name": "neural-chat",
       "fullName": "neural-chat"
+    },
+    {
+      "name": "openthinker",
+      "fullName": "openthinker"
     },
     {
       "name": "qwen2-math",
@@ -426,12 +426,12 @@
       "fullName": "granite3.3"
     },
     {
-      "name": "nous-hermes2",
-      "fullName": "nous-hermes2"
-    },
-    {
       "name": "stablelm2",
       "fullName": "stablelm2"
+    },
+    {
+      "name": "nous-hermes2",
+      "fullName": "nous-hermes2"
     },
     {
       "name": "aya",
@@ -482,12 +482,12 @@
       "fullName": "aya-expanse"
     },
     {
-      "name": "xwinlm",
-      "fullName": "xwinlm"
-    },
-    {
       "name": "nomic-embed-text-v2-moe",
       "fullName": "nomic-embed-text-v2-moe"
+    },
+    {
+      "name": "xwinlm",
+      "fullName": "xwinlm"
     },
     {
       "name": "samantha-mistral",
@@ -562,12 +562,12 @@
       "fullName": "llama-pro"
     },
     {
-      "name": "yarn-mistral",
-      "fullName": "yarn-mistral"
-    },
-    {
       "name": "mistral-openorca",
       "fullName": "mistral-openorca"
+    },
+    {
+      "name": "yarn-mistral",
+      "fullName": "yarn-mistral"
     },
     {
       "name": "nexusraven",
@@ -650,16 +650,16 @@
       "fullName": "athene-v2"
     },
     {
-      "name": "qwen3-next",
-      "fullName": "qwen3-next"
-    },
-    {
       "name": "ornith",
       "fullName": "ornith"
     },
     {
       "name": "llava-phi3",
       "fullName": "llava-phi3"
+    },
+    {
+      "name": "qwen3-next",
+      "fullName": "qwen3-next"
     },
     {
       "name": "megadolphin",
