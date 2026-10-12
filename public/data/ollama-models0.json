@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T04:02:25.327628",
+  "lastUpdated": "2026-10-12T04:22:20.313618",
   "models": [
     {
       "name": "llama3.1",
@@ -254,12 +254,12 @@
       "fullName": "cogito"
     },
     {
-      "name": "qwen3-coder-next",
-      "fullName": "qwen3-coder-next"
-    },
-    {
       "name": "sqlcoder",
       "fullName": "sqlcoder"
+    },
+    {
+      "name": "qwen3-coder-next",
+      "fullName": "qwen3-coder-next"
     },
     {
       "name": "glm-4.7-flash",
@@ -286,12 +286,12 @@
       "fullName": "hermes3"
     },
     {
-      "name": "phi4-reasoning",
-      "fullName": "phi4-reasoning"
-    },
-    {
       "name": "devstral-small-2",
       "fullName": "devstral-small-2"
+    },
+    {
+      "name": "phi4-reasoning",
+      "fullName": "phi4-reasoning"
     },
     {
       "name": "granite-code",
@@ -310,12 +310,12 @@
       "fullName": "command-r"
     },
     {
-      "name": "granite4",
-      "fullName": "granite4"
-    },
-    {
       "name": "starcoder",
       "fullName": "starcoder"
+    },
+    {
+      "name": "granite4",
+      "fullName": "granite4"
     },
     {
       "name": "phi4-mini",
@@ -338,12 +338,12 @@
       "fullName": "wizardcoder"
     },
     {
-      "name": "openchat",
-      "fullName": "openchat"
-    },
-    {
       "name": "openhermes",
       "fullName": "openhermes"
+    },
+    {
+      "name": "openchat",
+      "fullName": "openchat"
     },
     {
       "name": "codestral",
@@ -410,12 +410,12 @@
       "fullName": "qwen2-math"
     },
     {
-      "name": "lfm2",
-      "fullName": "lfm2"
-    },
-    {
       "name": "codeqwen",
       "fullName": "codeqwen"
+    },
+    {
+      "name": "lfm2",
+      "fullName": "lfm2"
     },
     {
       "name": "llama2-chinese",
@@ -434,12 +434,12 @@
       "fullName": "nous-hermes2"
     },
     {
-      "name": "aya",
-      "fullName": "aya"
-    },
-    {
       "name": "yi-coder",
       "fullName": "yi-coder"
+    },
+    {
+      "name": "aya",
+      "fullName": "aya"
     },
     {
       "name": "stable-code",
@@ -462,12 +462,16 @@
       "fullName": "internlm2"
     },
     {
+      "name": "granite3.1-dense",
+      "fullName": "granite3.1-dense"
+    },
+    {
       "name": "llama3-chatqa",
       "fullName": "llama3-chatqa"
     },
     {
-      "name": "granite3.1-dense",
-      "fullName": "granite3.1-dense"
+      "name": "nomic-embed-text-v2-moe",
+      "fullName": "nomic-embed-text-v2-moe"
     },
     {
       "name": "phi3.5",
@@ -480,10 +484,6 @@
     {
       "name": "aya-expanse",
       "fullName": "aya-expanse"
-    },
-    {
-      "name": "nomic-embed-text-v2-moe",
-      "fullName": "nomic-embed-text-v2-moe"
     },
     {
       "name": "xwinlm",
@@ -558,12 +558,12 @@
       "fullName": "paraphrase-multilingual"
     },
     {
-      "name": "llama-pro",
-      "fullName": "llama-pro"
-    },
-    {
       "name": "mistral-openorca",
       "fullName": "mistral-openorca"
+    },
+    {
+      "name": "llama-pro",
+      "fullName": "llama-pro"
     },
     {
       "name": "yarn-mistral",
@@ -638,8 +638,16 @@
       "fullName": "reflection"
     },
     {
+      "name": "llava-phi3",
+      "fullName": "llava-phi3"
+    },
+    {
       "name": "codeup",
       "fullName": "codeup"
+    },
+    {
+      "name": "ornith",
+      "fullName": "ornith"
     },
     {
       "name": "nous-hermes2-mixtral",
@@ -648,14 +656,6 @@
     {
       "name": "athene-v2",
       "fullName": "athene-v2"
-    },
-    {
-      "name": "ornith",
-      "fullName": "ornith"
-    },
-    {
-      "name": "llava-phi3",
-      "fullName": "llava-phi3"
     },
     {
       "name": "qwen3-next",
@@ -910,12 +910,12 @@
       "fullName": "mistral-large-3"
     },
     {
-      "name": "laguna-xs-2.1",
-      "fullName": "laguna-xs-2.1"
-    },
-    {
       "name": "granite4.2",
       "fullName": "granite4.2"
+    },
+    {
+      "name": "laguna-xs-2.1",
+      "fullName": "laguna-xs-2.1"
     },
     {
       "name": "nemotron-3-ultra",
