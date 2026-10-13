@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T04:56:03.848173",
+  "lastUpdated": "2026-10-13T06:06:03.429921",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5905,6 +5905,59 @@
       "downloads": "0",
       "lastUpdated": "16 hours ago",
       "runCommand": "ollama run mistral-large-4",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "nimble-v3",
+      "fullName": "nimble-v3",
+      "description": "132",
+      "modelSize": "9b",
+      "tags": [
+        "9b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "5 hours ago",
+      "runCommand": "ollama run nimble-v3",
+      "parameterVersions": [
+        {
+          "size": "9b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "9b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "strands-decider",
+      "fullName": "strands-decider",
+      "description": "59",
+      "modelSize": "2b",
+      "tags": [
+        "2b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "3 hours ago",
+      "runCommand": "ollama run strands-decider",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "kev",
+      "fullName": "kev",
+      "description": "15",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "5 hours ago",
+      "runCommand": "ollama run kev",
       "parameterVersions": [],
       "defaultSize": "",
       "defaultDiskSize": "未知"
