@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T03:34:08.065861",
+  "lastUpdated": "2026-10-15T03:13:59.625405",
   "models": [
     {
       "name": "llama3.1",
@@ -154,12 +154,12 @@
       "fullName": "smollm2"
     },
     {
-      "name": "deepseek-v3",
-      "fullName": "deepseek-v3"
-    },
-    {
       "name": "qwen3.8",
       "fullName": "qwen3.8"
+    },
+    {
+      "name": "deepseek-v3",
+      "fullName": "deepseek-v3"
     },
     {
       "name": "olmo2",
@@ -210,12 +210,12 @@
       "fullName": "llama2-uncensored"
     },
     {
-      "name": "falcon3",
-      "fullName": "falcon3"
-    },
-    {
       "name": "translategemma",
       "fullName": "translategemma"
+    },
+    {
+      "name": "falcon3",
+      "fullName": "falcon3"
     },
     {
       "name": "mistral-small3.2",
@@ -258,12 +258,12 @@
       "fullName": "sqlcoder"
     },
     {
-      "name": "qwen3-coder-next",
-      "fullName": "qwen3-coder-next"
-    },
-    {
       "name": "glm-4.7-flash",
       "fullName": "glm-4.7-flash"
+    },
+    {
+      "name": "qwen3-coder-next",
+      "fullName": "qwen3-coder-next"
     },
     {
       "name": "moondream",
@@ -278,12 +278,12 @@
       "fullName": "llama4"
     },
     {
-      "name": "dolphin-mistral",
-      "fullName": "dolphin-mistral"
-    },
-    {
       "name": "devstral-small-2",
       "fullName": "devstral-small-2"
+    },
+    {
+      "name": "dolphin-mistral",
+      "fullName": "dolphin-mistral"
     },
     {
       "name": "hermes3",
@@ -410,16 +410,16 @@
       "fullName": "qwen2-math"
     },
     {
+      "name": "llama2-chinese",
+      "fullName": "llama2-chinese"
+    },
+    {
       "name": "codeqwen",
       "fullName": "codeqwen"
     },
     {
       "name": "lfm2",
       "fullName": "lfm2"
-    },
-    {
-      "name": "llama2-chinese",
-      "fullName": "llama2-chinese"
     },
     {
       "name": "granite3.3",
@@ -446,16 +446,16 @@
       "fullName": "stable-code"
     },
     {
+      "name": "nomic-embed-text-v2-moe",
+      "fullName": "nomic-embed-text-v2-moe"
+    },
+    {
       "name": "wizard-math",
       "fullName": "wizard-math"
     },
     {
       "name": "llama-guard3",
       "fullName": "llama-guard3"
-    },
-    {
-      "name": "nomic-embed-text-v2-moe",
-      "fullName": "nomic-embed-text-v2-moe"
     },
     {
       "name": "devstral",
@@ -534,12 +534,12 @@
       "fullName": "stable-beluga"
     },
     {
-      "name": "shieldgemma",
-      "fullName": "shieldgemma"
-    },
-    {
       "name": "mistral-openorca",
       "fullName": "mistral-openorca"
+    },
+    {
+      "name": "shieldgemma",
+      "fullName": "shieldgemma"
     },
     {
       "name": "deepcoder",
@@ -630,12 +630,12 @@
       "fullName": "wizardlm-uncensored"
     },
     {
-      "name": "nemotron",
-      "fullName": "nemotron"
-    },
-    {
       "name": "llava-phi3",
       "fullName": "llava-phi3"
+    },
+    {
+      "name": "nemotron",
+      "fullName": "nemotron"
     },
     {
       "name": "reflection",
@@ -698,12 +698,12 @@
       "fullName": "falcon2"
     },
     {
-      "name": "notux",
-      "fullName": "notux"
-    },
-    {
       "name": "deepseek-ocr",
       "fullName": "deepseek-ocr"
+    },
+    {
+      "name": "notux",
+      "fullName": "notux"
     },
     {
       "name": "stablelm-zephyr",
@@ -714,12 +714,12 @@
       "fullName": "bespoke-minicheck"
     },
     {
-      "name": "duckdb-nsql",
-      "fullName": "duckdb-nsql"
-    },
-    {
       "name": "granite4.1",
       "fullName": "granite4.1"
+    },
+    {
+      "name": "duckdb-nsql",
+      "fullName": "duckdb-nsql"
     },
     {
       "name": "firefunction-v2",
@@ -782,24 +782,24 @@
       "fullName": "r1-1776"
     },
     {
-      "name": "sailor2",
-      "fullName": "sailor2"
-    },
-    {
       "name": "mistral-medium-3.5",
       "fullName": "mistral-medium-3.5"
+    },
+    {
+      "name": "sailor2",
+      "fullName": "sailor2"
     },
     {
       "name": "tulu3",
       "fullName": "tulu3"
     },
     {
-      "name": "granite-embedding",
-      "fullName": "granite-embedding"
-    },
-    {
       "name": "ornith-1.5",
       "fullName": "ornith-1.5"
+    },
+    {
+      "name": "granite-embedding",
+      "fullName": "granite-embedding"
     },
     {
       "name": "glm-5.2",
@@ -838,12 +838,12 @@
       "fullName": "alfred"
     },
     {
-      "name": "bge-large",
-      "fullName": "bge-large"
-    },
-    {
       "name": "muse-glimmer",
       "fullName": "muse-glimmer"
+    },
+    {
+      "name": "bge-large",
+      "fullName": "bge-large"
     },
     {
       "name": "smallthinker",
@@ -950,20 +950,20 @@
       "fullName": "minicpm-v4.5"
     },
     {
-      "name": "nimble",
-      "fullName": "nimble"
-    },
-    {
       "name": "embeddinggemma-2",
       "fullName": "embeddinggemma-2"
     },
     {
-      "name": "laguna-xs.2",
-      "fullName": "laguna-xs.2"
+      "name": "nimble",
+      "fullName": "nimble"
     },
     {
       "name": "granite4.1-guardian",
       "fullName": "granite4.1-guardian"
+    },
+    {
+      "name": "laguna-xs.2",
+      "fullName": "laguna-xs.2"
     },
     {
       "name": "clef-flash",
@@ -986,12 +986,12 @@
       "fullName": "nimble-v3"
     },
     {
-      "name": "strands-decider",
-      "fullName": "strands-decider"
-    },
-    {
       "name": "kev",
       "fullName": "kev"
+    },
+    {
+      "name": "strands-decider",
+      "fullName": "strands-decider"
     }
   ]
 }
