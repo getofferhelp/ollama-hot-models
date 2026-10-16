@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T03:48:03.930004",
+  "lastUpdated": "2026-10-16T03:44:29.402951",
   "models": [
     {
       "name": "deepseek-r1",
@@ -5960,6 +5960,99 @@
       "runCommand": "ollama run kev",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "d1",
+      "fullName": "d1",
+      "description": "11.8K",
+      "modelSize": "3b",
+      "tags": [
+        "3b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "23 hours ago",
+      "runCommand": "ollama run d1",
+      "parameterVersions": [
+        {
+          "size": "3b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "3b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "pplx-decider",
+      "fullName": "pplx-decider",
+      "description": "1,078",
+      "modelSize": "27b",
+      "tags": [
+        "27b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "23 hours ago",
+      "runCommand": "ollama run pplx-decider",
+      "parameterVersions": [
+        {
+          "size": "27b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "27b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "nemotron-3.5-bolt",
+      "fullName": "nemotron-3.5-bolt",
+      "description": "742",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "11 hours ago",
+      "runCommand": "ollama run nemotron-3.5-bolt",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "nemotron-3.5-super",
+      "fullName": "nemotron-3.5-super",
+      "description": "710",
+      "modelSize": "120b",
+      "tags": [
+        "120b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "10 hours ago",
+      "runCommand": "ollama run nemotron-3.5-super",
+      "parameterVersions": [
+        {
+          "size": "120b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "120b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "muse-spark-open",
+      "fullName": "muse-spark-open",
+      "description": "482",
+      "modelSize": "822b",
+      "tags": [
+        "822b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "19 hours ago",
+      "runCommand": "ollama run muse-spark-open",
+      "parameterVersions": [
+        {
+          "size": "822b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "822b",
       "defaultDiskSize": "未知"
     }
   ]

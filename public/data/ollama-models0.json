@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T03:13:59.625405",
+  "lastUpdated": "2026-10-16T03:09:43.951649",
   "models": [
     {
       "name": "llama3.1",
@@ -478,12 +478,12 @@
       "fullName": "phi3.5"
     },
     {
-      "name": "granite3-dense",
-      "fullName": "granite3-dense"
-    },
-    {
       "name": "aya-expanse",
       "fullName": "aya-expanse"
+    },
+    {
+      "name": "granite3-dense",
+      "fullName": "granite3-dense"
     },
     {
       "name": "xwinlm",
@@ -526,16 +526,16 @@
       "fullName": "solar"
     },
     {
+      "name": "mistral-openorca",
+      "fullName": "mistral-openorca"
+    },
+    {
       "name": "granite3-moe",
       "fullName": "granite3-moe"
     },
     {
       "name": "stable-beluga",
       "fullName": "stable-beluga"
-    },
-    {
-      "name": "mistral-openorca",
-      "fullName": "mistral-openorca"
     },
     {
       "name": "shieldgemma",
@@ -626,12 +626,12 @@
       "fullName": "opencoder"
     },
     {
-      "name": "wizardlm-uncensored",
-      "fullName": "wizardlm-uncensored"
-    },
-    {
       "name": "llava-phi3",
       "fullName": "llava-phi3"
+    },
+    {
+      "name": "wizardlm-uncensored",
+      "fullName": "wizardlm-uncensored"
     },
     {
       "name": "nemotron",
@@ -690,12 +690,12 @@
       "fullName": "mathstral"
     },
     {
-      "name": "notus",
-      "fullName": "notus"
-    },
-    {
       "name": "falcon2",
       "fullName": "falcon2"
+    },
+    {
+      "name": "notus",
+      "fullName": "notus"
     },
     {
       "name": "deepseek-ocr",
@@ -706,16 +706,16 @@
       "fullName": "notux"
     },
     {
+      "name": "granite4.1",
+      "fullName": "granite4.1"
+    },
+    {
       "name": "stablelm-zephyr",
       "fullName": "stablelm-zephyr"
     },
     {
       "name": "bespoke-minicheck",
       "fullName": "bespoke-minicheck"
-    },
-    {
-      "name": "granite4.1",
-      "fullName": "granite4.1"
     },
     {
       "name": "duckdb-nsql",
@@ -854,12 +854,12 @@
       "fullName": "kimi-k2.7-code"
     },
     {
-      "name": "command-a",
-      "fullName": "command-a"
-    },
-    {
       "name": "nemotron-3.5-lightning",
       "fullName": "nemotron-3.5-lightning"
+    },
+    {
+      "name": "command-a",
+      "fullName": "command-a"
     },
     {
       "name": "cogito-2.1",
@@ -874,12 +874,12 @@
       "fullName": "medgemma1.5"
     },
     {
-      "name": "command-r7b-arabic",
-      "fullName": "command-r7b-arabic"
-    },
-    {
       "name": "lfm2.5",
       "fullName": "lfm2.5"
+    },
+    {
+      "name": "command-r7b-arabic",
+      "fullName": "command-r7b-arabic"
     },
     {
       "name": "functiongemma",
@@ -918,6 +918,10 @@
       "fullName": "laguna-xs-2.1"
     },
     {
+      "name": "deepseek-v4.1-flash",
+      "fullName": "deepseek-v4.1-flash"
+    },
+    {
       "name": "nemotron-3-ultra",
       "fullName": "nemotron-3-ultra"
     },
@@ -932,10 +936,6 @@
     {
       "name": "tev1",
       "fullName": "tev1"
-    },
-    {
-      "name": "deepseek-v4.1-flash",
-      "fullName": "deepseek-v4.1-flash"
     },
     {
       "name": "north-mini-code-1.0",
@@ -974,16 +974,20 @@
       "fullName": "clef"
     },
     {
-      "name": "mistral-large-4",
-      "fullName": "mistral-large-4"
+      "name": "d1",
+      "fullName": "d1"
+    },
+    {
+      "name": "nimble-v3",
+      "fullName": "nimble-v3"
     },
     {
       "name": "laya",
       "fullName": "laya"
     },
     {
-      "name": "nimble-v3",
-      "fullName": "nimble-v3"
+      "name": "mistral-large-4",
+      "fullName": "mistral-large-4"
     },
     {
       "name": "kev",
@@ -992,6 +996,22 @@
     {
       "name": "strands-decider",
       "fullName": "strands-decider"
+    },
+    {
+      "name": "pplx-decider",
+      "fullName": "pplx-decider"
+    },
+    {
+      "name": "nemotron-3.5-bolt",
+      "fullName": "nemotron-3.5-bolt"
+    },
+    {
+      "name": "nemotron-3.5-super",
+      "fullName": "nemotron-3.5-super"
+    },
+    {
+      "name": "muse-spark-open",
+      "fullName": "muse-spark-open"
     }
   ]
 }
