@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T03:44:29.402951",
+  "lastUpdated": "2026-10-17T03:37:04.283332",
   "models": [
     {
       "name": "deepseek-r1",
@@ -6053,6 +6053,61 @@
         }
       ],
       "defaultSize": "822b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "beam",
+      "fullName": "beam",
+      "description": "4,231",
+      "modelSize": "501b",
+      "tags": [
+        "501b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "15 hours ago",
+      "runCommand": "ollama run beam",
+      "parameterVersions": [
+        {
+          "size": "501b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "501b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "bonsai-2",
+      "fullName": "bonsai-2",
+      "description": "1,365",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "4b",
+        "9b",
+        "27b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "13 hours ago",
+      "runCommand": "ollama run bonsai-2",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "4b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "9b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "27b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "2b",
       "defaultDiskSize": "未知"
     }
   ]
