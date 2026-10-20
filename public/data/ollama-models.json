@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T03:53:19.687854",
+  "lastUpdated": "2026-10-20T04:02:41.475279",
   "models": [
     {
       "name": "deepseek-r1",
@@ -6121,6 +6121,26 @@
       "runCommand": "ollama run d1-omni",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "minimax-m3.1-flash",
+      "fullName": "minimax-m3.1-flash",
+      "description": "4,199",
+      "modelSize": "428b",
+      "tags": [
+        "428b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 hours ago",
+      "runCommand": "ollama run minimax-m3.1-flash",
+      "parameterVersions": [
+        {
+          "size": "428b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "428b",
       "defaultDiskSize": "未知"
     }
   ]
