@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T03:56:45.341954",
+  "lastUpdated": "2026-10-22T03:54:57.583859",
   "models": [
     {
       "name": "deepseek-r1",
@@ -6141,6 +6141,26 @@
         }
       ],
       "defaultSize": "428b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "flint",
+      "fullName": "flint",
+      "description": "2,823",
+      "modelSize": "40b",
+      "tags": [
+        "40b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "6 hours ago",
+      "runCommand": "ollama run flint",
+      "parameterVersions": [
+        {
+          "size": "40b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "40b",
       "defaultDiskSize": "未知"
     }
   ]
