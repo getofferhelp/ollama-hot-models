@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T03:54:57.583859",
+  "lastUpdated": "2026-10-23T04:01:21.582590",
   "models": [
     {
       "name": "deepseek-r1",
@@ -6161,6 +6161,54 @@
         }
       ],
       "defaultSize": "40b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "d3",
+      "fullName": "d3",
+      "description": "742",
+      "modelSize": "2b",
+      "tags": [
+        "2b",
+        "4b",
+        "9b",
+        "27b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "11 hours ago",
+      "runCommand": "ollama run d3",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "4b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "9b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "27b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "phonon",
+      "fullName": "phonon",
+      "description": "164",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "6 hours ago",
+      "runCommand": "ollama run phonon",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
