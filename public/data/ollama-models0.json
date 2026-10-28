@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T03:45:25.681114",
+  "lastUpdated": "2026-10-28T04:01:33.387734",
   "models": [
     {
       "name": "llama3.1",
@@ -238,6 +238,10 @@
       "fullName": "llava-llama3"
     },
     {
+      "name": "devstral-small-2",
+      "fullName": "devstral-small-2"
+    },
+    {
       "name": "qwq",
       "fullName": "qwq"
     },
@@ -246,16 +250,12 @@
       "fullName": "smollm"
     },
     {
-      "name": "devstral-small-2",
-      "fullName": "devstral-small-2"
+      "name": "sqlcoder",
+      "fullName": "sqlcoder"
     },
     {
       "name": "dolphin-llama3",
       "fullName": "dolphin-llama3"
-    },
-    {
-      "name": "sqlcoder",
-      "fullName": "sqlcoder"
     },
     {
       "name": "cogito",
@@ -266,12 +266,12 @@
       "fullName": "glm-4.7-flash"
     },
     {
-      "name": "qwen3-coder-next",
-      "fullName": "qwen3-coder-next"
-    },
-    {
       "name": "moondream",
       "fullName": "moondream"
+    },
+    {
+      "name": "qwen3-coder-next",
+      "fullName": "qwen3-coder-next"
     },
     {
       "name": "dolphin-mixtral",
@@ -286,24 +286,24 @@
       "fullName": "dolphin-mistral"
     },
     {
-      "name": "hermes3",
-      "fullName": "hermes3"
-    },
-    {
       "name": "starcoder",
       "fullName": "starcoder"
+    },
+    {
+      "name": "hermes3",
+      "fullName": "hermes3"
     },
     {
       "name": "phi4-reasoning",
       "fullName": "phi4-reasoning"
     },
     {
-      "name": "granite-code",
-      "fullName": "granite-code"
-    },
-    {
       "name": "wizardcoder",
       "fullName": "wizardcoder"
+    },
+    {
+      "name": "granite-code",
+      "fullName": "granite-code"
     },
     {
       "name": "dolphin-phi",
@@ -314,20 +314,20 @@
       "fullName": "openhermes"
     },
     {
-      "name": "command-r",
-      "fullName": "command-r"
-    },
-    {
       "name": "phi4-mini",
       "fullName": "phi4-mini"
     },
     {
-      "name": "phi",
-      "fullName": "phi"
+      "name": "command-r",
+      "fullName": "command-r"
     },
     {
       "name": "granite4",
       "fullName": "granite4"
+    },
+    {
+      "name": "phi",
+      "fullName": "phi"
     },
     {
       "name": "yi",
@@ -406,6 +406,10 @@
       "fullName": "openthinker"
     },
     {
+      "name": "nomic-embed-text-v2-moe",
+      "fullName": "nomic-embed-text-v2-moe"
+    },
+    {
       "name": "llama2-chinese",
       "fullName": "llama2-chinese"
     },
@@ -414,8 +418,8 @@
       "fullName": "qwen2-math"
     },
     {
-      "name": "nomic-embed-text-v2-moe",
-      "fullName": "nomic-embed-text-v2-moe"
+      "name": "mistral-openorca",
+      "fullName": "mistral-openorca"
     },
     {
       "name": "codeqwen",
@@ -430,10 +434,6 @@
       "fullName": "stablelm2"
     },
     {
-      "name": "mistral-openorca",
-      "fullName": "mistral-openorca"
-    },
-    {
       "name": "granite3.3",
       "fullName": "granite3.3"
     },
@@ -442,12 +442,12 @@
       "fullName": "yi-coder"
     },
     {
-      "name": "nous-hermes2",
-      "fullName": "nous-hermes2"
-    },
-    {
       "name": "aya",
       "fullName": "aya"
+    },
+    {
+      "name": "nous-hermes2",
+      "fullName": "nous-hermes2"
     },
     {
       "name": "stable-code",
@@ -666,6 +666,10 @@
       "fullName": "exaone3.5"
     },
     {
+      "name": "deepseek-ocr",
+      "fullName": "deepseek-ocr"
+    },
+    {
       "name": "megadolphin",
       "fullName": "megadolphin"
     },
@@ -676,10 +680,6 @@
     {
       "name": "granite4.1",
       "fullName": "granite4.1"
-    },
-    {
-      "name": "deepseek-ocr",
-      "fullName": "deepseek-ocr"
     },
     {
       "name": "solar-pro",
@@ -786,12 +786,12 @@
       "fullName": "r1-1776"
     },
     {
-      "name": "sailor2",
-      "fullName": "sailor2"
-    },
-    {
       "name": "ornith-1.5",
       "fullName": "ornith-1.5"
+    },
+    {
+      "name": "sailor2",
+      "fullName": "sailor2"
     },
     {
       "name": "tulu3",
@@ -974,12 +974,12 @@
       "fullName": "granite4.1-guardian"
     },
     {
-      "name": "minimax-m3.1-flash",
-      "fullName": "minimax-m3.1-flash"
-    },
-    {
       "name": "clef-flash",
       "fullName": "clef-flash"
+    },
+    {
+      "name": "minimax-m3.1-flash",
+      "fullName": "minimax-m3.1-flash"
     },
     {
       "name": "laguna-xs.2",
@@ -1006,6 +1006,14 @@
       "fullName": "mistral-large-4"
     },
     {
+      "name": "phonon",
+      "fullName": "phonon"
+    },
+    {
+      "name": "d3",
+      "fullName": "d3"
+    },
+    {
       "name": "nemotron-3.5-super",
       "fullName": "nemotron-3.5-super"
     },
@@ -1016,14 +1024,6 @@
     {
       "name": "muse-spark-open",
       "fullName": "muse-spark-open"
-    },
-    {
-      "name": "phonon",
-      "fullName": "phonon"
-    },
-    {
-      "name": "d3",
-      "fullName": "d3"
     },
     {
       "name": "kev",
@@ -1040,6 +1040,22 @@
     {
       "name": "strands-decider",
       "fullName": "strands-decider"
+    },
+    {
+      "name": "lfm3",
+      "fullName": "lfm3"
+    },
+    {
+      "name": "lfm3-omni",
+      "fullName": "lfm3-omni"
+    },
+    {
+      "name": "lfm3-vl",
+      "fullName": "lfm3-vl"
+    },
+    {
+      "name": "lfm3-audio",
+      "fullName": "lfm3-audio"
     }
   ]
 }

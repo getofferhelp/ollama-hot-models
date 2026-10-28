@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T04:21:56.645226",
+  "lastUpdated": "2026-10-28T04:38:40.771611",
   "models": [
     {
       "name": "deepseek-r1",
@@ -6209,6 +6209,86 @@
       "runCommand": "ollama run phonon",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "lfm3",
+      "fullName": "lfm3",
+      "description": "1,361",
+      "modelSize": "1.7b",
+      "tags": [
+        "1.7b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 hours ago",
+      "runCommand": "ollama run lfm3",
+      "parameterVersions": [
+        {
+          "size": "1.7b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "1.7b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "lfm3-omni",
+      "fullName": "lfm3-omni",
+      "description": "724",
+      "modelSize": "2b",
+      "tags": [
+        "2b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "11 hours ago",
+      "runCommand": "ollama run lfm3-omni",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "lfm3-vl",
+      "fullName": "lfm3-vl",
+      "description": "566",
+      "modelSize": "2b",
+      "tags": [
+        "2b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 hours ago",
+      "runCommand": "ollama run lfm3-vl",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "2b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "lfm3-audio",
+      "fullName": "lfm3-audio",
+      "description": "346",
+      "modelSize": "2b",
+      "tags": [
+        "2b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "12 hours ago",
+      "runCommand": "ollama run lfm3-audio",
+      "parameterVersions": [
+        {
+          "size": "2b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "2b",
       "defaultDiskSize": "未知"
     }
   ]
