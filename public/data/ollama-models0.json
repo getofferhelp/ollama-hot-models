@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T04:24:43.727533",
+  "lastUpdated": "2026-10-30T04:25:04.077606",
   "models": [
     {
       "name": "llama3.1",
@@ -94,12 +94,12 @@
       "fullName": "phi4"
     },
     {
-      "name": "llama2",
-      "fullName": "llama2"
-    },
-    {
       "name": "codellama",
       "fullName": "codellama"
+    },
+    {
+      "name": "llama2",
+      "fullName": "llama2"
     },
     {
       "name": "qwen3.6",
@@ -230,12 +230,12 @@
       "fullName": "gemma3n"
     },
     {
-      "name": "minimax-m2.7",
-      "fullName": "minimax-m2.7"
-    },
-    {
       "name": "devstral-small-2",
       "fullName": "devstral-small-2"
+    },
+    {
+      "name": "minimax-m2.7",
+      "fullName": "minimax-m2.7"
     },
     {
       "name": "llava-llama3",
@@ -306,12 +306,12 @@
       "fullName": "granite-code"
     },
     {
-      "name": "dolphin-phi",
-      "fullName": "dolphin-phi"
-    },
-    {
       "name": "openhermes",
       "fullName": "openhermes"
+    },
+    {
+      "name": "dolphin-phi",
+      "fullName": "dolphin-phi"
     },
     {
       "name": "phi4-mini",
@@ -326,12 +326,12 @@
       "fullName": "granite4"
     },
     {
-      "name": "phi",
-      "fullName": "phi"
-    },
-    {
       "name": "yi",
       "fullName": "yi"
+    },
+    {
+      "name": "phi",
+      "fullName": "phi"
     },
     {
       "name": "ministral-3",
@@ -406,12 +406,12 @@
       "fullName": "nomic-embed-text-v2-moe"
     },
     {
-      "name": "openthinker",
-      "fullName": "openthinker"
-    },
-    {
       "name": "mistral-openorca",
       "fullName": "mistral-openorca"
+    },
+    {
+      "name": "openthinker",
+      "fullName": "openthinker"
     },
     {
       "name": "llama2-chinese",
@@ -506,12 +506,12 @@
       "fullName": "yarn-llama2"
     },
     {
-      "name": "llama3-groq-tool-use",
-      "fullName": "llama3-groq-tool-use"
-    },
-    {
       "name": "llama3-gradient",
       "fullName": "llama3-gradient"
+    },
+    {
+      "name": "llama3-groq-tool-use",
+      "fullName": "llama3-groq-tool-use"
     },
     {
       "name": "granite3.2-vision",
@@ -618,16 +618,16 @@
       "fullName": "nemotron-mini"
     },
     {
+      "name": "ornith",
+      "fullName": "ornith"
+    },
+    {
       "name": "codegeex4",
       "fullName": "codegeex4"
     },
     {
       "name": "nemotron3",
       "fullName": "nemotron3"
-    },
-    {
-      "name": "ornith",
-      "fullName": "ornith"
     },
     {
       "name": "opencoder",
@@ -658,24 +658,24 @@
       "fullName": "nous-hermes2-mixtral"
     },
     {
-      "name": "qwen3-next",
-      "fullName": "qwen3-next"
-    },
-    {
       "name": "deepseek-ocr",
       "fullName": "deepseek-ocr"
+    },
+    {
+      "name": "qwen3-next",
+      "fullName": "qwen3-next"
     },
     {
       "name": "exaone3.5",
       "fullName": "exaone3.5"
     },
     {
-      "name": "megadolphin",
-      "fullName": "megadolphin"
-    },
-    {
       "name": "granite4.1",
       "fullName": "granite4.1"
+    },
+    {
+      "name": "megadolphin",
+      "fullName": "megadolphin"
     },
     {
       "name": "everythinglm",
@@ -870,6 +870,10 @@
       "fullName": "cogito-2.1"
     },
     {
+      "name": "granite4.2",
+      "fullName": "granite4.2"
+    },
+    {
       "name": "qwen3.8-flash-next",
       "fullName": "qwen3.8-flash-next"
     },
@@ -892,10 +896,6 @@
     {
       "name": "glm-5.3-flash",
       "fullName": "glm-5.3-flash"
-    },
-    {
-      "name": "granite4.2",
-      "fullName": "granite4.2"
     },
     {
       "name": "deepseek-v4.1-flash",
@@ -942,16 +942,16 @@
       "fullName": "embeddinggemma-2"
     },
     {
+      "name": "bonsai-2",
+      "fullName": "bonsai-2"
+    },
+    {
       "name": "north-mini-code-1.0",
       "fullName": "north-mini-code-1.0"
     },
     {
       "name": "minicpm-v4.6",
       "fullName": "minicpm-v4.6"
-    },
-    {
-      "name": "bonsai-2",
-      "fullName": "bonsai-2"
     },
     {
       "name": "minicpm-v4.5",
@@ -1022,12 +1022,16 @@
       "fullName": "laya"
     },
     {
-      "name": "muse-spark-open",
-      "fullName": "muse-spark-open"
+      "name": "lfm3",
+      "fullName": "lfm3"
     },
     {
       "name": "kev",
       "fullName": "kev"
+    },
+    {
+      "name": "muse-spark-open",
+      "fullName": "muse-spark-open"
     },
     {
       "name": "d1-omni",
@@ -1040,10 +1044,6 @@
     {
       "name": "strands-decider",
       "fullName": "strands-decider"
-    },
-    {
-      "name": "lfm3",
-      "fullName": "lfm3"
     },
     {
       "name": "lfm3-omni",
