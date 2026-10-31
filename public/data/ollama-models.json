@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T05:01:46.648739",
+  "lastUpdated": "2026-10-31T04:41:06.813502",
   "models": [
     {
       "name": "deepseek-r1",
@@ -6289,6 +6289,46 @@
         }
       ],
       "defaultSize": "2b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "mimo-v2.6-pro",
+      "fullName": "mimo-v2.6-pro",
+      "description": "149",
+      "modelSize": "528b",
+      "tags": [
+        "528b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "1 month ago",
+      "runCommand": "ollama run mimo-v2.6-pro",
+      "parameterVersions": [
+        {
+          "size": "528b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "528b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "mimo-v2.6-flash",
+      "fullName": "mimo-v2.6-flash",
+      "description": "144",
+      "modelSize": "161b",
+      "tags": [
+        "161b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "1 month ago",
+      "runCommand": "ollama run mimo-v2.6-flash",
+      "parameterVersions": [
+        {
+          "size": "161b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "161b",
       "defaultDiskSize": "未知"
     }
   ]
