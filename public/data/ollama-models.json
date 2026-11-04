@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T06:00:52.932163",
+  "lastUpdated": "2026-11-04T05:29:56.416374",
   "models": [
     {
       "name": "deepseek-r1",
@@ -6329,6 +6329,46 @@
         }
       ],
       "defaultSize": "161b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "mimo-v2.6",
+      "fullName": "mimo-v2.6",
+      "description": "2,636",
+      "modelSize": "9b",
+      "tags": [
+        "9b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "13 hours ago",
+      "runCommand": "ollama run mimo-v2.6",
+      "parameterVersions": [
+        {
+          "size": "9b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "9b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "pplx-decider-flash",
+      "fullName": "pplx-decider-flash",
+      "description": "370",
+      "modelSize": "4b",
+      "tags": [
+        "4b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "9 hours ago",
+      "runCommand": "ollama run pplx-decider-flash",
+      "parameterVersions": [
+        {
+          "size": "4b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "4b",
       "defaultDiskSize": "未知"
     }
   ]

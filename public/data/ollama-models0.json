@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T05:23:29.994455",
+  "lastUpdated": "2026-11-04T04:52:39.208713",
   "models": [
     {
       "name": "llama3.1",
@@ -222,12 +222,12 @@
       "fullName": "falcon3"
     },
     {
-      "name": "mistral-small3.2",
-      "fullName": "mistral-small3.2"
-    },
-    {
       "name": "devstral-small-2",
       "fullName": "devstral-small-2"
+    },
+    {
+      "name": "mistral-small3.2",
+      "fullName": "mistral-small3.2"
     },
     {
       "name": "gemma3n",
@@ -278,12 +278,12 @@
       "fullName": "dolphin-mixtral"
     },
     {
-      "name": "llama4",
-      "fullName": "llama4"
-    },
-    {
       "name": "starcoder",
       "fullName": "starcoder"
+    },
+    {
+      "name": "llama4",
+      "fullName": "llama4"
     },
     {
       "name": "dolphin-mistral",
@@ -298,12 +298,12 @@
       "fullName": "hermes3"
     },
     {
-      "name": "phi4-reasoning",
-      "fullName": "phi4-reasoning"
-    },
-    {
       "name": "openhermes",
       "fullName": "openhermes"
+    },
+    {
+      "name": "phi4-reasoning",
+      "fullName": "phi4-reasoning"
     },
     {
       "name": "granite-code",
@@ -378,20 +378,20 @@
       "fullName": "glm4"
     },
     {
-      "name": "deepscaler",
-      "fullName": "deepscaler"
+      "name": "nomic-embed-text-v2-moe",
+      "fullName": "nomic-embed-text-v2-moe"
     },
     {
-      "name": "nous-hermes",
-      "fullName": "nous-hermes"
+      "name": "deepscaler",
+      "fullName": "deepscaler"
     },
     {
       "name": "mistral-openorca",
       "fullName": "mistral-openorca"
     },
     {
-      "name": "nomic-embed-text-v2-moe",
-      "fullName": "nomic-embed-text-v2-moe"
+      "name": "nous-hermes",
+      "fullName": "nous-hermes"
     },
     {
       "name": "deepseek-v2",
@@ -414,12 +414,12 @@
       "fullName": "openthinker"
     },
     {
-      "name": "qwen2-math",
-      "fullName": "qwen2-math"
-    },
-    {
       "name": "llama2-chinese",
       "fullName": "llama2-chinese"
+    },
+    {
+      "name": "qwen2-math",
+      "fullName": "qwen2-math"
     },
     {
       "name": "codeqwen",
@@ -550,20 +550,20 @@
       "fullName": "deepcoder"
     },
     {
-      "name": "wizardlm",
-      "fullName": "wizardlm"
-    },
-    {
       "name": "nemotron-3-nano",
       "fullName": "nemotron-3-nano"
     },
     {
-      "name": "reader-lm",
-      "fullName": "reader-lm"
-    },
-    {
       "name": "llava-phi3",
       "fullName": "llava-phi3"
+    },
+    {
+      "name": "wizardlm",
+      "fullName": "wizardlm"
+    },
+    {
+      "name": "reader-lm",
+      "fullName": "reader-lm"
     },
     {
       "name": "paraphrase-multilingual",
@@ -798,6 +798,10 @@
       "fullName": "tulu3"
     },
     {
+      "name": "nemotron-3.5-lightning",
+      "fullName": "nemotron-3.5-lightning"
+    },
+    {
       "name": "granite-embedding",
       "fullName": "granite-embedding"
     },
@@ -826,12 +830,12 @@
       "fullName": "command-r7b"
     },
     {
-      "name": "phi4-mini-reasoning",
-      "fullName": "phi4-mini-reasoning"
-    },
-    {
       "name": "alfred",
       "fullName": "alfred"
+    },
+    {
+      "name": "phi4-mini-reasoning",
+      "fullName": "phi4-mini-reasoning"
     },
     {
       "name": "olmo-3.1",
@@ -848,10 +852,6 @@
     {
       "name": "lfm2.5",
       "fullName": "lfm2.5"
-    },
-    {
-      "name": "nemotron-3.5-lightning",
-      "fullName": "nemotron-3.5-lightning"
     },
     {
       "name": "smallthinker",
@@ -978,6 +978,10 @@
       "fullName": "flint"
     },
     {
+      "name": "nemotron-3.5-bolt",
+      "fullName": "nemotron-3.5-bolt"
+    },
+    {
       "name": "minimax-m3.1-flash",
       "fullName": "minimax-m3.1-flash"
     },
@@ -986,16 +990,12 @@
       "fullName": "granite4.1-guardian"
     },
     {
-      "name": "nemotron-3.5-bolt",
-      "fullName": "nemotron-3.5-bolt"
+      "name": "lfm3",
+      "fullName": "lfm3"
     },
     {
       "name": "laguna-xs.2",
       "fullName": "laguna-xs.2"
-    },
-    {
-      "name": "lfm3",
-      "fullName": "lfm3"
     },
     {
       "name": "d3",
@@ -1018,16 +1018,16 @@
       "fullName": "mistral-large-4"
     },
     {
+      "name": "d1-omni",
+      "fullName": "d1-omni"
+    },
+    {
       "name": "nimble-v3",
       "fullName": "nimble-v3"
     },
     {
       "name": "nemotron-3.5-super",
       "fullName": "nemotron-3.5-super"
-    },
-    {
-      "name": "d1-omni",
-      "fullName": "d1-omni"
     },
     {
       "name": "laya",
@@ -1050,12 +1050,16 @@
       "fullName": "lfm3-vl"
     },
     {
+      "name": "lfm3-audio",
+      "fullName": "lfm3-audio"
+    },
+    {
       "name": "strands-decider",
       "fullName": "strands-decider"
     },
     {
-      "name": "lfm3-audio",
-      "fullName": "lfm3-audio"
+      "name": "mimo-v2.6",
+      "fullName": "mimo-v2.6"
     },
     {
       "name": "mimo-v2.6-flash",
@@ -1064,6 +1068,10 @@
     {
       "name": "mimo-v2.6-pro",
       "fullName": "mimo-v2.6-pro"
+    },
+    {
+      "name": "pplx-decider-flash",
+      "fullName": "pplx-decider-flash"
     }
   ]
 }
