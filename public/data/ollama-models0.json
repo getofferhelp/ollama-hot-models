@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T04:52:39.208713",
+  "lastUpdated": "2026-11-05T05:08:41.790420",
   "models": [
     {
       "name": "llama3.1",
@@ -82,12 +82,12 @@
       "fullName": "gemma"
     },
     {
-      "name": "qwen",
-      "fullName": "qwen"
-    },
-    {
       "name": "bge-m3",
       "fullName": "bge-m3"
+    },
+    {
+      "name": "qwen",
+      "fullName": "qwen"
     },
     {
       "name": "codellama",
@@ -118,16 +118,16 @@
       "fullName": "qwen2"
     },
     {
-      "name": "mistral-nemo",
-      "fullName": "mistral-nemo"
+      "name": "qwen3.8",
+      "fullName": "qwen3.8"
     },
     {
       "name": "qwen2.5vl",
       "fullName": "qwen2.5vl"
     },
     {
-      "name": "qwen3.8",
-      "fullName": "qwen3.8"
+      "name": "mistral-nemo",
+      "fullName": "mistral-nemo"
     },
     {
       "name": "minicpm-v",
@@ -158,12 +158,12 @@
       "fullName": "smollm2"
     },
     {
-      "name": "deepseek-v3",
-      "fullName": "deepseek-v3"
-    },
-    {
       "name": "all-minilm",
       "fullName": "all-minilm"
+    },
+    {
+      "name": "deepseek-v3",
+      "fullName": "deepseek-v3"
     },
     {
       "name": "olmo2",
@@ -262,12 +262,12 @@
       "fullName": "cogito"
     },
     {
-      "name": "glm-4.7-flash",
-      "fullName": "glm-4.7-flash"
-    },
-    {
       "name": "moondream",
       "fullName": "moondream"
+    },
+    {
+      "name": "glm-4.7-flash",
+      "fullName": "glm-4.7-flash"
     },
     {
       "name": "qwen3-coder-next",
@@ -326,12 +326,12 @@
       "fullName": "granite4"
     },
     {
-      "name": "command-r",
-      "fullName": "command-r"
-    },
-    {
       "name": "ministral-3",
       "fullName": "ministral-3"
+    },
+    {
+      "name": "command-r",
+      "fullName": "command-r"
     },
     {
       "name": "phi",
@@ -374,20 +374,20 @@
       "fullName": "lfm2.5-thinking"
     },
     {
-      "name": "glm4",
-      "fullName": "glm4"
+      "name": "mistral-openorca",
+      "fullName": "mistral-openorca"
     },
     {
       "name": "nomic-embed-text-v2-moe",
       "fullName": "nomic-embed-text-v2-moe"
     },
     {
-      "name": "deepscaler",
-      "fullName": "deepscaler"
+      "name": "glm4",
+      "fullName": "glm4"
     },
     {
-      "name": "mistral-openorca",
-      "fullName": "mistral-openorca"
+      "name": "deepscaler",
+      "fullName": "deepscaler"
     },
     {
       "name": "nous-hermes",
@@ -422,12 +422,12 @@
       "fullName": "qwen2-math"
     },
     {
-      "name": "codeqwen",
-      "fullName": "codeqwen"
-    },
-    {
       "name": "stablelm2",
       "fullName": "stablelm2"
+    },
+    {
+      "name": "codeqwen",
+      "fullName": "codeqwen"
     },
     {
       "name": "lfm2",
@@ -538,8 +538,16 @@
       "fullName": "stable-beluga"
     },
     {
+      "name": "llava-phi3",
+      "fullName": "llava-phi3"
+    },
+    {
       "name": "shieldgemma",
       "fullName": "shieldgemma"
+    },
+    {
+      "name": "nemotron-3-nano",
+      "fullName": "nemotron-3-nano"
     },
     {
       "name": "orca2",
@@ -548,14 +556,6 @@
     {
       "name": "deepcoder",
       "fullName": "deepcoder"
-    },
-    {
-      "name": "nemotron-3-nano",
-      "fullName": "nemotron-3-nano"
-    },
-    {
-      "name": "llava-phi3",
-      "fullName": "llava-phi3"
     },
     {
       "name": "wizardlm",
@@ -660,6 +660,10 @@
     {
       "name": "nous-hermes2-mixtral",
       "fullName": "nous-hermes2-mixtral"
+    },
+    {
+      "name": "nemotron-3.5-lightning",
+      "fullName": "nemotron-3.5-lightning"
     },
     {
       "name": "qwen3-next",
@@ -798,10 +802,6 @@
       "fullName": "tulu3"
     },
     {
-      "name": "nemotron-3.5-lightning",
-      "fullName": "nemotron-3.5-lightning"
-    },
-    {
       "name": "granite-embedding",
       "fullName": "granite-embedding"
     },
@@ -858,12 +858,12 @@
       "fullName": "smallthinker"
     },
     {
-      "name": "kimi-k2.7-code",
-      "fullName": "kimi-k2.7-code"
-    },
-    {
       "name": "granite4.2",
       "fullName": "granite4.2"
+    },
+    {
+      "name": "kimi-k2.7-code",
+      "fullName": "kimi-k2.7-code"
     },
     {
       "name": "command-a",
@@ -994,12 +994,12 @@
       "fullName": "lfm3"
     },
     {
-      "name": "laguna-xs.2",
-      "fullName": "laguna-xs.2"
-    },
-    {
       "name": "d3",
       "fullName": "d3"
+    },
+    {
+      "name": "laguna-xs.2",
+      "fullName": "laguna-xs.2"
     },
     {
       "name": "d1",
@@ -1014,12 +1014,12 @@
       "fullName": "lfm3-omni"
     },
     {
-      "name": "mistral-large-4",
-      "fullName": "mistral-large-4"
-    },
-    {
       "name": "d1-omni",
       "fullName": "d1-omni"
+    },
+    {
+      "name": "mistral-large-4",
+      "fullName": "mistral-large-4"
     },
     {
       "name": "nimble-v3",
@@ -1038,12 +1038,12 @@
       "fullName": "kev"
     },
     {
-      "name": "muse-spark-open",
-      "fullName": "muse-spark-open"
-    },
-    {
       "name": "pplx-decider",
       "fullName": "pplx-decider"
+    },
+    {
+      "name": "muse-spark-open",
+      "fullName": "muse-spark-open"
     },
     {
       "name": "lfm3-vl",
@@ -1072,6 +1072,14 @@
     {
       "name": "pplx-decider-flash",
       "fullName": "pplx-decider-flash"
+    },
+    {
+      "name": "kimi-k3.1-pro",
+      "fullName": "kimi-k3.1-pro"
+    },
+    {
+      "name": "autotrust-jev",
+      "fullName": "autotrust-jev"
     }
   ]
 }

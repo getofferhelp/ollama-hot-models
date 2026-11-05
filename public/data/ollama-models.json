@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T05:29:56.416374",
+  "lastUpdated": "2026-11-05T05:46:20.282720",
   "models": [
     {
       "name": "deepseek-r1",
@@ -6369,6 +6369,44 @@
         }
       ],
       "defaultSize": "4b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "kimi-k3.1-pro",
+      "fullName": "kimi-k3.1-pro",
+      "description": "1,338",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "14 hours ago",
+      "runCommand": "ollama run kimi-k3.1-pro",
+      "parameterVersions": [],
+      "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "autotrust-jev",
+      "fullName": "autotrust-jev",
+      "description": "532",
+      "modelSize": "9b",
+      "tags": [
+        "9b",
+        "35b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "6 hours ago",
+      "runCommand": "ollama run autotrust-jev",
+      "parameterVersions": [
+        {
+          "size": "9b",
+          "diskSize": "未知"
+        },
+        {
+          "size": "35b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "9b",
       "defaultDiskSize": "未知"
     }
   ]
