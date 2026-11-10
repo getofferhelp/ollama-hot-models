@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T05:19:34.457179",
+  "lastUpdated": "2026-11-10T06:44:37.229058",
   "models": [
     {
       "name": "deepseek-r1",
@@ -6407,6 +6407,26 @@
         }
       ],
       "defaultSize": "9b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "ripple-preview",
+      "fullName": "ripple-preview",
+      "description": "503",
+      "modelSize": "65b",
+      "tags": [
+        "65b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "7 hours ago",
+      "runCommand": "ollama run ripple-preview",
+      "parameterVersions": [
+        {
+          "size": "65b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "65b",
       "defaultDiskSize": "未知"
     }
   ]
