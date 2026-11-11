@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T06:07:37.147336",
+  "lastUpdated": "2026-11-11T04:44:39.399676",
   "models": [
     {
       "name": "llama3.1",
@@ -210,12 +210,12 @@
       "fullName": "translategemma"
     },
     {
-      "name": "llama2-uncensored",
-      "fullName": "llama2-uncensored"
-    },
-    {
       "name": "embeddinggemma",
       "fullName": "embeddinggemma"
+    },
+    {
+      "name": "llama2-uncensored",
+      "fullName": "llama2-uncensored"
     },
     {
       "name": "devstral-small-2",
@@ -314,12 +314,12 @@
       "fullName": "dolphin-phi"
     },
     {
-      "name": "yi",
-      "fullName": "yi"
-    },
-    {
       "name": "ministral-3",
       "fullName": "ministral-3"
+    },
+    {
+      "name": "yi",
+      "fullName": "yi"
     },
     {
       "name": "granite4",
@@ -354,12 +354,12 @@
       "fullName": "mistral-large"
     },
     {
-      "name": "wizard-vicuna-uncensored",
-      "fullName": "wizard-vicuna-uncensored"
-    },
-    {
       "name": "nomic-embed-text-v2-moe",
       "fullName": "nomic-embed-text-v2-moe"
+    },
+    {
+      "name": "wizard-vicuna-uncensored",
+      "fullName": "wizard-vicuna-uncensored"
     },
     {
       "name": "vicuna",
@@ -430,12 +430,12 @@
       "fullName": "granite3.3"
     },
     {
-      "name": "lfm2",
-      "fullName": "lfm2"
-    },
-    {
       "name": "yi-coder",
       "fullName": "yi-coder"
+    },
+    {
+      "name": "lfm2",
+      "fullName": "lfm2"
     },
     {
       "name": "aya",
@@ -466,6 +466,10 @@
       "fullName": "llama-guard3"
     },
     {
+      "name": "llava-phi3",
+      "fullName": "llava-phi3"
+    },
+    {
       "name": "granite3.1-dense",
       "fullName": "granite3.1-dense"
     },
@@ -484,10 +488,6 @@
     {
       "name": "granite3-dense",
       "fullName": "granite3-dense"
-    },
-    {
-      "name": "llava-phi3",
-      "fullName": "llava-phi3"
     },
     {
       "name": "phi3.5",
@@ -602,16 +602,16 @@
       "fullName": "exaone-deep"
     },
     {
+      "name": "ornith",
+      "fullName": "ornith"
+    },
+    {
       "name": "tinydolphin",
       "fullName": "tinydolphin"
     },
     {
       "name": "medllama2",
       "fullName": "medllama2"
-    },
-    {
-      "name": "ornith",
-      "fullName": "ornith"
     },
     {
       "name": "deepseek-v3.1",
@@ -730,12 +730,12 @@
       "fullName": "mistrallite"
     },
     {
-      "name": "wizard-vicuna",
-      "fullName": "wizard-vicuna"
-    },
-    {
       "name": "minimax-m3",
       "fullName": "minimax-m3"
+    },
+    {
+      "name": "wizard-vicuna",
+      "fullName": "wizard-vicuna"
     },
     {
       "name": "open-orca-platypus2",
@@ -782,12 +782,12 @@
       "fullName": "ornith-1.5"
     },
     {
-      "name": "mistral-medium-3.5",
-      "fullName": "mistral-medium-3.5"
-    },
-    {
       "name": "sailor2",
       "fullName": "sailor2"
+    },
+    {
+      "name": "mistral-medium-3.5",
+      "fullName": "mistral-medium-3.5"
     },
     {
       "name": "r1-1776",
@@ -810,12 +810,12 @@
       "fullName": "glm-5.2"
     },
     {
-      "name": "devstral-2",
-      "fullName": "devstral-2"
-    },
-    {
       "name": "muse-glimmer",
       "fullName": "muse-glimmer"
+    },
+    {
+      "name": "devstral-2",
+      "fullName": "devstral-2"
     },
     {
       "name": "granite3-guardian",
@@ -866,16 +866,16 @@
       "fullName": "command-a"
     },
     {
+      "name": "glm-5.3",
+      "fullName": "glm-5.3"
+    },
+    {
       "name": "cogito-2.1",
       "fullName": "cogito-2.1"
     },
     {
       "name": "qwen3.8-flash-next",
       "fullName": "qwen3.8-flash-next"
-    },
-    {
-      "name": "glm-5.3",
-      "fullName": "glm-5.3"
     },
     {
       "name": "marco-o1",
@@ -894,12 +894,12 @@
       "fullName": "command-r7b-arabic"
     },
     {
-      "name": "functiongemma",
-      "fullName": "functiongemma"
-    },
-    {
       "name": "glm-5.3-flash",
       "fullName": "glm-5.3-flash"
+    },
+    {
+      "name": "functiongemma",
+      "fullName": "functiongemma"
     },
     {
       "name": "laguna-s-2.1",
@@ -950,28 +950,28 @@
       "fullName": "minicpm-v4.6"
     },
     {
-      "name": "north-mini-code-1.0",
-      "fullName": "north-mini-code-1.0"
-    },
-    {
       "name": "clef",
       "fullName": "clef"
+    },
+    {
+      "name": "north-mini-code-1.0",
+      "fullName": "north-mini-code-1.0"
     },
     {
       "name": "nimble",
       "fullName": "nimble"
     },
     {
-      "name": "minicpm-v4.5",
-      "fullName": "minicpm-v4.5"
+      "name": "flint",
+      "fullName": "flint"
     },
     {
       "name": "beam",
       "fullName": "beam"
     },
     {
-      "name": "flint",
-      "fullName": "flint"
+      "name": "minicpm-v4.5",
+      "fullName": "minicpm-v4.5"
     },
     {
       "name": "d3",
@@ -994,20 +994,20 @@
       "fullName": "d1"
     },
     {
-      "name": "minimax-m3.1-flash",
-      "fullName": "minimax-m3.1-flash"
-    },
-    {
-      "name": "granite4.1-guardian",
-      "fullName": "granite4.1-guardian"
+      "name": "mimo-v2.6",
+      "fullName": "mimo-v2.6"
     },
     {
       "name": "lfm3-omni",
       "fullName": "lfm3-omni"
     },
     {
-      "name": "mimo-v2.6",
-      "fullName": "mimo-v2.6"
+      "name": "minimax-m3.1-flash",
+      "fullName": "minimax-m3.1-flash"
+    },
+    {
+      "name": "granite4.1-guardian",
+      "fullName": "granite4.1-guardian"
     },
     {
       "name": "laguna-xs.2",
@@ -1026,6 +1026,10 @@
       "fullName": "pplx-decider"
     },
     {
+      "name": "lfm3-audio",
+      "fullName": "lfm3-audio"
+    },
+    {
       "name": "mistral-large-4",
       "fullName": "mistral-large-4"
     },
@@ -1034,12 +1038,12 @@
       "fullName": "nemotron-3.5-super"
     },
     {
-      "name": "lfm3-audio",
-      "fullName": "lfm3-audio"
-    },
-    {
       "name": "nimble-v3",
       "fullName": "nimble-v3"
+    },
+    {
+      "name": "autotrust-jev",
+      "fullName": "autotrust-jev"
     },
     {
       "name": "kev",
@@ -1048,10 +1052,6 @@
     {
       "name": "laya",
       "fullName": "laya"
-    },
-    {
-      "name": "autotrust-jev",
-      "fullName": "autotrust-jev"
     },
     {
       "name": "muse-spark-open",
