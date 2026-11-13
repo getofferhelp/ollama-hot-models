@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T05:47:19.440396",
+  "lastUpdated": "2026-11-13T05:05:52.314910",
   "models": [
     {
       "name": "llama3.1",
@@ -114,12 +114,12 @@
       "fullName": "tinyllama"
     },
     {
-      "name": "qwen2",
-      "fullName": "qwen2"
-    },
-    {
       "name": "qwen3.8",
       "fullName": "qwen3.8"
+    },
+    {
+      "name": "qwen2",
+      "fullName": "qwen2"
     },
     {
       "name": "qwen2.5vl",
@@ -302,12 +302,12 @@
       "fullName": "phi4-reasoning"
     },
     {
-      "name": "granite-code",
-      "fullName": "granite-code"
-    },
-    {
       "name": "phi4-mini",
       "fullName": "phi4-mini"
+    },
+    {
+      "name": "granite-code",
+      "fullName": "granite-code"
     },
     {
       "name": "dolphin-phi",
@@ -338,20 +338,20 @@
       "fullName": "magistral"
     },
     {
-      "name": "openchat",
-      "fullName": "openchat"
+      "name": "nomic-embed-text-v2-moe",
+      "fullName": "nomic-embed-text-v2-moe"
     },
     {
       "name": "mistral-openorca",
       "fullName": "mistral-openorca"
     },
     {
-      "name": "codestral",
-      "fullName": "codestral"
+      "name": "openchat",
+      "fullName": "openchat"
     },
     {
-      "name": "nomic-embed-text-v2-moe",
-      "fullName": "nomic-embed-text-v2-moe"
+      "name": "codestral",
+      "fullName": "codestral"
     },
     {
       "name": "mistral-large",
@@ -446,12 +446,12 @@
       "fullName": "nous-hermes2"
     },
     {
-      "name": "stable-code",
-      "fullName": "stable-code"
-    },
-    {
       "name": "llava-phi3",
       "fullName": "llava-phi3"
+    },
+    {
+      "name": "stable-code",
+      "fullName": "stable-code"
     },
     {
       "name": "devstral",
@@ -530,12 +530,12 @@
       "fullName": "solar"
     },
     {
-      "name": "granite3-moe",
-      "fullName": "granite3-moe"
-    },
-    {
       "name": "stable-beluga",
       "fullName": "stable-beluga"
+    },
+    {
+      "name": "granite3-moe",
+      "fullName": "granite3-moe"
     },
     {
       "name": "nemotron-3-nano",
@@ -690,12 +690,12 @@
       "fullName": "solar-pro"
     },
     {
-      "name": "magicoder",
-      "fullName": "magicoder"
-    },
-    {
       "name": "mathstral",
       "fullName": "mathstral"
+    },
+    {
+      "name": "magicoder",
+      "fullName": "magicoder"
     },
     {
       "name": "notus",
@@ -754,12 +754,12 @@
       "fullName": "kimi-k2.6"
     },
     {
-      "name": "goliath",
-      "fullName": "goliath"
-    },
-    {
       "name": "deepseek-v4-pro",
       "fullName": "deepseek-v4-pro"
+    },
+    {
+      "name": "goliath",
+      "fullName": "goliath"
     },
     {
       "name": "snowflake-arctic-embed2",
@@ -806,12 +806,12 @@
       "fullName": "dbrx"
     },
     {
-      "name": "glm-5.2",
-      "fullName": "glm-5.2"
-    },
-    {
       "name": "muse-glimmer",
       "fullName": "muse-glimmer"
+    },
+    {
+      "name": "glm-5.2",
+      "fullName": "glm-5.2"
     },
     {
       "name": "devstral-2",
@@ -830,12 +830,12 @@
       "fullName": "alfred"
     },
     {
-      "name": "phi4-mini-reasoning",
-      "fullName": "phi4-mini-reasoning"
-    },
-    {
       "name": "lfm2.5",
       "fullName": "lfm2.5"
+    },
+    {
+      "name": "phi4-mini-reasoning",
+      "fullName": "phi4-mini-reasoning"
     },
     {
       "name": "olmo-3.1",
@@ -862,16 +862,16 @@
       "fullName": "kimi-k2.7-code"
     },
     {
+      "name": "qwen3.8-flash-next",
+      "fullName": "qwen3.8-flash-next"
+    },
+    {
       "name": "command-a",
       "fullName": "command-a"
     },
     {
       "name": "glm-5.3",
       "fullName": "glm-5.3"
-    },
-    {
-      "name": "qwen3.8-flash-next",
-      "fullName": "qwen3.8-flash-next"
     },
     {
       "name": "cogito-2.1",
@@ -882,20 +882,20 @@
       "fullName": "marco-o1"
     },
     {
-      "name": "medgemma1.5",
-      "fullName": "medgemma1.5"
-    },
-    {
       "name": "deepseek-v4.1-flash",
       "fullName": "deepseek-v4.1-flash"
     },
     {
-      "name": "command-r7b-arabic",
-      "fullName": "command-r7b-arabic"
+      "name": "medgemma1.5",
+      "fullName": "medgemma1.5"
     },
     {
       "name": "glm-5.3-flash",
       "fullName": "glm-5.3-flash"
+    },
+    {
+      "name": "command-r7b-arabic",
+      "fullName": "command-r7b-arabic"
     },
     {
       "name": "functiongemma",
@@ -914,24 +914,24 @@
       "fullName": "nemotron-cascade-2"
     },
     {
-      "name": "tev1",
-      "fullName": "tev1"
-    },
-    {
       "name": "bonsai-2",
       "fullName": "bonsai-2"
+    },
+    {
+      "name": "tev1",
+      "fullName": "tev1"
     },
     {
       "name": "embeddinggemma-2",
       "fullName": "embeddinggemma-2"
     },
     {
-      "name": "laguna-xs-2.1",
-      "fullName": "laguna-xs-2.1"
-    },
-    {
       "name": "nemotron-3-ultra",
       "fullName": "nemotron-3-ultra"
+    },
+    {
+      "name": "laguna-xs-2.1",
+      "fullName": "laguna-xs-2.1"
     },
     {
       "name": "phonon",
@@ -974,20 +974,16 @@
       "fullName": "clef-flash"
     },
     {
+      "name": "lfm3",
+      "fullName": "lfm3"
+    },
+    {
       "name": "beam",
       "fullName": "beam"
     },
     {
       "name": "minicpm-v4.5",
       "fullName": "minicpm-v4.5"
-    },
-    {
-      "name": "lfm3",
-      "fullName": "lfm3"
-    },
-    {
-      "name": "nemotron-3.5-bolt",
-      "fullName": "nemotron-3.5-bolt"
     },
     {
       "name": "mimo-v2.6",
@@ -998,6 +994,10 @@
       "fullName": "d1"
     },
     {
+      "name": "nemotron-3.5-bolt",
+      "fullName": "nemotron-3.5-bolt"
+    },
+    {
       "name": "lfm3-omni",
       "fullName": "lfm3-omni"
     },
@@ -1006,12 +1006,12 @@
       "fullName": "minimax-m3.1-flash"
     },
     {
-      "name": "granite4.1-guardian",
-      "fullName": "granite4.1-guardian"
-    },
-    {
       "name": "d1-omni",
       "fullName": "d1-omni"
+    },
+    {
+      "name": "granite4.1-guardian",
+      "fullName": "granite4.1-guardian"
     },
     {
       "name": "laguna-xs.2",
@@ -1046,16 +1046,16 @@
       "fullName": "nimble-v3"
     },
     {
+      "name": "pplx-decider-flash",
+      "fullName": "pplx-decider-flash"
+    },
+    {
       "name": "kev",
       "fullName": "kev"
     },
     {
       "name": "laya",
       "fullName": "laya"
-    },
-    {
-      "name": "pplx-decider-flash",
-      "fullName": "pplx-decider-flash"
     },
     {
       "name": "muse-spark-open",
@@ -1076,6 +1076,10 @@
     {
       "name": "mimo-v2.6-pro",
       "fullName": "mimo-v2.6-pro"
+    },
+    {
+      "name": "inkling-2-small",
+      "fullName": "inkling-2-small"
     }
   ]
 }
