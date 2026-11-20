@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T05:56:14.348279",
+  "lastUpdated": "2026-11-20T05:45:13.283924",
   "models": [
     {
       "name": "llama3.1",
@@ -82,12 +82,12 @@
       "fullName": "bge-m3"
     },
     {
-      "name": "gemma",
-      "fullName": "gemma"
-    },
-    {
       "name": "codellama",
       "fullName": "codellama"
+    },
+    {
+      "name": "gemma",
+      "fullName": "gemma"
     },
     {
       "name": "qwen",
@@ -334,12 +334,12 @@
       "fullName": "phi"
     },
     {
-      "name": "magistral",
-      "fullName": "magistral"
-    },
-    {
       "name": "mistral-openorca",
       "fullName": "mistral-openorca"
+    },
+    {
+      "name": "magistral",
+      "fullName": "magistral"
     },
     {
       "name": "nomic-embed-text-v2-moe",
@@ -398,12 +398,12 @@
       "fullName": "deepseek-v2"
     },
     {
-      "name": "wizardlm2",
-      "fullName": "wizardlm2"
-    },
-    {
       "name": "falcon",
       "fullName": "falcon"
+    },
+    {
+      "name": "wizardlm2",
+      "fullName": "wizardlm2"
     },
     {
       "name": "llava-phi3",
@@ -446,12 +446,12 @@
       "fullName": "aya"
     },
     {
-      "name": "nous-hermes2",
-      "fullName": "nous-hermes2"
-    },
-    {
       "name": "devstral",
       "fullName": "devstral"
+    },
+    {
+      "name": "nous-hermes2",
+      "fullName": "nous-hermes2"
     },
     {
       "name": "stable-code",
@@ -566,12 +566,12 @@
       "fullName": "paraphrase-multilingual"
     },
     {
-      "name": "llama-pro",
-      "fullName": "llama-pro"
-    },
-    {
       "name": "mistral-small3.1",
       "fullName": "mistral-small3.1"
+    },
+    {
+      "name": "llama-pro",
+      "fullName": "llama-pro"
     },
     {
       "name": "yarn-mistral",
@@ -658,20 +658,20 @@
       "fullName": "codeup"
     },
     {
-      "name": "athene-v2",
-      "fullName": "athene-v2"
-    },
-    {
       "name": "exaone3.5",
       "fullName": "exaone3.5"
     },
     {
-      "name": "nous-hermes2-mixtral",
-      "fullName": "nous-hermes2-mixtral"
+      "name": "athene-v2",
+      "fullName": "athene-v2"
     },
     {
       "name": "qwen3-next",
       "fullName": "qwen3-next"
+    },
+    {
+      "name": "nous-hermes2-mixtral",
+      "fullName": "nous-hermes2-mixtral"
     },
     {
       "name": "megadolphin",
@@ -846,12 +846,12 @@
       "fullName": "deepseek-v2.5"
     },
     {
-      "name": "bge-large",
-      "fullName": "bge-large"
-    },
-    {
       "name": "granite4.2",
       "fullName": "granite4.2"
+    },
+    {
+      "name": "bge-large",
+      "fullName": "bge-large"
     },
     {
       "name": "glm-5.3",
@@ -942,12 +942,12 @@
       "fullName": "strands-decider"
     },
     {
-      "name": "kimi-k3",
-      "fullName": "kimi-k3"
-    },
-    {
       "name": "mimo-v2.6",
       "fullName": "mimo-v2.6"
+    },
+    {
+      "name": "kimi-k3",
+      "fullName": "kimi-k3"
     },
     {
       "name": "clef",
@@ -974,48 +974,48 @@
       "fullName": "minicpm-v4.6"
     },
     {
-      "name": "north-mini-code-1.0",
-      "fullName": "north-mini-code-1.0"
-    },
-    {
       "name": "clef-flash",
       "fullName": "clef-flash"
+    },
+    {
+      "name": "north-mini-code-1.0",
+      "fullName": "north-mini-code-1.0"
     },
     {
       "name": "d1",
       "fullName": "d1"
     },
     {
-      "name": "minicpm-v4.5",
-      "fullName": "minicpm-v4.5"
+      "name": "ripple-preview",
+      "fullName": "ripple-preview"
     },
     {
-      "name": "beam",
-      "fullName": "beam"
+      "name": "minicpm-v4.5",
+      "fullName": "minicpm-v4.5"
     },
     {
       "name": "lfm3-omni",
       "fullName": "lfm3-omni"
     },
     {
-      "name": "nemotron-3.5-bolt",
-      "fullName": "nemotron-3.5-bolt"
+      "name": "beam",
+      "fullName": "beam"
     },
     {
-      "name": "ripple-preview",
-      "fullName": "ripple-preview"
+      "name": "nemotron-3.5-bolt",
+      "fullName": "nemotron-3.5-bolt"
     },
     {
       "name": "d1-omni",
       "fullName": "d1-omni"
     },
     {
-      "name": "lfm3-vl",
-      "fullName": "lfm3-vl"
-    },
-    {
       "name": "autotrust-jev",
       "fullName": "autotrust-jev"
+    },
+    {
+      "name": "lfm3-vl",
+      "fullName": "lfm3-vl"
     },
     {
       "name": "minimax-m3.1-flash",
@@ -1034,12 +1034,12 @@
       "fullName": "pplx-decider"
     },
     {
-      "name": "laguna-xs.2",
-      "fullName": "laguna-xs.2"
-    },
-    {
       "name": "pplx-decider-flash",
       "fullName": "pplx-decider-flash"
+    },
+    {
+      "name": "laguna-xs.2",
+      "fullName": "laguna-xs.2"
     },
     {
       "name": "nemotron-3.5-super",
