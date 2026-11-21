@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20T06:23:09.551824",
+  "lastUpdated": "2026-11-21T06:18:10.860974",
   "models": [
     {
       "name": "deepseek-r1",
@@ -6447,6 +6447,19 @@
         }
       ],
       "defaultSize": "594b",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "inkling-2-mini",
+      "fullName": "inkling-2-mini",
+      "description": "3,683",
+      "modelSize": "",
+      "tags": [],
+      "downloads": "0",
+      "lastUpdated": "8 hours ago",
+      "runCommand": "ollama run inkling-2-mini",
+      "parameterVersions": [],
+      "defaultSize": "",
       "defaultDiskSize": "未知"
     }
   ]
