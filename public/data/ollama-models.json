@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T06:18:10.860974",
+  "lastUpdated": "2026-11-22T05:44:31.675901",
   "models": [
     {
       "name": "deepseek-r1",
@@ -6460,6 +6460,26 @@
       "runCommand": "ollama run inkling-2-mini",
       "parameterVersions": [],
       "defaultSize": "",
+      "defaultDiskSize": "未知"
+    },
+    {
+      "name": "hy4",
+      "fullName": "hy4",
+      "description": "151",
+      "modelSize": "774b",
+      "tags": [
+        "774b"
+      ],
+      "downloads": "0",
+      "lastUpdated": "2 days ago",
+      "runCommand": "ollama run hy4",
+      "parameterVersions": [
+        {
+          "size": "774b",
+          "diskSize": "未知"
+        }
+      ],
+      "defaultSize": "774b",
       "defaultDiskSize": "未知"
     }
   ]
