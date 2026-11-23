@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T05:06:15.883723",
+  "lastUpdated": "2026-11-23T05:47:49.518042",
   "models": [
     {
       "name": "llama3.1",
@@ -118,12 +118,12 @@
       "fullName": "tinyllama"
     },
     {
-      "name": "qwen2",
-      "fullName": "qwen2"
-    },
-    {
       "name": "qwen2.5vl",
       "fullName": "qwen2.5vl"
+    },
+    {
+      "name": "qwen2",
+      "fullName": "qwen2"
     },
     {
       "name": "mistral-nemo",
@@ -226,12 +226,12 @@
       "fullName": "falcon3"
     },
     {
-      "name": "mistral-small3.2",
-      "fullName": "mistral-small3.2"
-    },
-    {
       "name": "gemma3n",
       "fullName": "gemma3n"
+    },
+    {
+      "name": "mistral-small3.2",
+      "fullName": "mistral-small3.2"
     },
     {
       "name": "smollm",
@@ -426,16 +426,16 @@
       "fullName": "stablelm2"
     },
     {
+      "name": "devstral",
+      "fullName": "devstral"
+    },
+    {
       "name": "codeqwen",
       "fullName": "codeqwen"
     },
     {
       "name": "granite3.3",
       "fullName": "granite3.3"
-    },
-    {
-      "name": "devstral",
-      "fullName": "devstral"
     },
     {
       "name": "yi-coder",
@@ -618,12 +618,12 @@
       "fullName": "medllama2"
     },
     {
-      "name": "nemotron-mini",
-      "fullName": "nemotron-mini"
-    },
-    {
       "name": "nemotron3",
       "fullName": "nemotron3"
+    },
+    {
+      "name": "nemotron-mini",
+      "fullName": "nemotron-mini"
     },
     {
       "name": "codegeex4",
@@ -662,12 +662,12 @@
       "fullName": "exaone3.5"
     },
     {
-      "name": "athene-v2",
-      "fullName": "athene-v2"
-    },
-    {
       "name": "qwen3-next",
       "fullName": "qwen3-next"
+    },
+    {
+      "name": "athene-v2",
+      "fullName": "athene-v2"
     },
     {
       "name": "nous-hermes2-mixtral",
@@ -686,12 +686,12 @@
       "fullName": "nuextract"
     },
     {
-      "name": "solar-pro",
-      "fullName": "solar-pro"
-    },
-    {
       "name": "mathstral",
       "fullName": "mathstral"
+    },
+    {
+      "name": "solar-pro",
+      "fullName": "solar-pro"
     },
     {
       "name": "magicoder",
@@ -842,12 +842,12 @@
       "fullName": "olmo-3.1"
     },
     {
-      "name": "glm-5.3",
-      "fullName": "glm-5.3"
-    },
-    {
       "name": "granite4.2",
       "fullName": "granite4.2"
+    },
+    {
+      "name": "glm-5.3",
+      "fullName": "glm-5.3"
     },
     {
       "name": "deepseek-v2.5",
@@ -886,12 +886,12 @@
       "fullName": "medgemma1.5"
     },
     {
-      "name": "marco-o1",
-      "fullName": "marco-o1"
-    },
-    {
       "name": "glm-5.3-flash",
       "fullName": "glm-5.3-flash"
+    },
+    {
+      "name": "marco-o1",
+      "fullName": "marco-o1"
     },
     {
       "name": "functiongemma",
@@ -914,12 +914,12 @@
       "fullName": "embeddinggemma-2"
     },
     {
-      "name": "gpt-oss-safeguard",
-      "fullName": "gpt-oss-safeguard"
-    },
-    {
       "name": "tev1",
       "fullName": "tev1"
+    },
+    {
+      "name": "gpt-oss-safeguard",
+      "fullName": "gpt-oss-safeguard"
     },
     {
       "name": "nemotron-cascade-2",
@@ -946,12 +946,12 @@
       "fullName": "strands-decider"
     },
     {
-      "name": "kimi-k3",
-      "fullName": "kimi-k3"
-    },
-    {
       "name": "clef",
       "fullName": "clef"
+    },
+    {
+      "name": "kimi-k3",
+      "fullName": "kimi-k3"
     },
     {
       "name": "d3",
@@ -966,16 +966,16 @@
       "fullName": "flint"
     },
     {
+      "name": "ripple-preview",
+      "fullName": "ripple-preview"
+    },
+    {
       "name": "nimble",
       "fullName": "nimble"
     },
     {
       "name": "minicpm-v4.6",
       "fullName": "minicpm-v4.6"
-    },
-    {
-      "name": "ripple-preview",
-      "fullName": "ripple-preview"
     },
     {
       "name": "clef-flash",
@@ -1026,12 +1026,12 @@
       "fullName": "lfm3-audio"
     },
     {
-      "name": "granite4.1-guardian",
-      "fullName": "granite4.1-guardian"
-    },
-    {
       "name": "pplx-decider",
       "fullName": "pplx-decider"
+    },
+    {
+      "name": "granite4.1-guardian",
+      "fullName": "granite4.1-guardian"
     },
     {
       "name": "pplx-decider-flash",
@@ -1044,6 +1044,10 @@
     {
       "name": "nemotron-3.5-super",
       "fullName": "nemotron-3.5-super"
+    },
+    {
+      "name": "inkling-2-mini",
+      "fullName": "inkling-2-mini"
     },
     {
       "name": "kev",
@@ -1068,10 +1072,6 @@
     {
       "name": "muse-spark-open",
       "fullName": "muse-spark-open"
-    },
-    {
-      "name": "inkling-2-mini",
-      "fullName": "inkling-2-mini"
     },
     {
       "name": "mimo-v2.6-flash",
