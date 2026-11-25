@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T08:25:43.539074",
+  "lastUpdated": "2026-11-25T07:01:04.488054",
   "models": [
     {
       "name": "llama3.1",
@@ -402,12 +402,12 @@
       "fullName": "deepseek-v2"
     },
     {
-      "name": "wizardlm2",
-      "fullName": "wizardlm2"
-    },
-    {
       "name": "llava-phi3",
       "fullName": "llava-phi3"
+    },
+    {
+      "name": "wizardlm2",
+      "fullName": "wizardlm2"
     },
     {
       "name": "llama2-chinese",
@@ -550,16 +550,16 @@
       "fullName": "orca2"
     },
     {
+      "name": "mistral-small3.1",
+      "fullName": "mistral-small3.1"
+    },
+    {
       "name": "deepcoder",
       "fullName": "deepcoder"
     },
     {
       "name": "wizardlm",
       "fullName": "wizardlm"
-    },
-    {
-      "name": "mistral-small3.1",
-      "fullName": "mistral-small3.1"
     },
     {
       "name": "reader-lm",
@@ -598,12 +598,12 @@
       "fullName": "command-r-plus"
     },
     {
-      "name": "exaone-deep",
-      "fullName": "exaone-deep"
-    },
-    {
       "name": "ornith",
       "fullName": "ornith"
+    },
+    {
+      "name": "exaone-deep",
+      "fullName": "exaone-deep"
     },
     {
       "name": "tinydolphin",
@@ -638,12 +638,12 @@
       "fullName": "opencoder"
     },
     {
-      "name": "wizardlm-uncensored",
-      "fullName": "wizardlm-uncensored"
-    },
-    {
       "name": "granite4.1",
       "fullName": "granite4.1"
+    },
+    {
+      "name": "wizardlm-uncensored",
+      "fullName": "wizardlm-uncensored"
     },
     {
       "name": "nemotron",
@@ -738,12 +738,12 @@
       "fullName": "wizard-vicuna"
     },
     {
-      "name": "open-orca-platypus2",
-      "fullName": "open-orca-platypus2"
-    },
-    {
       "name": "rnj-1",
       "fullName": "rnj-1"
+    },
+    {
+      "name": "open-orca-platypus2",
+      "fullName": "open-orca-platypus2"
     },
     {
       "name": "codebooga",
@@ -946,20 +946,20 @@
       "fullName": "strands-decider"
     },
     {
-      "name": "clef",
-      "fullName": "clef"
+      "name": "ripple-preview",
+      "fullName": "ripple-preview"
     },
     {
       "name": "d3",
       "fullName": "d3"
     },
     {
-      "name": "kimi-k3",
-      "fullName": "kimi-k3"
+      "name": "clef",
+      "fullName": "clef"
     },
     {
-      "name": "ripple-preview",
-      "fullName": "ripple-preview"
+      "name": "kimi-k3",
+      "fullName": "kimi-k3"
     },
     {
       "name": "lfm3",
@@ -1006,6 +1006,10 @@
       "fullName": "beam"
     },
     {
+      "name": "inkling-2-mini",
+      "fullName": "inkling-2-mini"
+    },
+    {
       "name": "d1-omni",
       "fullName": "d1-omni"
     },
@@ -1018,20 +1022,16 @@
       "fullName": "lfm3-vl"
     },
     {
-      "name": "inkling-2-mini",
-      "fullName": "inkling-2-mini"
-    },
-    {
       "name": "lfm3-audio",
       "fullName": "lfm3-audio"
     },
     {
-      "name": "minimax-m3.1-flash",
-      "fullName": "minimax-m3.1-flash"
-    },
-    {
       "name": "pplx-decider-flash",
       "fullName": "pplx-decider-flash"
+    },
+    {
+      "name": "minimax-m3.1-flash",
+      "fullName": "minimax-m3.1-flash"
     },
     {
       "name": "pplx-decider",
