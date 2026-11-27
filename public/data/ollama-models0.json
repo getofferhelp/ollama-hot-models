@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T06:53:08.784636",
+  "lastUpdated": "2026-11-27T06:45:32.224481",
   "models": [
     {
       "name": "llama3.1",
@@ -314,12 +314,12 @@
       "fullName": "ministral-3"
     },
     {
-      "name": "dolphin-phi",
-      "fullName": "dolphin-phi"
-    },
-    {
       "name": "yi",
       "fullName": "yi"
+    },
+    {
+      "name": "dolphin-phi",
+      "fullName": "dolphin-phi"
     },
     {
       "name": "granite4",
@@ -358,12 +358,12 @@
       "fullName": "mistral-large"
     },
     {
-      "name": "wizard-vicuna-uncensored",
-      "fullName": "wizard-vicuna-uncensored"
-    },
-    {
       "name": "vicuna",
       "fullName": "vicuna"
+    },
+    {
+      "name": "wizard-vicuna-uncensored",
+      "fullName": "wizard-vicuna-uncensored"
     },
     {
       "name": "deepseek-llm",
@@ -474,12 +474,12 @@
       "fullName": "aya-expanse"
     },
     {
-      "name": "granite3.1-dense",
-      "fullName": "granite3.1-dense"
-    },
-    {
       "name": "xwinlm",
       "fullName": "xwinlm"
+    },
+    {
+      "name": "granite3.1-dense",
+      "fullName": "granite3.1-dense"
     },
     {
       "name": "granite3-dense",
@@ -530,12 +530,12 @@
       "fullName": "nemotron-3-nano"
     },
     {
-      "name": "solar",
-      "fullName": "solar"
-    },
-    {
       "name": "granite3-moe",
       "fullName": "granite3-moe"
+    },
+    {
+      "name": "solar",
+      "fullName": "solar"
     },
     {
       "name": "stable-beluga",
@@ -586,12 +586,12 @@
       "fullName": "meditron"
     },
     {
-      "name": "bakllava",
-      "fullName": "bakllava"
-    },
-    {
       "name": "nemotron-3.5-lightning",
       "fullName": "nemotron-3.5-lightning"
+    },
+    {
+      "name": "bakllava",
+      "fullName": "bakllava"
     },
     {
       "name": "command-r-plus",
@@ -654,12 +654,12 @@
       "fullName": "reflection"
     },
     {
-      "name": "codeup",
-      "fullName": "codeup"
-    },
-    {
       "name": "exaone3.5",
       "fullName": "exaone3.5"
+    },
+    {
+      "name": "codeup",
+      "fullName": "codeup"
     },
     {
       "name": "qwen3-next",
@@ -674,12 +674,12 @@
       "fullName": "nous-hermes2-mixtral"
     },
     {
-      "name": "megadolphin",
-      "fullName": "megadolphin"
-    },
-    {
       "name": "everythinglm",
       "fullName": "everythinglm"
+    },
+    {
+      "name": "megadolphin",
+      "fullName": "megadolphin"
     },
     {
       "name": "nuextract",
@@ -866,12 +866,12 @@
       "fullName": "smallthinker"
     },
     {
-      "name": "kimi-k2.7-code",
-      "fullName": "kimi-k2.7-code"
-    },
-    {
       "name": "qwen3.8-flash-next",
       "fullName": "qwen3.8-flash-next"
+    },
+    {
+      "name": "kimi-k2.7-code",
+      "fullName": "kimi-k2.7-code"
     },
     {
       "name": "command-a",
@@ -898,12 +898,12 @@
       "fullName": "functiongemma"
     },
     {
-      "name": "command-r7b-arabic",
-      "fullName": "command-r7b-arabic"
-    },
-    {
       "name": "bonsai-2",
       "fullName": "bonsai-2"
+    },
+    {
+      "name": "command-r7b-arabic",
+      "fullName": "command-r7b-arabic"
     },
     {
       "name": "embeddinggemma-2",
@@ -946,12 +946,12 @@
       "fullName": "ripple-preview"
     },
     {
-      "name": "strands-decider",
-      "fullName": "strands-decider"
-    },
-    {
       "name": "d3",
       "fullName": "d3"
+    },
+    {
+      "name": "strands-decider",
+      "fullName": "strands-decider"
     },
     {
       "name": "clef",
@@ -970,6 +970,10 @@
       "fullName": "flint"
     },
     {
+      "name": "inkling-2-mini",
+      "fullName": "inkling-2-mini"
+    },
+    {
       "name": "nimble",
       "fullName": "nimble"
     },
@@ -984,10 +988,6 @@
     {
       "name": "north-mini-code-1.0",
       "fullName": "north-mini-code-1.0"
-    },
-    {
-      "name": "inkling-2-mini",
-      "fullName": "inkling-2-mini"
     },
     {
       "name": "d1",
@@ -1022,12 +1022,12 @@
       "fullName": "lfm3-vl"
     },
     {
-      "name": "lfm3-audio",
-      "fullName": "lfm3-audio"
-    },
-    {
       "name": "pplx-decider-flash",
       "fullName": "pplx-decider-flash"
+    },
+    {
+      "name": "lfm3-audio",
+      "fullName": "lfm3-audio"
     },
     {
       "name": "minimax-m3.1-flash",
