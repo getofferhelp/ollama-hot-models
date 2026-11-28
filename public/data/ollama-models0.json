@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-27T06:45:32.224481",
+  "lastUpdated": "2026-11-28T06:20:12.506850",
   "models": [
     {
       "name": "llama3.1",
@@ -202,12 +202,12 @@
       "fullName": "nemotron-3-super"
     },
     {
-      "name": "mixtral",
-      "fullName": "mixtral"
-    },
-    {
       "name": "translategemma",
       "fullName": "translategemma"
+    },
+    {
+      "name": "mixtral",
+      "fullName": "mixtral"
     },
     {
       "name": "embeddinggemma",
@@ -398,12 +398,12 @@
       "fullName": "neural-chat"
     },
     {
-      "name": "deepseek-v2",
-      "fullName": "deepseek-v2"
-    },
-    {
       "name": "llava-phi3",
       "fullName": "llava-phi3"
+    },
+    {
+      "name": "deepseek-v2",
+      "fullName": "deepseek-v2"
     },
     {
       "name": "wizardlm2",
@@ -434,12 +434,12 @@
       "fullName": "granite3.3"
     },
     {
-      "name": "codeqwen",
-      "fullName": "codeqwen"
-    },
-    {
       "name": "yi-coder",
       "fullName": "yi-coder"
+    },
+    {
+      "name": "codeqwen",
+      "fullName": "codeqwen"
     },
     {
       "name": "lfm2",
@@ -606,16 +606,16 @@
       "fullName": "exaone-deep"
     },
     {
-      "name": "tinydolphin",
-      "fullName": "tinydolphin"
+      "name": "nemotron3",
+      "fullName": "nemotron3"
     },
     {
       "name": "deepseek-v3.1",
       "fullName": "deepseek-v3.1"
     },
     {
-      "name": "nemotron3",
-      "fullName": "nemotron3"
+      "name": "tinydolphin",
+      "fullName": "tinydolphin"
     },
     {
       "name": "medllama2",
@@ -790,12 +790,12 @@
       "fullName": "sailor2"
     },
     {
-      "name": "mistral-medium-3.5",
-      "fullName": "mistral-medium-3.5"
-    },
-    {
       "name": "granite-embedding",
       "fullName": "granite-embedding"
+    },
+    {
+      "name": "mistral-medium-3.5",
+      "fullName": "mistral-medium-3.5"
     },
     {
       "name": "r1-1776",
@@ -822,6 +822,10 @@
       "fullName": "lfm2.5"
     },
     {
+      "name": "glm-5.3",
+      "fullName": "glm-5.3"
+    },
+    {
       "name": "command-r7b",
       "fullName": "command-r7b"
     },
@@ -834,16 +838,12 @@
       "fullName": "alfred"
     },
     {
-      "name": "glm-5.3",
-      "fullName": "glm-5.3"
+      "name": "granite4.2",
+      "fullName": "granite4.2"
     },
     {
       "name": "phi4-mini-reasoning",
       "fullName": "phi4-mini-reasoning"
-    },
-    {
-      "name": "granite4.2",
-      "fullName": "granite4.2"
     },
     {
       "name": "olmo-3.1",
@@ -918,12 +918,12 @@
       "fullName": "tev1"
     },
     {
-      "name": "gpt-oss-safeguard",
-      "fullName": "gpt-oss-safeguard"
-    },
-    {
       "name": "nemotron-cascade-2",
       "fullName": "nemotron-cascade-2"
+    },
+    {
+      "name": "gpt-oss-safeguard",
+      "fullName": "gpt-oss-safeguard"
     },
     {
       "name": "phonon",
@@ -934,10 +934,6 @@
       "fullName": "laguna-xs-2.1"
     },
     {
-      "name": "nemotron-3-ultra",
-      "fullName": "nemotron-3-ultra"
-    },
-    {
       "name": "mimo-v2.6",
       "fullName": "mimo-v2.6"
     },
@@ -946,32 +942,36 @@
       "fullName": "ripple-preview"
     },
     {
-      "name": "d3",
-      "fullName": "d3"
+      "name": "nemotron-3-ultra",
+      "fullName": "nemotron-3-ultra"
     },
     {
-      "name": "strands-decider",
-      "fullName": "strands-decider"
+      "name": "inkling-2-mini",
+      "fullName": "inkling-2-mini"
+    },
+    {
+      "name": "d3",
+      "fullName": "d3"
     },
     {
       "name": "clef",
       "fullName": "clef"
     },
     {
-      "name": "kimi-k3",
-      "fullName": "kimi-k3"
+      "name": "strands-decider",
+      "fullName": "strands-decider"
     },
     {
       "name": "lfm3",
       "fullName": "lfm3"
     },
     {
-      "name": "flint",
-      "fullName": "flint"
+      "name": "kimi-k3",
+      "fullName": "kimi-k3"
     },
     {
-      "name": "inkling-2-mini",
-      "fullName": "inkling-2-mini"
+      "name": "flint",
+      "fullName": "flint"
     },
     {
       "name": "nimble",
@@ -1006,16 +1006,16 @@
       "fullName": "minicpm-v4.5"
     },
     {
+      "name": "autotrust-jev",
+      "fullName": "autotrust-jev"
+    },
+    {
       "name": "beam",
       "fullName": "beam"
     },
     {
       "name": "d1-omni",
       "fullName": "d1-omni"
-    },
-    {
-      "name": "autotrust-jev",
-      "fullName": "autotrust-jev"
     },
     {
       "name": "lfm3-vl",
